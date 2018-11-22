@@ -1,0 +1,10 @@
+--- a/src/openvt.c	2018-10-30 12:01:10.095911415 +0530
++++ a/src/openvt.c	2018-10-30 11:44:52.764897496 +0530
+@@ -10,6 +10,7 @@
+ #include <sys/vt.h>
+ #include <sys/wait.h>
+ #include <sys/file.h>
++#include <fcntl.h>
+ 
+ #include "version.h"
+ #include "xmalloc.h"

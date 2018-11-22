@@ -1,0 +1,11 @@
+smdev: smdev (alternate kernel event manager)  
+smdev:  
+smdev: smdev is a minimalistic alternative to udev. It handles kernel 
+smdev: hotplugging events and can be configured simply from the source 
+smdev: configuration file. You'll need the source and a musl based C compiler 
+smdev: to configure the network interface(s) manually.  
+smdev: 
+smdev: 
+smdev: 
+smdev: 
+smdev:  

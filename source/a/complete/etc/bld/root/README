@@ -1,0 +1,21 @@
+**** CONSOLE KEYMAPPINGS ****
+
+You can change the keyboard mappings by running the "loadkmap"
+applet provided by busybox. To view the available mappings,
+run "loadkeys" program, or you can simply find the mappings by
+doing ls /usr/share/kmap.
+
+loadkmap < /usr/share/kmap/us.kmap
+
+^ Loads US keyboard mappings.
+
+And then add it to /etc/rc.d/rc.local or any other convenient place
+
+**** CONSOLE FONTS ****
+
+Console fonts can be loaded using the setfont applet provided by busybox.
+However, busybox won't load psf.gz/pcf.gz files. It'll only load .psf files:
+
+setfont /usr/share/kbd/consolefonts/ter-v*.psf
+
+

@@ -1,0 +1,68 @@
+#!/bin/sh
+
+# DO WHATEVER YOU WANT TO PUBLIC LICENSE
+# 0. You just DO WHATEVER YOU WANT TO.
+#    As simple as that.
+
+CWD=$(pwd)
+if [ "$TMP" = "" ]; then
+  TMP=/tmp
+fi
+
+BUILD=2sml
+APP=Python
+VERSION=2.7.15
+PKG=$TMP/package-$APP
+
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) ARCH=i586 ;;
+    arm*) ARCH=arm ;;
+       *) ARCH=$( uname -m ) ;;
+  esac
+fi
+
+rm -rf $PKG
+mkdir -p $TMP $PKG
+rm -rf $TMP/$APP-$VERSION
+
+cd $TMP || exit
+tar -xvf $CWD/$APP-$VERSION.tar.?z
+cd $APP-$VERSION
+chown -R root:root .
+
+patch -p1 < $CWD/musl-find_library.patch
+
+sed -i 's@return readline@return feedline@' configure
+
+ac_cv_file__dev_ptmx=yes \
+ac_cv_file__dev_ptc=no \
+ac_cv_have_long_long_format=yes \
+ac_cv_lib_readline_rl_completion_matches=yes \
+ac_cv_lib_readline_rl_completion_display_matches_hook=no \
+ac_cv_lib_readline_rl_pre_input_hook=no \
+ac_cv_lib_readline_rl_callback_handler_install=no \
+CFLAGS="-DTHREAD_STACK_SIZE=0x100000" \
+./configure \
+--prefix=/usr \
+--libdir=/usr/lib \
+--mandir=/usr/man \
+--with-system-expat \
+--with-system-ffi \
+--with-system-zlib \
+--enable-unicode=ucs4 \
+--with-threads \
+--enable-ipv6 \
+--host=x86_64-linux-musl \
+--build=x86_64-linux-musl
+
+make $jobs
+make install DESTDIR=$PKG
+
+cd $PKG
+echo "Stripping binaries and shared objects, if any..."
+ find . | xargs file | grep "executable" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+ find . | xargs file | grep "shared object" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+
+strdoc
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-$BUILD.txz 

@@ -1,0 +1,11 @@
+--- a/qtbase/src/corelib/Makefile	2018-11-11 11:07:04.245486982 +0530
++++ b/qtbase/src/corelib/Makefile	2018-11-11 11:06:37.421667483 +0530
+@@ -36,7 +36,7 @@
+ DISTDIR = /tmp/SBo/qt-everywhere-opensource-src-5.5.1/qtbase/src/corelib/.obj/Qt5Core5.5.1
+ LINK          = g++
+ LFLAGS        = -Wl,--no-undefined -Wl,-e,qt_core_boilerplate -Wl,-O1 -Wl,--enable-new-dtags -shared -Wl,-Bsymbolic-functions -Wl,--dynamic-list,/tmp/SBo/qt-everywhere-opensource-src-5.5.1/qtbase/src/corelib/QtCore.dynlist -Wl,-soname,libQt5Core.so.5
+-LIBS          = $(SUBLIBS) -lpthread -lz -L/tmp/SBo/qt-everywhere-opensource-src-5.5.1/qtbase/lib -lqtpcre -lm -ldl -lgthread-2.0 -pthread -lglib-2.0 -lrt -lexecinfo
++LIBS          = $(SUBLIBS) -lpthread -lz -L/tmp/SBo/qt-everywhere-opensource-src-5.5.1/qtbase/lib -lqtpcre -lm -ldl -lgthread-2.0 -pthread -lglib-2.0 -lrt
+ AR            = ar cqs
+ RANLIB        = 
+ SED           = sed

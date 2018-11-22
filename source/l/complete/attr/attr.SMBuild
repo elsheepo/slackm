@@ -1,0 +1,81 @@
+#!/bin/sh
+
+# DO WHATEVER YOU WANT TO PUBLIC LICENSE
+# 0. You just DO WHATEVER YOU WANT TO.           
+#    As simple as that.
+
+CWD=$(pwd)
+if [ "$TMP" = "" ]; then
+  TMP=/tmp
+fi
+
+if [ -z "$ARCH" ]; then                                                                    
+  case "$( uname -m )" in                                                        
+    i?86) ARCH=i586 ;; 
+    arm*) ARCH=arm ;;        
+       *) ARCH=$( uname -m ) ;;     
+  esac                         
+fi 
+
+BUILD=1
+APP=attr
+VERSION=2.4.47.src
+PKG=$TMP/package-$APP
+
+rm -rf $PKG
+mkdir -p $TMP $PKG
+rm -rf $TMP/$APP-$VERSION
+
+if [ "$ARCH" = "i586" ]; then  
+  SLKCFLAGS="-O2 -march=i586 -mtune=i686"                               
+  LIBDIRSUFFIX=""                                                  
+elif [ "$ARCH" = "i686" ]; then                                                                                
+  SLKCFLAGS="-O2 -march=i686 -mtune=i686"                                                                         
+  LIBDIRSUFFIX=""                                  
+elif [ "$ARCH" = "x86_64" ]; then            
+  SLKCFLAGS="-O2 -fPIC"                                                                    
+  LIBDIRSUFFIX=""                                                                
+else                   
+  SLKCFLAGS="-O2"            
+  LIBDIRSUFFIX=""                   
+fi
+
+cd $TMP || exit
+tar -xvf $CWD/$APP-$VERSION.tar.?z
+cd $APP-2.4.47
+chown -R root:root .
+
+sed -i 's@-o $(PKG_USER) -g $(PKG_GROUP)@@' include/buildmacros 
+sed -i 's@CHOWN=_chown@CHOWN=true@' include/install-sh
+patch -p1 < $CWD/attr-cdefs.patch
+sleep 1
+
+  ./configure \
+  --prefix=/usr \
+  --mandir=/usr/man \
+  --enable-gettext=no
+
+for i in po ; do
+printf 'all:\n\ttrue\ninstall:\n\ttrue\ninstall-lib:\n\ttrue\ninstall-dev:\n\ttrue\nclean:\n\ttrue\n' > "$i"/Makefile
+done
+
+make -j2 || exit
+make DESTDIR=$PKG install install-lib install-dev
+
+cd $PKG                                                                 
+echo "Stripping binaries and shared objects, if any..."            
+ find . | xargs file | grep "executable" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+ find . | xargs file | grep "shared object" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+                                                   
+find $PKG/usr/man -type f -exec gzip -9 {} \;
+for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
+                                                                                 
+rm -f $PKG/usr/info/dir
+gzip -9 $PKG/usr/info/*.info*
+
+mkdir -p $PKG/install                                                                                          
+cat $CWD/slack-desc > $PKG/install/slack-desc                                                                     
+cat $CWD/doinst.sh > $PKG/install/doinst.sh        
+                                             
+cd $PKG
+/sbin/makepkg -l y -c n $TMP/$APP-2.4.47-$ARCH-$BUILD-sml.txz 

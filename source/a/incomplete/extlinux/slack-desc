@@ -1,0 +1,11 @@
+extlinux: extlinux (bootloader)  
+extlinux:  
+extlinux: extlinux is a bootloader for unix-like systems supporting the extX 
+extlinux: filesystems. It's a part of the famous syslinux family of 
+extlinux: bootloaders, and the package contains two sample mbr files and a 
+extlinux: configuration file for quick setup. WARNING: Make sure your 
+extlinux: extlinux.conf file is correct.  
+extlinux: 
+extlinux: 
+extlinux: 
+extlinux:  

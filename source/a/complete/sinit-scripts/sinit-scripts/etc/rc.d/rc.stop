@@ -1,0 +1,97 @@
+#!/bin/sh
+
+. /etc/rc.d/rc.conf
+
+umask 022
+
+case "$1" in
+reboot|poweroff)
+	;;
+*)
+	echo "Invalid action '$1' for rc.exit " 1>&2
+	exit 1
+	;;
+esac
+
+# Set linefeed mode to avoid staircase effect
+echo; /bin/stty onlcr
+
+echo "Shutting down"
+
+HWCLOCK_PARAMS="-w"
+case $HARDWARECLOCK in
+	"")
+		;;
+	UTC)
+		HWCLOCK_PARAMS="-u $HWCLOCK_PARAMS"
+		;;
+	localtime)
+		HWCLOCK_PARAMS="-l $HWCLOCK_PARAMS"
+		;;
+	*)
+		HWCLOCK_PARAMS=""
+		;;
+esac
+
+if test -n "$HWCLOCK_PARAMS"
+then
+	echo "Saving system clock"
+	test -n "$TIMEZONE" && export TZ="$TIMEZONE"
+	/bin/hwclock $HWCLOCK_PARAMS /dev/rtc0
+	unset TZ
+fi
+
+if [ -x /etc.rc.d/rc.dovecot ]; then
+/etc/rc.d/rc.dovecot stop
+fi
+
+if [ -x /etc/rc.d/rc.dropbear ]; then
+/etc/rc.d/rc.dropbear stop
+fi
+
+if [ -x /etc/rc.d/rc.fail2ban ]; then
+/etc/rc.d/rc.fail2ban stop
+fi
+
+if [ -x /etc/rc.d/rc.openvpn ]; then
+/etc/rc.d/rc.openvpn stop
+fi
+
+if [ -x /etc/rc.d/rc.postfix ]; then
+/etc/rc.d/rc.postfix stop
+fi
+
+if [ -x /etc/rc.d/rc.messagebus ]; then
+/etc/rc.d/rc.messagebus stop
+fi
+
+if [ -x /etc/rc.d/rc.syslog ]; then
+/etc/rc.d/rc.syslog stop
+fi
+
+if [ -x /etc/rc.d/rc.udev ]; then
+/etc/rc.d/rc.udev force-stop
+fi
+
+echo "Storing random-seed to /etc"
+/bin/dd if=/dev/urandom of=/etc/random-seed count=1 bs=512 2>/dev/null
+
+/bin/killall5 -s TERM
+/bin/sleep 3
+/bin/killall5 -s KILL
+
+/bin/sync
+/bin/sleep 3
+wait
+
+echo "Powered down!"
+sleep 1
+
+case "$1" in
+reboot)
+	/bin/halt -r
+	;;
+poweroff)
+	/bin/halt -p
+	;;
+esac

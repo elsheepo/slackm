@@ -1,0 +1,62 @@
+#!/bin/sh
+# Requires ncurses
+
+# DO WHATEVER YOU WANT TO PUBLIC LICENSE
+# 0. You just DO WHATEVER YOU WANT TO.
+#    As simple as that.  
+
+CWD=$(pwd)
+if [ "$TMP" = "" ]; then
+  TMP=/tmp
+fi
+
+BUILD=1
+APP=stfl
+VERSION=0.24
+PKG=$TMP/package-$APP
+
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) ARCH=i586 ;;              
+    arm*) ARCH=arm ;;
+       *) ARCH=$( uname -m ) ;;
+  esac               
+fi
+
+rm -rf $PKG
+rm -rf $TMP/$APP-$VERSION
+mkdir -p $TMP $PKG
+
+if [ "$ARCH" = "i586" ]; then
+  SLKCFLAGS="-O2 -march=i586 -mtune=i686"                          
+  LIBDIRSUFFIX=""                           
+elif [ "$ARCH" = "i686" ]; then                                    
+  SLKCFLAGS="-O2 -march=i686 -mtune=i686"          
+  LIBDIRSUFFIX=""            
+elif [ "$ARCH" = "x86_64" ]; then
+  SLKCFLAGS="-O2 -fPIC"
+  LIBDIRSUFFIX=""      
+else                     
+  SLKCFLAGS="-O2"                   
+  LIBDIRSUFFIX=""    
+fi
+
+cd $TMP || exit
+tar -xvf $CWD/$APP-$VERSION.tar.gz
+cd $APP-$VERSION
+chown -R root:root .
+
+make -j2
+make install prefix=/usr/ DESTDIR=$PKG || exit
+
+cd $PKG                               
+echo "Stripping binaries and shared objects, if any..."
+ find . | xargs file | grep "executable" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+ find . | xargs file | grep "shared object" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+                                                                   
+mkdir -p $PKG/install                                  
+cat $CWD/slack-desc > $PKG/install/slack-desc                                                                  
+cat $CWD/doinst.sh > $PKG/install/doinst.sh                                                                       
+                                                                   
+cd $PKG
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-$BUILD-sml.txz 

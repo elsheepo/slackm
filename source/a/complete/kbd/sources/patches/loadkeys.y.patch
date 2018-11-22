@@ -1,0 +1,10 @@
+--- a/src/loadkeys.y	2018-10-30 12:03:06.243309009 +0530
++++ a/src/loadkeys.y	2018-10-30 11:44:52.764897496 +0530
+@@ -23,6 +23,7 @@
+ #include <linux/kd.h>
+ #include <linux/keyboard.h>
+ #include <unistd.h>
++#include <sys/types.h>
+ 
+ #include "paths.h"
+ #include "getfd.h"

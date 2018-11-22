@@ -1,0 +1,8 @@
+--- Makefile	2016-10-20 13:33:12.846660762 +0530
++++ Makefile	2016-10-20 13:34:39.239659288 +0530
+@@ -1,4 +1,4 @@
+-CC=         gcc
++CC=         $(CC)
+ MAKE=       make
+ INSTALL=    install
+ LOCALEPATH= $(PREFIX)/share/locale

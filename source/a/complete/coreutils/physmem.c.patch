@@ -1,0 +1,14 @@
+--- a/lib/physmem.c	2018-11-16 16:33:53.654865775 +0530
++++ b/lib/physmem.c	2018-11-16 16:47:13.674462559 +0530
+@@ -32,9 +32,10 @@
+ # include <sys/sysmp.h>
+ #endif
+ 
+-#if HAVE_SYS_SYSINFO_H
++#ifdef __GLIBC__
+ # include <sys/sysinfo.h>
+ #endif
++#include <sys/resource.h>
+ 
+ #if HAVE_MACHINE_HAL_SYSINFO_H
+ # include <machine/hal_sysinfo.h>

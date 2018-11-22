@@ -1,0 +1,29 @@
+#!/bin/sh
+
+# DO WHATEVER YOU WANT TO PUBLIC LICENSE
+# 0. You just DO WHATEVER YOU WANT TO.           
+#    As simple as that.   
+
+CWD=$(pwd)
+if [ "$TMP" = "" ]; then
+  TMP=/tmp
+fi
+VERSION=0.1
+BUILD=10
+APP=etc
+PKG=$TMP/package-$APP
+TAG=sml
+
+rm -rf $PKG
+rm -rf $TMP/$APP
+mkdir -p $TMP $PKG
+
+# Explode the package framework:
+cp -r $CWD/bld/install $CWD/bld/etc $CWD/bld/usr $CWD/bld/var $CWD/bld/tmp $CWD/bld/root $PKG/
+
+mkdir -p $PKG/install
+cat $CWD/slack-desc > $PKG/install/slack-desc
+
+# Build the package:
+cd $PKG
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-noarch-$BUILD-$TAG.txz 

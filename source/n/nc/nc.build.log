@@ -1,0 +1,242 @@
+README
+netcat.blurb
+Changelog
+Makefile
+generic.h
+netcat.c
+stupidh
+data/README
+data/Makefile
+data/data.c
+data/rservice.c
+data/xor.c
+data/dns-any.d
+data/nfs-0.d
+data/pmap-mnt.d
+data/rip.d
+data/showmount.d
+data/pmap-dump.d
+data/pm.d
+scripts/README
+scripts/dist.sh
+scripts/ncp
+scripts/probe
+scripts/iscan
+scripts/bsh
+scripts/irc
+scripts/web
+scripts/webproxy
+scripts/webrelay
+scripts/websearch
+scripts/alta
+Hmm...  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|--- netcat-1.10.orig/Makefile
+|+++ netcat-1.10/Makefile
+--------------------------
+patching file Makefile
+Using Plan A...
+Hunk #1 succeeded at 14.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|--- netcat-1.10.orig/debian/nc.1
+|+++ netcat-1.10/debian/nc.1
+--------------------------
+patching file debian/nc.1
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|--- netcat-1.10.orig/debian/control
+|+++ netcat-1.10/debian/control
+--------------------------
+patching file debian/control
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|--- netcat-1.10.orig/debian/netcat.examples
+|+++ netcat-1.10/debian/netcat.examples
+--------------------------
+patching file debian/netcat.examples
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|--- netcat-1.10.orig/debian/rules
+|+++ netcat-1.10/debian/rules
+--------------------------
+patching file debian/rules
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|--- netcat-1.10.orig/debian/netcat.copyright
+|+++ netcat-1.10/debian/netcat.copyright
+--------------------------
+patching file debian/netcat.copyright
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|--- netcat-1.10.orig/debian/changelog
+|+++ netcat-1.10/debian/changelog
+--------------------------
+patching file debian/changelog
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|--- netcat-1.10.orig/debian/netcat.manpages
+|+++ netcat-1.10/debian/netcat.manpages
+--------------------------
+patching file debian/netcat.manpages
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|--- netcat-1.10.orig/debian/netcat.README.Debian
+|+++ netcat-1.10/debian/netcat.README.Debian
+--------------------------
+patching file debian/netcat.README.Debian
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|--- netcat-1.10.orig/debian/netcat.dirs
+|+++ netcat-1.10/debian/netcat.dirs
+--------------------------
+patching file debian/netcat.dirs
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|--- netcat-1.10.orig/debian/netcat.docs
+|+++ netcat-1.10/debian/netcat.docs
+--------------------------
+patching file debian/netcat.docs
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|--- netcat-1.10.orig/netcat.c
+|+++ netcat-1.10/netcat.c
+--------------------------
+patching file netcat.c
+Using Plan A...
+Hunk #1 succeeded at 59.
+Hunk #2 succeeded at 81.
+Hunk #3 succeeded at 117.
+Hunk #4 succeeded at 166.
+Hunk #5 succeeded at 176.
+Hunk #6 succeeded at 228.
+Hunk #7 succeeded at 238.
+Hunk #8 succeeded at 256.
+Hunk #9 succeeded at 278.
+Hunk #10 succeeded at 361.
+Hunk #11 succeeded at 390.
+Hunk #12 succeeded at 473.
+Hunk #13 succeeded at 651.
+Hunk #14 succeeded at 781.
+Hunk #15 succeeded at 867.
+Hunk #16 succeeded at 890.
+Hunk #17 succeeded at 1294.
+Hunk #18 succeeded at 1479.
+Hunk #19 succeeded at 1535.
+Hunk #20 succeeded at 1696.
+Hunk #21 succeeded at 1744.
+Hunk #22 succeeded at 1754.
+done
+Hmm...  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|--- ./Makefile.orig	2002-05-28 14:17:29.000000000 -0700
+|+++ ./Makefile	2002-05-28 14:28:57.000000000 -0700
+--------------------------
+patching file Makefile
+Using Plan A...
+Hunk #1 succeeded at 9.
+Hunk #2 succeeded at 66.
+done
+make -e nc  XFLAGS='-DLINUX -DTELNET -DGAPING_SECURITY_HOLE'
+make[1]: Entering directory `/tmp/nc-110'
+arm-musl-linuxeabihf-gcc -static --sysroot=/opt/arm-musl/	  -DLINUX -DTELNET -DGAPING_SECURITY_HOLE  -o nc netcat.c 
+netcat.c: In function 'doexec':
+netcat.c:617:3: warning: incompatible implicit declaration of built-in function 'execl'
+   execl (pr00gie, p, NULL);
+   ^
+make[1]: Leaving directory `/tmp/nc-110'
+strip: Unable to recognise the format of the input file `nc'
+
+Slackware package maker, version 3.14159.
+
+Searching for symbolic links:
+
+No symbolic links were found, so we won't make an installation script.
+You can make your own later in ./install/doinst.sh and rebuild the
+package if you like.
+
+This next step is optional - you can set the directories in your package
+to some sane permissions. If any of the directories in your package have
+special permissions, then DO NOT reset them here!
+
+Would you like to reset all directory permissions to 755 (drwxr-xr-x) and
+directory ownerships to root.root ([y]es, [n]o)? n
+
+Creating Slackware package:  /tmp/nc-1.10-arm-1.txz
+
+./
+install/
+install/slack-desc
+usr/
+usr/bin/
+usr/bin/nc
+usr/man/
+usr/man/man1/
+usr/man/man1/nc.1.gz
+usr/doc/
+usr/doc/nc-1.10/
+usr/doc/nc-1.10/data/
+usr/doc/nc-1.10/data/Makefile
+usr/doc/nc-1.10/data/nfs-0.d
+usr/doc/nc-1.10/data/rip.d
+usr/doc/nc-1.10/data/pmap-mnt.d
+usr/doc/nc-1.10/data/xor.c
+usr/doc/nc-1.10/data/pmap-dump.d
+usr/doc/nc-1.10/data/README
+usr/doc/nc-1.10/data/pm.d
+usr/doc/nc-1.10/data/data.c
+usr/doc/nc-1.10/data/showmount.d
+usr/doc/nc-1.10/data/dns-any.d
+usr/doc/nc-1.10/data/rservice.c
+usr/doc/nc-1.10/netcat.blurb
+usr/doc/nc-1.10/README
+usr/doc/nc-1.10/scripts/
+usr/doc/nc-1.10/scripts/websearch
+usr/doc/nc-1.10/scripts/probe
+usr/doc/nc-1.10/scripts/alta
+usr/doc/nc-1.10/scripts/ncp
+usr/doc/nc-1.10/scripts/web
+usr/doc/nc-1.10/scripts/webproxy
+usr/doc/nc-1.10/scripts/webrelay
+usr/doc/nc-1.10/scripts/bsh
+usr/doc/nc-1.10/scripts/iscan
+usr/doc/nc-1.10/scripts/dist.sh
+usr/doc/nc-1.10/scripts/README
+usr/doc/nc-1.10/scripts/irc
+usr/doc/nc-1.10/Changelog
+
+Slackware package /tmp/nc-1.10-arm-1.txz created.
+

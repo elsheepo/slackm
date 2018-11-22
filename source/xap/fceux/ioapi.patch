@@ -1,0 +1,13 @@
+--- a/src/utils/ioapi.h.bak	2018-09-20 12:25:16.118605266 +0530
++++ b/src/utils/ioapi.h	2018-09-20 12:25:56.974424536 +0530
+@@ -108,6 +108,10 @@
+ extern "C" {
+ #endif
+ 
++#ifdef _Z_OF
++#undef OF
++#define OF _Z_OF
++#endif
+ 
+ #define ZLIB_FILEFUNC_SEEK_CUR (1)
+ #define ZLIB_FILEFUNC_SEEK_END (2)

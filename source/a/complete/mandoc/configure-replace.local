@@ -1,0 +1,15 @@
+OSNAME="Slackware Linux"
+
+PREFIX="/usr"
+
+BINM_MAN=man
+BINM_APROPOS=apropos
+BINM_WHATIS=whatis
+BINM_MAKEWHATIS=makewhatis
+
+INSTALL_PROGRAM="${INSTALL} -m 0755"
+INSTALL_LIB="${INSTALL} -m 0644"
+INSTALL_MAN="${INSTALL} -m 0644"
+INSTALL_DATA="${INSTALL} -m 0644"
+
+LN="ln -sf"

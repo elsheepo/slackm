@@ -1,0 +1,11 @@
+utmp: utmp (tty manager)  
+utmp:  
+utmp: utmp is a small program which updates the utmp record of the current 
+utmp: tty. It's designed for helping in some terminal emulators or session 
+utmp: managers which lack support for it.  
+utmp: 
+utmp: 
+utmp: 
+utmp: 
+utmp: 
+utmp:  

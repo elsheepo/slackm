@@ -1,0 +1,9 @@
+harfbuzz
+cairo
+pango
+atk
+libjpeg
+libtiff
+gobject-introspection
+gdk-pixbuf
+gtk+2

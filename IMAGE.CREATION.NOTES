@@ -1,0 +1,61 @@
+# Create a .img file of 400M, for starters:
+
+dd if=/dev/zero of=distro.img bs=40M count=10
+
+# Mount distro.img as a loop device. 
+# losetup is available from util-linux package.
+
+losetup -P -f distro.img
+
+# An existing file /dev/loop0 will be updated.
+# If you are missing /dev/loopX devices, 
+
+modprobe loop
+
+# Make two partitions, /dev/loop0p1 and /dev/loop0p2
+# using cfdisk.
+cfdisk /dev/loop0
+
+# Assign about 50M for /boot, and make it an FAT partition
+# Assign the rest for / and make it a typical Linux partition.
+# /boot : 50M
+# /     : 350M
+
+# Run the mkfs commands for the above two partitions
+
+mkfs.vfat /dev/loop0p1
+mkfs.ext4 /dev/loop0p2
+
+# I've taken the kernel, initrd, System.map, kernel config and
+# kernel modules (not kept in /boot) from the devuan OS.
+# Mount /dev/loop0p1 on /mnt temporarily
+
+mount /dev/loop0p1 /mnt
+
+# copy the files in the following hierarchy except for ldlinux.sys.
+
+$ tree
+.
+|-- boot
+|   |-- System.map
+|   |-- config-4.9.0-6-amd64
+|   |-- initrd.img
+|   |-- syslinux
+|   |   |-- ldlinux.c32
+|   |   |-- libutil.c32
+|   |   |-- menu.c32
+|   |   `-- syslinux.cfg
+|   `-- vmlinuz
+`-- ldlinux.sys
+
+# ldlinux.sys is auto-generated when installing syslinux.
+# Now run syslinux against the target:
+
+syslinux -i /dev/loop0p1
+
+# Unmount /mnt and mount /dev/loop0p2 on /mnt.
+# Install packages to it using installpkg --root /mnt <packages.txz>
+# Now you are all set to boot.
+
+# TIP: Use UUIDs to avoid boot sequence fuckups. 
+

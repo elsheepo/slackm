@@ -1,0 +1,11 @@
+sinit-scripts: sinit-scripts - simple slackware boot scripts  
+sinit-scripts:  
+sinit-scripts: This package provides simple boot/shutdown scripts, namely 
+sinit-scripts: rc.start, rc.stop and rc.local. Also contains much needed
+sinit-scripts: directories like /dev, /proc, /sys, /tmp, /root and other
+sinit-scripts: files. 
+sinit-scripts: 
+sinit-scripts: 
+sinit-scripts: 
+sinit-scripts: 
+sinit-scripts:  

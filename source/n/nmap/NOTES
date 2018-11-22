@@ -1,0 +1,3 @@
+I've removed the --with-libpcap=included comment in the build script
+because I was getting pcap_open_live error on br0, and nmap would 
+give a warning about being unable to use libpcap.

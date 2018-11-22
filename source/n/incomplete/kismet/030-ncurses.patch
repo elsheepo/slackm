@@ -1,0 +1,15 @@
+--- a/configure.ac	2016-07-17 16:03:52.029500097 +0530
++++ b/configure.ac	2016-07-17 16:05:28.644507370 +0530
+@@ -446,10 +446,10 @@
+ 		AC_MSG_ERROR(Failed to find curses.h or ncurses.h.  You probably need to install the curses-devel package from your distribution)
+ 	fi
+ 
+-	LIBS="$LIBS $curseaux"
++	LIBS="$curseaux $LIBS"
+ 	AC_CHECK_LIB([panel], [new_panel],
+ 				 AC_DEFINE(HAVE_LIBPANEL, 1, Panel terminal lib)
+-				 curseaux="$curseaux -lpanel",
++				 curseaux="-lpanel $curseaux",
+ 				 AC_MSG_ERROR(Failed to find libpanel extension to curses/ncurses.  Install it, or disable building the Kismet client with --disable-client.  Disabling the client is probably not something you want to do normally.))
+ 
+ 	AC_CHECK_HEADER([panel.h], [foundhpanel=yes])

@@ -1,0 +1,72 @@
+# /etc/profile: This file contains system-wide defaults used by
+# all Bourne (and related) shells.
+
+# Set the values for some environment variables:
+export MINICOM="-c on"
+export MANPATH=/usr/local/man:/usr/man
+export HOSTNAME="`cat /etc/HOSTNAME`"
+export LESSOPEN="|lesspipe.sh %s"
+export LESS="-M"
+
+# If the user doesn't have a .inputrc, use the one in /etc.
+if [ ! -r "$HOME/.inputrc" ]; then
+  export INPUTRC=/etc/inputrc
+fi
+
+# Set the default system $PATH:
+PATH="/usr/local/bin:/usr/bin:/bin:/usr/games:/sbin:/usr/sbin"
+
+# For root users, ensure that /usr/local/sbin, /usr/sbin, and /sbin are in
+# the $PATH.  Some means of connection don't add these by default (sshd comes
+# to mind).
+if [ "`id -u`" = "0" ]; then
+  echo $PATH | grep /usr/local/sbin 1> /dev/null 2> /dev/null
+  if [ ! $? = 0 ]; then
+    PATH=/usr/local/sbin:/usr/sbin:/sbin:$PATH
+  fi
+fi
+
+# I had problems with the backspace key using 'eval tset' instead of 'TERM=',
+# but you might want to try it anyway instead of the section below it.  I
+# think with the right /etc/termcap it would work.
+# eval `tset -sQ "$TERM"`
+
+# Set TERM to linux for unknown type or unset variable:
+if [ "$TERM" = "" -o "$TERM" = "unknown" ]; then
+ TERM=linux
+fi
+
+# Set a default shell prompt:
+if (( USER_ID )); then PS1='$'; else PS1='#'; fi
+PS1=$'[ $USER ] -- [ $(date +%H:%M:%S)] -- [ ${PWD/#"$HOME"/"~"} ]\n'"$PS1 "
+
+cd
+PS2='> '
+export PATH DISPLAY LESS TERM PS1 PS2
+
+# Default umask.  A umask of 022 prevents new files from being created group
+# and world writable.
+umask 022
+
+# Append any additional sh scripts found in /etc/profile.d/:
+for profile_script in /etc/profile.d/*.sh ; do
+  if [ -x $profile_script ]; then
+    . $profile_script
+  fi
+done
+unset profile_script
+
+COLOR=auto
+OPTIONS="-F -b -T 0"
+LS_OPTIONS="$OPTIONS --color=$COLOR"
+export LS_OPTIONS;
+unset COLOR
+unset OPTIONS
+
+if [ -f /etc/DIR_COLORS ]; then
+ eval `/bin/dircolors -b /etc/DIR_COLORS`
+fi
+
+alias ls='/bin/ls $LS_OPTIONS'
+alias dir='/bin/ls $LS_OPTIONS --format=vertical'
+

@@ -1,0 +1,30 @@
+#!/bin/sh
+
+# DO WHATEVER YOU WANT TO PUBLIC LICENSE
+# 0. You just DO WHATEVER YOU WANT TO.           
+#    As simple as that.  
+
+CWD=$(pwd)
+if [ "$TMP" = "" ]; then
+  TMP=/tmp
+fi
+
+BUILD=1
+APP=missingheaders
+VERSION=0.1
+PKG=$TMP/package-$APP
+
+rm -rf $PKG
+mkdir -p $TMP $PKG
+rm -rf $TMP/$APP
+
+cd $TMP || exit
+#chown -R root:root .
+
+mkdir -p $PKG/install
+[ -f $CWD/slack-desc ] && cp $CWD/slack-desc $PKG/install/
+
+mkdir -p $PKG/usr/include/sys
+cp $CWD/stab.h $CWD/cdefs.h $CWD/queue.h $CWD/tree.h $PKG/usr/include/sys/
+cd $PKG
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-noarch-$BUILD-sml.txz 

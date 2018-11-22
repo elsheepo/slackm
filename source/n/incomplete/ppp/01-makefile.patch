@@ -1,0 +1,11 @@
+--- pppd/Makefile	2016-01-11 22:25:56.774405256 +0530
++++ pppd/Makefile	2016-01-11 22:26:28.348407077 +0530
+@@ -126,7 +126,7 @@
+ endif
+ 
+ ifdef USE_LIBUTIL
+-CFLAGS	+= -DHAVE_LOGWTMP=1
++CFLAGS	+= 
+ LIBS	+= -lutil
+ endif
+ 

@@ -1,0 +1,12 @@
+UI menu.c32
+
+PROMPT 5
+MENU TITLE SlackMLinux
+
+TIMEOUT 10
+
+LABEL SlackMLinux
+MENU LABEL SlackMLinux
+LINUX /boot/vmlinuz
+INITRD /boot/initrd.img
+APPEND root=/dev/sda2 ro quiet consoleblank=0

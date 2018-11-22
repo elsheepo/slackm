@@ -1,0 +1,31 @@
+#!/bin/sh
+
+# Copyright 2018 SlackMLinux <admin@pktsurf.in>
+# DO WHATEVER YOU WANT TO PUBLIC LICENSE
+# 0. You just DO WHATEVER YOU WANT TO.
+#    As simple as that.
+
+CWD=$(pwd)
+if [ "$TMP" = "" ]; then
+  TMP=/tmp
+fi
+
+BUILD=1
+APP=sinit-scripts
+VERSION=0.1
+PKG=$TMP/package-$APP
+
+rm -rf $PKG
+mkdir -p $TMP $PKG
+rm -rf $TMP/$APP
+
+cd $TMP || exit
+#chown -R root:root .
+
+cd $PKG
+cp -r $CWD/sinit-scripts/etc $CWD/sinit-scripts/sbin $PKG
+cat $CWD/slack-desc > $PKG/install/slack-desc
+cd $PKG
+# Make some additional directories
+mkdir -p boot dev etc home lib libexec mnt opt proc root run sbin sys tmp usr var
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-noarch-$BUILD-sml.txz 

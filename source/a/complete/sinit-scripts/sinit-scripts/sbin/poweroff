@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# 'poweroff'
+/bin/kill -s USR1 1 

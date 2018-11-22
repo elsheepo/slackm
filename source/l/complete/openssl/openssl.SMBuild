@@ -1,0 +1,100 @@
+#!/bin/sh
+
+# The compiler stalls because it requires perl.
+# The compilation is being done in a chroot, and I didn't have perl 
+# installed in chroot. So I built it outside the chroot where perl would 
+# be available. 
+
+# DO WHATEVER YOU WANT TO PUBLIC LICENSE                                
+# 0. You just DO WHATEVER YOU WANT TO.
+#    As simple as that. 
+
+CWD=$(pwd)
+if [ "$TMP" = "" ]; then
+  TMP=/tmp
+fi
+
+if [ -z "$ARCH" ]; then      
+  case "$( uname -m )" in
+    i?86) ARCH=i586 ;;              
+    arm*) ARCH=arm ;;   
+       *) ARCH=$( uname -m ) ;;
+  esac               
+fi
+
+APP=openssl
+VERSION=1.0.2p
+PKG=$TMP/package-$APP
+BUILD=1
+
+if [ "$ARCH" = "i586" ]; then                          
+  SLKCFLAGS="-O2 -march=i586 -mtune=i686"                                                                      
+  LIBDIRSUFFIX=""                                                                                                 
+elif [ "$ARCH" = "i686" ]; then                                    
+  SLKCFLAGS="-O2 -march=i686 -mtune=i686"          
+  LIBDIRSUFFIX=""                                                                          
+elif [ "$ARCH" = "x86_64" ]; then
+  SLKCFLAGS="-O2 -fPIC"
+  LIBDIRSUFFIX=""            
+else                     
+  SLKCFLAGS="-O2"                   
+  LIBDIRSUFFIX=""       
+fi
+
+rm -rf $PKG
+mkdir -p $TMP $PKG
+rm -rf $TMP/$APP-$VERSION
+
+cd $TMP || exit
+tar -xvf $CWD/$APP-$VERSION.tar.gz
+cd $APP-$VERSION
+chown -R root:root .
+
+# I've had to specifically build openssl to compile the ZNC IRC bouncer. 
+# The IRC bouncer fails to build with libressl. 
+
+# If you cross compile openssl, it will by default run host ld/ar/ranlib 
+# commands even if CC is set, and for some odd reason, you can't supply 
+# it with --host option, so here I've set all the four programs manually.
+	setarch x86_64 ./config \
+	--prefix=/usr \
+	--openssldir=/etc/ssl \
+	no-mdc2 \
+	no-idea \
+	no-sse2 \
+	no-ssl2 \
+	no-rc5 \
+	shared \
+	no-weak-ssl-ciphers
+
+# Openssl doesn't like parallel make jobs :-(	
+make $jobs depend
+make $jobs
+# Hopefull this will prevent openssl from installing those manpages.
+make install INSTALL_PREFIX=$PKG || exit
+
+# Add a cron script to warn root if a certificate is going to expire soon
+mkdir -p $PKG/etc/cron.daily
+zcat $CWD/certwatch.gz > $PKG/etc/cron.daily/certwatch.new
+chmod 755 $PKG/etc/cron.daily/certwatch.new
+
+mv $PKG/etc/ssl/openssl.cnf $PKG/etc/ssl/openssl.cnf.new
+cd $PKG/usr; mv lib64 lib
+
+cd $PKG                               
+echo "Stripping binaries and shared objects, if any..."
+ find . | xargs file | grep "executable" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+ find . | xargs file | grep "shared object" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+                                                                   
+find $PKG/usr/man -type f -exec gzip -9 {} \;      
+for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
+                                 
+rm -f $PKG/usr/info/dir
+gzip -9 $PKG/usr/info/*.info*
+
+mkdir -p $PKG/install                                  
+cat $CWD/slack-desc > $PKG/install/slack-desc                                                                  
+cat $CWD/doinst.sh > $PKG/install/doinst.sh                                                                       
+                                                                   
+cd $PKG
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-$BUILD-sml.txz 

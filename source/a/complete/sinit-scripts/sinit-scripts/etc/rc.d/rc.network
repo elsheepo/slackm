@@ -1,0 +1,27 @@
+#!/bin/sh
+# Script invoked by rc.start for setting up network services
+
+if [ -x /etc/rc.d/rc.postfix ]; then
+echo "Starting postfix SMTP server"
+/etc/rc.d/rc.postfix startt
+fi
+
+if [ -x /etc/rc.d/rc.dovecot ]; then
+echo "Starting dovecot IMAP3/POP3 server"
+/etc/rc.d/rc.dovecot start
+fi
+
+if [ -x /etc/rc.d/rc.fail2ban ]; then
+echo "Starting fail2ban IDS server"
+/etc/rc.d/rc.fail2ban start
+fi
+
+if [ -x /etc/rc.d/rc.openvpn ]; then
+echo "Starting the openvpn server"
+/etc/rc.d/rc.openvpn start
+fi
+
+if [ -x /etc/rc.d/rc.privoxy ]; then
+echo "Starting the privoxy server"
+/etc/rc.d/rc.privoxy start
+fi

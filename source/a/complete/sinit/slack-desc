@@ -1,0 +1,12 @@
+sinit: sinit (suckless init)
+sinit:  
+sinit: sinit is a simple init. It was initially based on Rich Felker's minimal
+sinit: init. There are 3 signals that sinit will act on:
+sinit: SIGUSR1: powers off the machine
+sinit: SIGINT:  reboots the machine
+sinit: SIGCHLD: reap children
+sinit: 
+sinit: The default initialization script is /etc/rc.d/rc.start
+sinit: The default reboot/poweroff script is /etc/rc.d/rc.stop
+sinit: 
+sinit:  

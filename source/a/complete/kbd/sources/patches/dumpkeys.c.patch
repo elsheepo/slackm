@@ -1,0 +1,10 @@
+--- a/src/dumpkeys.c	2018-10-30 12:01:10.095911415 +0530
++++ a/src/dumpkeys.c	2018-10-30 11:44:52.764897496 +0530
+@@ -19,6 +19,7 @@
+ #include "modifiers.h"
+ #include "nls.h"
+ #include "version.h"
++#include <sys/types.h>
+ 
+ #ifndef KT_LETTER
+ #define KT_LETTER KT_LATIN

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# 'reboot'
+/bin/kill -s INT 1 

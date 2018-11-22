@@ -1,0 +1,35 @@
+#!/bin/sh
+
+. /etc/compiler.vars
+
+CWD=$(pwd)
+if [ "$TMP" = "" ]; then
+  TMP=/tmp
+fi
+
+APP=dmenu
+VERSION=4.5
+PKG=$TMP/package-$APP
+BUILD=1
+
+rm -rf $PKG
+mkdir -p $TMP $PKG
+rm -rf $TMP/$APP-$VERSION
+
+cd $TMP || exit
+tar -xvf $CWD/$APP-$VERSION.tar.gz
+cd $APP-$VERSION
+chown -R root:root .
+
+make CC="$CC -static $mcf $mldf" LIBS="-lX11 -lXinerama -lxcb -lXau -lXdmcp -lXext"
+make install PREFIX=/usr DESTDIR=$PKG || exit
+
+mkdir -p $PKG/install
+
+if [ -e $CWD/doinst.sh.gz ]; then
+zcat $CWD/doinst.sh.gz > $PKG/install/doinst.sh
+fi
+
+cat $CWD/slack-desc > $PKG/install/slack-desc
+cd $PKG; str
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-$BUILD.txz 

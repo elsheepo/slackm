@@ -1,0 +1,20 @@
+--- a/Makefile.inc	2016-07-17 17:35:21.965913357 +0530
++++ b/Makefile.inc	2016-07-17 17:35:45.183915104 +0530
+@@ -13,7 +13,7 @@
+ CC			= arm-musl-linuxeabihf-gcc -static --sysroot=/ -I/usr/include -L/usr/lib
+ LD			= arm-musl-linuxeabihf-g++ -static --sysroot=/ -fno-rtti -I/usr/include -L/usr/lib
+ REALLD		= @LD@
+-LDFLAGS		=  -rdynamic
++LDFLAGS		=  
+ INSTALL		= /bin/ginstall -c
+ INSTALL_DATA = ${INSTALL} -m 644
+ INSTALL_PROGRAM = ${INSTALL}
+@@ -24,7 +24,7 @@
+ CXXLIBS		=  -lstdc++
+ KSLIBS		=  -lnl-genl-3 -lnl-3  
+ CFLAGS		=  -I/usr/include/libnl3  
+-CLIENTLIBS 	=  -ldl -lncurses -lpanel
++CLIENTLIBS 	=  -lpanel -lncurses
+ CAPLIBS		= 
+ CLIENTFLAGS = 
+ CXXFLAGS 	= -Wall -g -O2

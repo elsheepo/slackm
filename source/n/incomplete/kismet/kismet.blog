@@ -1,0 +1,713 @@
+kismet-2016-01-R1/
+kismet-2016-01-R1/manuf.h
+kismet-2016-01-R1/gpsserial.h
+kismet-2016-01-R1/Makefile.in
+kismet-2016-01-R1/kis_panel_windows.cc
+kismet-2016-01-R1/restricted-plugin-ptw/
+kismet-2016-01-R1/restricted-plugin-ptw/aircrack-ng.h
+kismet-2016-01-R1/restricted-plugin-ptw/aircrack-ptw2-lib.h
+kismet-2016-01-R1/restricted-plugin-ptw/Makefile
+kismet-2016-01-R1/restricted-plugin-ptw/aircrack-crypto.cc
+kismet-2016-01-R1/restricted-plugin-ptw/aircrack-crypto.h
+kismet-2016-01-R1/restricted-plugin-ptw/aircrack-ptw2-lib.cc
+kismet-2016-01-R1/restricted-plugin-ptw/aircrack-kismet.cc
+kismet-2016-01-R1/restricted-plugin-ptw/aircrack-crctable.h
+kismet-2016-01-R1/restricted-plugin-ptw/README
+kismet-2016-01-R1/packetsourcetracker.cc
+kismet-2016-01-R1/packetdissectors.cc
+kismet-2016-01-R1/configfile.h
+kismet-2016-01-R1/netracker.h
+kismet-2016-01-R1/kis_panel_windows.h
+kismet-2016-01-R1/dumpfile_nettxt.cc
+kismet-2016-01-R1/serialclient.h
+kismet-2016-01-R1/local_ieee80211_radiotap.h
+kismet-2016-01-R1/netframework.cc
+kismet-2016-01-R1/getopt.cc
+kismet-2016-01-R1/channeltracker.h
+kismet-2016-01-R1/config.guess
+kismet-2016-01-R1/endian_magic.h
+kismet-2016-01-R1/kis_panel_network.cc
+kismet-2016-01-R1/kis_panel_frontend.cc
+kismet-2016-01-R1/ifcontrol.cc
+kismet-2016-01-R1/kis_pktproto.h
+kismet-2016-01-R1/netframework.h
+kismet-2016-01-R1/kis_clinetframe.cc
+kismet-2016-01-R1/kis_panel_sort.h
+kismet-2016-01-R1/packetchain.cc
+kismet-2016-01-R1/gpsfixed.h
+kismet-2016-01-R1/dumpfile_gpsxml.h
+kismet-2016-01-R1/serialclient.cc
+kismet-2016-01-R1/gpscore.h
+kismet-2016-01-R1/statealert.cc
+kismet-2016-01-R1/uuid.h
+kismet-2016-01-R1/manuf.cc
+kismet-2016-01-R1/config.sub
+kismet-2016-01-R1/timetracker.h
+kismet-2016-01-R1/dumpfile_nettxt.h
+kismet-2016-01-R1/kis_clinetframe.h
+kismet-2016-01-R1/packetsource_airpcap.h
+kismet-2016-01-R1/kis_panel_preferences.cc
+kismet-2016-01-R1/nl80211.h
+kismet-2016-01-R1/clinetframework.cc
+kismet-2016-01-R1/messagebus.cc
+kismet-2016-01-R1/text_cliframe.h
+kismet-2016-01-R1/kis_ppi.h
+kismet-2016-01-R1/plugin-syslog/
+kismet-2016-01-R1/plugin-syslog/Makefile
+kismet-2016-01-R1/plugin-syslog/README
+kismet-2016-01-R1/plugin-syslog/kismet-syslog.cc
+kismet-2016-01-R1/dumpfile_tuntap.h
+kismet-2016-01-R1/config.h.in
+kismet-2016-01-R1/packetsource_bsdrt.cc
+kismet-2016-01-R1/man/
+kismet-2016-01-R1/man/kismet_drone.1
+kismet-2016-01-R1/man/gpsmap.1
+kismet-2016-01-R1/man/kismet_drone.conf.5
+kismet-2016-01-R1/man/kismet.1
+kismet-2016-01-R1/man/kismet.conf.5
+kismet-2016-01-R1/man/kismet_ui.conf.5
+kismet-2016-01-R1/packetsource_pcap.cc
+kismet-2016-01-R1/kismet_json.cc
+kismet-2016-01-R1/dumpfile_tuntap.cc
+kismet-2016-01-R1/packetsourcetracker.h
+kismet-2016-01-R1/configfile.cc
+kismet-2016-01-R1/packetsource_wext.h
+kismet-2016-01-R1/scripts/
+kismet-2016-01-R1/scripts/gpsmap-helper-earthamaps
+kismet-2016-01-R1/scripts/kismet.in
+kismet-2016-01-R1/nl80211_control.h
+kismet-2016-01-R1/pollable.h
+kismet-2016-01-R1/alertracker.cc
+kismet-2016-01-R1/packet_ieee80211.h
+kismet-2016-01-R1/kis_panel_details.h
+kismet-2016-01-R1/patches/
+kismet-2016-01-R1/patches/linux-tuntapsetlink-r02-netdev.diff
+kismet-2016-01-R1/patches/README.patches
+kismet-2016-01-R1/README.appletv
+kismet-2016-01-R1/plugintracker.h
+kismet-2016-01-R1/kismet_client.cc
+kismet-2016-01-R1/tcpclient.h
+kismet-2016-01-R1/kis_panel_details.cc
+kismet-2016-01-R1/dumpfile_pcap.cc
+kismet-2016-01-R1/dumpfile_netxml.cc
+kismet-2016-01-R1/tcpclient.cc
+kismet-2016-01-R1/tcpdump-extract.h
+kismet-2016-01-R1/soundcontrol.h
+kismet-2016-01-R1/dumpfile_alert.cc
+kismet-2016-01-R1/kis_panel_network.h
+kismet-2016-01-R1/devicetracker.cc
+kismet-2016-01-R1/kismet_drone.cc
+kismet-2016-01-R1/wav/
+kismet-2016-01-R1/wav/alert.wav
+kismet-2016-01-R1/wav/gpslock.wav
+kismet-2016-01-R1/wav/gpslost.wav
+kismet-2016-01-R1/wav/new.wav
+kismet-2016-01-R1/wav/packet.wav
+kismet-2016-01-R1/wav/README
+kismet-2016-01-R1/cygwin_utils.cc
+kismet-2016-01-R1/madwifing_control.cc
+kismet-2016-01-R1/packet.h
+kismet-2016-01-R1/nl80211_control.cc
+kismet-2016-01-R1/disable-plugin-dot15d4/
+kismet-2016-01-R1/disable-plugin-dot15d4/packet_dot15d4.cc
+kismet-2016-01-R1/disable-plugin-dot15d4/packetsource_raven.h
+kismet-2016-01-R1/disable-plugin-dot15d4/Makefile
+kismet-2016-01-R1/disable-plugin-dot15d4/packetsource_raven.cc
+kismet-2016-01-R1/disable-plugin-dot15d4/packet_dot15d4_types.cc
+kismet-2016-01-R1/disable-plugin-dot15d4/tracker_dot15d4.cc
+kismet-2016-01-R1/disable-plugin-dot15d4/kismet_dot15d4.cc
+kismet-2016-01-R1/disable-plugin-dot15d4/packetsource_serialdev.cc
+kismet-2016-01-R1/disable-plugin-dot15d4/packet_dot15d4.h
+kismet-2016-01-R1/disable-plugin-dot15d4/tracker_dot15d4.h
+kismet-2016-01-R1/disable-plugin-dot15d4/README
+kismet-2016-01-R1/disable-plugin-dot15d4/packetsource_serialdev.h
+kismet-2016-01-R1/gpsserial.cc
+kismet-2016-01-R1/getopt.h
+kismet-2016-01-R1/plugin-spectools/
+kismet-2016-01-R1/plugin-spectools/Makefile
+kismet-2016-01-R1/plugin-spectools/spectool_netclient.cc
+kismet-2016-01-R1/plugin-spectools/spectool_netclient.h
+kismet-2016-01-R1/plugin-spectools/spectools_ui.cc
+kismet-2016-01-R1/plugin-spectools/README
+kismet-2016-01-R1/plugin-spectools/spectool_kismet.cc
+kismet-2016-01-R1/unixdomainserver.cc
+kismet-2016-01-R1/packetsource.h
+kismet-2016-01-R1/dumpfile_pcap.h
+kismet-2016-01-R1/kismap/
+kismet-2016-01-R1/kismap/kismap.py
+kismet-2016-01-R1/kismap/kismap.conf
+kismet-2016-01-R1/kismap/README
+kismet-2016-01-R1/plugintracker.cc
+kismet-2016-01-R1/battery.h
+kismet-2016-01-R1/filtercore.cc
+kismet-2016-01-R1/gpswrapper.cc
+kismet-2016-01-R1/kis_droneframe.cc
+kismet-2016-01-R1/ringbuf.cc
+kismet-2016-01-R1/filtercore.h
+kismet-2016-01-R1/kismet.spec
+kismet-2016-01-R1/kis_panel_frontend.h
+kismet-2016-01-R1/cygwin_utils.h
+kismet-2016-01-R1/channeltracker.cc
+kismet-2016-01-R1/darwin_control_wrapper.h
+kismet-2016-01-R1/darwin_control_wrapper.m
+kismet-2016-01-R1/packetsource_ipwlive.cc
+kismet-2016-01-R1/packetdissectors.h
+kismet-2016-01-R1/packetsource_macusb.h
+kismet-2016-01-R1/kismet_json.h
+kismet-2016-01-R1/kismet_server.cc
+kismet-2016-01-R1/psutils.cc
+kismet-2016-01-R1/install-sh
+kismet-2016-01-R1/netracker.cc
+kismet-2016-01-R1/dumpfile_alert.h
+kismet-2016-01-R1/debian/
+kismet-2016-01-R1/debian/kismet.postrm
+kismet-2016-01-R1/debian/source/
+kismet-2016-01-R1/debian/source/format
+kismet-2016-01-R1/debian/kismet.config
+kismet-2016-01-R1/debian/kismet.templates
+kismet-2016-01-R1/debian/kismet-plugins-restricted.install
+kismet-2016-01-R1/debian/docs
+kismet-2016-01-R1/debian/kismet.postinst
+kismet-2016-01-R1/debian/README.Debian
+kismet-2016-01-R1/debian/copyright
+kismet-2016-01-R1/debian/README.source
+kismet-2016-01-R1/debian/kismet.install
+kismet-2016-01-R1/debian/README
+kismet-2016-01-R1/debian/changelog
+kismet-2016-01-R1/debian/control
+kismet-2016-01-R1/debian/compat
+kismet-2016-01-R1/debian/kismet.manpages
+kismet-2016-01-R1/debian/rules
+kismet-2016-01-R1/dumpfile_netxml.h
+kismet-2016-01-R1/kis_droneframe.h
+kismet-2016-01-R1/gpscore.cc
+kismet-2016-01-R1/docs/
+kismet-2016-01-R1/docs/DEVEL.client
+kismet-2016-01-R1/docs/README.newcore
+kismet-2016-01-R1/docs/devel-wiki-docs/
+kismet-2016-01-R1/docs/devel-wiki-docs/tags
+kismet-2016-01-R1/docs/devel-wiki-docs/AlertTracker.wiki
+kismet-2016-01-R1/docs/devel-wiki-docs/IndeX.wiki
+kismet-2016-01-R1/docs/devel-wiki-docs/PacketChain.wiki
+kismet-2016-01-R1/darwin_wificontrol.m
+kismet-2016-01-R1/globalregistry.h
+kismet-2016-01-R1/ruby/
+kismet-2016-01-R1/ruby/kismet_list.rb
+kismet-2016-01-R1/ruby/kismet_shootout.rb
+kismet-2016-01-R1/ruby/kismet_addsource.rb
+kismet-2016-01-R1/ruby/kismet_alert_syslog.rb
+kismet-2016-01-R1/ruby/kismet_sql.rb
+kismet-2016-01-R1/ruby/kismet.rb
+kismet-2016-01-R1/util.h
+kismet-2016-01-R1/tcpserver.h
+kismet-2016-01-R1/globalregistry.cc
+kismet-2016-01-R1/packetsource_wext.cc
+kismet-2016-01-R1/RELEASENOTES.txt
+kismet-2016-01-R1/madwifing_control.h
+kismet-2016-01-R1/ringbuf.h
+kismet-2016-01-R1/packetsource_macusb.cc
+kismet-2016-01-R1/popenclient.h
+kismet-2016-01-R1/packetsource_darwin.h
+kismet-2016-01-R1/packetsource_ipwlive.h
+kismet-2016-01-R1/popenclient.cc
+kismet-2016-01-R1/iwcontrol.h
+kismet-2016-01-R1/devicetracker.h
+kismet-2016-01-R1/clinetframework.h
+kismet-2016-01-R1/client-plugin-example/
+kismet-2016-01-R1/client-plugin-example/Makefile
+kismet-2016-01-R1/client-plugin-example/TIMESTAMP
+kismet-2016-01-R1/client-plugin-example/kcliplug.cc
+kismet-2016-01-R1/ipc_remote.h
+kismet-2016-01-R1/messagebus.h
+kismet-2016-01-R1/CHANGELOG
+kismet-2016-01-R1/configure.ac
+kismet-2016-01-R1/kis_netframe.cc
+kismet-2016-01-R1/drone_kisnetframe.cc
+kismet-2016-01-R1/iwcontrol.cc
+kismet-2016-01-R1/alertracker.h
+kismet-2016-01-R1/packetsource_pcap.h
+kismet-2016-01-R1/plugin-alertsyslog/
+kismet-2016-01-R1/plugin-alertsyslog/Makefile
+kismet-2016-01-R1/plugin-alertsyslog/README
+kismet-2016-01-R1/plugin-alertsyslog/alertsyslog.cc
+kismet-2016-01-R1/text_cliframe.cc
+kismet-2016-01-R1/ipc_remote.cc
+kismet-2016-01-R1/config.h.bot
+kismet-2016-01-R1/packetsource_darwin.cc
+kismet-2016-01-R1/dumpfile_string.cc
+kismet-2016-01-R1/packetsignatures.h
+kismet-2016-01-R1/apple80211.h
+kismet-2016-01-R1/kismet_server.h
+kismet-2016-01-R1/gpsdclient.h
+kismet-2016-01-R1/conf/
+kismet-2016-01-R1/conf/kismet_drone.conf
+kismet-2016-01-R1/conf/kismet.conf.in
+kismet-2016-01-R1/packetsource_drone.h
+kismet-2016-01-R1/battery.cc
+kismet-2016-01-R1/timetracker.cc
+kismet-2016-01-R1/stamp-h.in
+kismet-2016-01-R1/darwin_wificontrol.h
+kismet-2016-01-R1/dumpfile.cc
+kismet-2016-01-R1/README.win32
+kismet-2016-01-R1/extra/
+kismet-2016-01-R1/extra/Makefile.in
+kismet-2016-01-R1/extra/kismet-3.1.0.dtd
+kismet-2016-01-R1/extra/kismet-gps-1.0.dtd
+kismet-2016-01-R1/extra/gpsxml-sanitize.cc
+kismet-2016-01-R1/extra/kismet-2.9.1.dtd
+kismet-2016-01-R1/extra/kismet-1.5.dtd
+kismet-2016-01-R1/extra/kismet-1.6.dtd
+kismet-2016-01-R1/extra/kismet-1.3.dtd
+kismet-2016-01-R1/extra/kismet-1.0.xsd
+kismet-2016-01-R1/extra/kismet-gps-2.9.1.dtd
+kismet-2016-01-R1/extra/old/
+kismet-2016-01-R1/extra/old/ieee-manuf-tr.sh
+kismet-2016-01-R1/extra/old/kismetcsv.sql
+kismet-2016-01-R1/extra/old/cwgd2gpsdrive.sh
+kismet-2016-01-R1/extra/old/listchan.pl
+kismet-2016-01-R1/extra/old/kismet2xml.cc
+kismet-2016-01-R1/extra/old/manuf_update.sh
+kismet-2016-01-R1/extra/old/gpsdrive-1.32-heading.patch
+kismet-2016-01-R1/extra/old/multi-gpsmap.sh
+kismet-2016-01-R1/extra/kismet2cwgd.cc
+kismet-2016-01-R1/extra/kismet-1.6.2.dtd
+kismet-2016-01-R1/extra/kismet-1.4.dtd
+kismet-2016-01-R1/extra/kismet-1.6.1.dtd
+kismet-2016-01-R1/gpsdclient.cc
+kismet-2016-01-R1/macaddr.h
+kismet-2016-01-R1/statealert.h
+kismet-2016-01-R1/packetsource_drone.cc
+kismet-2016-01-R1/finitestate.cc
+kismet-2016-01-R1/finitestate.h
+kismet-2016-01-R1/README
+kismet-2016-01-R1/dumpfile.h
+kismet-2016-01-R1/unixdomainserver.h
+kismet-2016-01-R1/kis_panel_widgets.h
+kismet-2016-01-R1/phy_80211.h
+kismet-2016-01-R1/kis_panel_preferences.h
+kismet-2016-01-R1/tcpserver.cc
+kismet-2016-01-R1/packetsource_bsdrt.h
+kismet-2016-01-R1/configure
+kismet-2016-01-R1/gpswrapper.h
+kismet-2016-01-R1/Makefile.inc.in
+kismet-2016-01-R1/util.cc
+kismet-2016-01-R1/plugin-btscan/
+kismet-2016-01-R1/plugin-btscan/packet_btscan.h
+kismet-2016-01-R1/plugin-btscan/tracker_btscan.cc
+kismet-2016-01-R1/plugin-btscan/btscan_ui.cc
+kismet-2016-01-R1/plugin-btscan/Makefile
+kismet-2016-01-R1/plugin-btscan/dumpfile_btscantxt.h
+kismet-2016-01-R1/plugin-btscan/packetsource_linuxbt.cc
+kismet-2016-01-R1/plugin-btscan/kismet_btscan.cc
+kismet-2016-01-R1/plugin-btscan/dumpfile_btscantxt.cc
+kismet-2016-01-R1/plugin-btscan/packetsource_linuxbt.h
+kismet-2016-01-R1/plugin-btscan/tracker_btscan.h
+kismet-2016-01-R1/plugin-btscan/README
+kismet-2016-01-R1/kis_panel_plugin.h
+kismet-2016-01-R1/packetsource_airpcap.cc
+kismet-2016-01-R1/packetchain.h
+kismet-2016-01-R1/gpsfixed.cc
+kismet-2016-01-R1/dumpfile_string.h
+kismet-2016-01-R1/kis_panel_widgets.cc
+kismet-2016-01-R1/dumpfile_gpsxml.cc
+kismet-2016-01-R1/ifcontrol.h
+kismet-2016-01-R1/.gitignore
+kismet-2016-01-R1/version.h
+kismet-2016-01-R1/kismet_capture.cc
+kismet-2016-01-R1/restricted-plugin-autowep/
+kismet-2016-01-R1/restricted-plugin-autowep/Makefile
+kismet-2016-01-R1/restricted-plugin-autowep/autowep-kismet.cc
+kismet-2016-01-R1/restricted-plugin-autowep/README
+kismet-2016-01-R1/soundcontrol.cc
+kismet-2016-01-R1/psutils.h
+kismet-2016-01-R1/kis_netframe.h
+kismet-2016-01-R1/phy_80211.cc
+patching file configure
+patching file configfile.cc
+patching file dumpfile_tuntap.cc
+patching file configure.ac
+checking build system type... i686-pc-linux-gnu
+checking host system type... arm-musl-linux-gnueabihf
+checking for arm-musl-linuxeabihf-gcc... arm-musl-linuxeabihf-gcc -O2 -pipe -mfpu=vfp -mfloat-abi=hard -march=armv6 --sysroot=/ -I/usr/include -I/include -L/usr/lib -L/lib
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether arm-musl-linuxeabihf-gcc -O2 -pipe -mfpu=vfp -mfloat-abi=hard -march=armv6 --sysroot=/ -I/usr/include -I/include -L/usr/lib -L/lib accepts -g... yes
+checking for arm-musl-linuxeabihf-gcc -O2 -pipe -mfpu=vfp -mfloat-abi=hard -march=armv6 --sysroot=/ -I/usr/include -I/include -L/usr/lib -L/lib option to accept ISO C89... none needed
+checking whether we are using the GNU C++ compiler... yes
+checking whether arm-musl-linuxeabihf-g++ --sysroot=/ -fno-rtti -I/usr/include -I/include -L/usr/lib -L/lib accepts -g... yes
+checking for a BSD-compatible install... /bin/ginstall -c
+checking whether make sets $(MAKE)... yes
+checking how to run the C preprocessor... arm-musl-linuxeabihf-gcc -O2 -pipe -mfpu=vfp -mfloat-abi=hard -march=armv6 --sysroot=/ -I/usr/include -I/include -L/usr/lib -L/lib -E
+checking for platform-specific compiler flags... none needed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether byte ordering is bigendian... no
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking for unistd.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for an ANSI C-conforming const... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for ANSI C header files... (cached) yes
+checking return type of signal handlers... void
+checking whether lstat correctly handles trailing slash... no
+checking whether stat accepts an empty string... yes
+checking for gettimeofday... yes
+checking for memset... yes
+checking for select... yes
+checking for socket... yes
+checking for strcasecmp... yes
+checking for strftime... yes
+checking for strstr... yes
+checking for system-level getopt_long()... yes
+checking for stdint.h... (cached) yes
+checking for accept() addrlen type... socklen_t
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for dlopen in -ldl... yes
+checking for libm math function in std libs... yes
+checking for main in -luClibc++... no
+checking for main in -lstdc++... yes
+checking for group 'root'... yes
+checking for group 'man'... no.  Using 'root'
+checking for initscr in -lncurses... yes
+checking ncurses.h usability... yes
+checking ncurses.h presence... yes
+checking for ncurses.h... yes
+checking for new_panel in -lpanel... (cached) yes
+checking panel.h usability... yes
+checking panel.h presence... yes
+checking for panel.h... yes
+checking for setproctitle... no
+checking libutil.h usability... no
+checking libutil.h presence... no
+checking for libutil.h... no
+checking for setproctitle in -lutil... no
+checking sys/pstat.h usability... no
+checking sys/pstat.h presence... no
+checking for sys/pstat.h... no
+checking whether __progname and __progname_full are available... yes
+checking which argv replacement method to use... writeable
+checking for linux/wireless.h... yes
+checking that linux/wireless.h is what we expect... yes
+checking can we use iw_freq.flags... yes
+checking for cap_init in -lcap... yes
+checking sys/prctl.h usability... yes
+checking sys/prctl.h presence... yes
+checking for sys/prctl.h... yes
+checking sys/capability.h usability... no
+checking sys/capability.h presence... no
+checking for sys/capability.h... no
+checking for pcap_open_live in -lpcap... yes
+checking pcap.h usability... yes
+checking pcap.h presence... yes
+checking for pcap.h... yes
+checking for pcap_setnonblock in -lpcap... yes
+checking for pcap_get_selectable_fd in -lpcap... yes
+checking for PPI support in libpcap... yes
+configure: WARNING: Using local radiotap headers
+checking for pkg-config... yes
+checking for arm-musl-linuxeabihf-pkg-config... no
+checking for pkg-config... /usr/bin/pkg-config
+configure: WARNING: using cross tools not prefixed with host triplet
+checking pkg-config is at least version 0.9.0... yes
+checking for libnl30... yes
+checking for libnlgenl30... yes
+checking for libnl20... no
+checking for libnl1... no
+checking For mac80211 support in netlink library... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating Makefile.inc
+config.status: WARNING:  'Makefile.inc.in' seems to ignore the --datarootdir setting
+config.status: creating scripts/kismet
+config.status: creating conf/kismet.conf
+config.status: creating config.h
+
+Configuration complete: 
+         Compiling for: linux-gnueabihf (arm)
+           C++ Library: stdc++
+   Installing as group: root
+    Man pages owned by: root
+       Installing into: /usr
+          Setuid group: kismet
+      Terminal Control: ncurses
+   Linux WEXT capture : yes
+   OSX/Darwin capture : n/a (only OSX/Darwin)
+   PCRE Regex Filters : no
+          pcap capture: yes
+       airpcap control: n/a (only Cygwin/Win32)
+        PPI log format: yes
+LibCapability (enhanced
+   privilege dropping): no
+         Linux Netlink: yes (mac80211 VAP creation) - libnl-3.0 libnl-genl-3.0
+
+Configuration complete.  Run 'make dep' to generate dependencies
+and 'make' followed by 'make install' to compile and install.
+
+*** WARNING ***
+In some situations, libpcap links to libnl.  If Kismet finds a newer 
+libnl, it can cause an immediate segfault when starting Kismet. 
+
+It is very hard to test at compile time (and run-time changes can 
+cause it to break).  If you experience immediate segfaults when 
+trying to start kismet_server, check your libpcap.so with 'ldd'
+and either install a libpcap which does not link libnl1, or 
+force Kismet to compile with a degraded libnl via 
+./configure --with-netlink-version=1
+
+Makefile:311: .depend: No such file or directory
+Generating dependencies... 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c util.cc -o util.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c cygwin_utils.cc -o cygwin_utils.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c globalregistry.cc -o globalregistry.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c ringbuf.cc -o ringbuf.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c messagebus.cc -o messagebus.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c configfile.cc -o configfile.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c getopt.cc -o getopt.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c filtercore.cc -o filtercore.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c ifcontrol.cc -o ifcontrol.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c iwcontrol.cc -o iwcontrol.o 
+iwcontrol.cc: In function 'int Iwconfig_Set_IntPriv(const char*, const char*, int, int, char*)':
+iwcontrol.cc:286:25: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     ((__s32 *) buffer)[0] = (__s32) val1;
+                         ^
+iwcontrol.cc: In function 'int Iwconfig_Get_IntPriv(const char*, const char*, int*, char*)':
+iwcontrol.cc:436:34: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     (*val) = ((__s32 *) buffer)[0];
+                                  ^
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c madwifing_control.cc -o madwifing_control.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c nl80211_control.cc -o nl80211_control.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c psutils.cc -o psutils.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c ipc_remote.cc -o ipc_remote.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c soundcontrol.cc -o soundcontrol.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c battery.cc -o battery.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c kismet_json.cc -o kismet_json.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c netframework.cc -o netframework.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c clinetframework.cc -o clinetframework.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c tcpserver.cc -o tcpserver.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c tcpclient.cc -o tcpclient.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c unixdomainserver.cc -o unixdomainserver.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c serialclient.cc -o serialclient.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c packetsourcetracker.cc -o packetsourcetracker.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c packetsource_pcap.cc -o packetsource_pcap.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c packetsource_wext.cc -o packetsource_wext.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c packetsource_bsdrt.cc -o packetsource_bsdrt.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c packetsource_drone.cc -o packetsource_drone.o 
+packetsource_drone.cc: In member function 'void DroneClientFrame::SourceActionHandler(pst_packetsource*, int, int)':
+packetsource_drone.cc:213:15: warning: variable 'cmd' set but not used [-Wunused-but-set-variable]
+  unsigned int cmd = DRONE_CHS_CMD_NONE;
+               ^
+packetsource_drone.cc: In member function 'virtual int DroneClientFrame::ParseData()':
+packetsource_drone.cc:414:8: warning: variable 'channel_hop' set but not used [-Wunused-but-set-variable]
+    int channel_hop = -1, channel_dwell = -1, channel_rate = -1;
+        ^
+packetsource_drone.cc:414:26: warning: variable 'channel_dwell' set but not used [-Wunused-but-set-variable]
+    int channel_hop = -1, channel_dwell = -1, channel_rate = -1;
+                          ^
+packetsource_drone.cc:414:46: warning: variable 'channel_rate' set but not used [-Wunused-but-set-variable]
+    int channel_hop = -1, channel_dwell = -1, channel_rate = -1;
+                                              ^
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c packetsource_ipwlive.cc -o packetsource_ipwlive.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c packetsource_airpcap.cc -o packetsource_airpcap.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c packetsource_darwin.cc -o packetsource_darwin.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c packetsource_macusb.cc -o packetsource_macusb.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c kis_netframe.cc -o kis_netframe.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c kis_droneframe.cc -o kis_droneframe.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c gpswrapper.cc -o gpswrapper.o 
+gpswrapper.cc: In constructor 'GpsWrapper::GpsWrapper(GlobalRegistry*)':
+gpswrapper.cc:137:12: warning: variable 'gn' set but not used [-Wunused-but-set-variable]
+   GPSNull *gn;
+            ^
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c gpscore.cc -o gpscore.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c gpsdclient.cc -o gpsdclient.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c gpsserial.cc -o gpsserial.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c gpsfixed.cc -o gpsfixed.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c packetchain.cc -o packetchain.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c plugintracker.cc -o plugintracker.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c alertracker.cc -o alertracker.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c timetracker.cc -o timetracker.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c packetdissectors.cc -o packetdissectors.o 
+packetdissectors.cc: In member function 'int KisBuiltinDissector::ieee80211_dissector(kis_packet*)':
+packetdissectors.cc:936:13: warning: variable 'found_channel_tag' set but not used [-Wunused-but-set-variable]
+         int found_channel_tag = 0;
+             ^
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c devicetracker.cc -o devicetracker.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c netracker.cc -o netracker.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c channeltracker.cc -o channeltracker.o 
+netracker.cc: In member function 'int Netracker::datatracker_chain_handler(kis_packet*)':
+netracker.cc:3353:12: warning: variable 'combo' set but not used [-Wunused-but-set-variable]
+    in_addr combo;
+            ^
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c phy_80211.cc -o phy_80211.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c manuf.cc -o manuf.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c dumpfile.cc -o dumpfile.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c dumpfile_pcap.cc -o dumpfile_pcap.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c dumpfile_gpsxml.cc -o dumpfile_gpsxml.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c dumpfile_tuntap.cc -o dumpfile_tuntap.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c dumpfile_netxml.cc -o dumpfile_netxml.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c dumpfile_nettxt.cc -o dumpfile_nettxt.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c dumpfile_string.cc -o dumpfile_string.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c dumpfile_alert.cc -o dumpfile_alert.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c statealert.cc -o statealert.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c kismet_server.cc -o kismet_server.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c drone_kisnetframe.cc -o drone_kisnetframe.o 
+kismet_server.cc: In function 'int main(int, char**, char**)':
+kismet_server.cc:1136:14: warning: variable 'gpswrapper' set but not used [-Wunused-but-set-variable]
+  GpsWrapper *gpswrapper;
+              ^
+kismet_server.cc:1158:18: warning: variable 'chantracker' set but not used [-Wunused-but-set-variable]
+  Channeltracker *chantracker;
+                  ^
+kismet_server.cc:1210:19: warning: variable 'bsstsa' set but not used [-Wunused-but-set-variable]
+  BSSTSStateAlert *bsstsa;
+                   ^
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c kismet_capture.cc -o kismet_capture.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c kismet_drone.cc -o kismet_drone.o 
+kismet_drone.cc: In function 'int main(int, char**, char**)':
+kismet_drone.cc:596:14: warning: variable 'gpswrapper' set but not used [-Wunused-but-set-variable]
+  GpsWrapper *gpswrapper;
+              ^
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c popenclient.cc -o popenclient.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c kis_clinetframe.cc -o kis_clinetframe.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c text_cliframe.cc -o text_cliframe.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c kis_panel_widgets.cc -o kis_panel_widgets.o 
+kis_panel_widgets.cc: In member function 'virtual int Kis_Single_Input::KeyPress(int)':
+kis_panel_widgets.cc:2585:29: warning: narrowing conversion of 'in_key' from 'int' to 'char' inside { } is ill-formed in C++11 [-Wnarrowing]
+   char ins[2] = { in_key, 0 };
+                             ^
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c kis_panel_network.cc -o kis_panel_network.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c kis_panel_windows.cc -o kis_panel_windows.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c kis_panel_details.cc -o kis_panel_details.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c kis_panel_preferences.cc -o kis_panel_preferences.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c kis_panel_frontend.cc -o kis_panel_frontend.o 
+arm-musl-linuxeabihf-g++ -fno-rtti -I/usr/include -I/include -I/usr/include/ncurses -L/usr/lib -L/lib -I/usr/include/libnl3   -Wall -g -O2 -c kismet_client.cc -o kismet_client.o 
+arm-musl-linuxeabihf-g++ --sysroot=/ -fno-rtti -I/usr/include -I/include -L/usr/lib -L/lib -rdynamic -o kismet_capture util.o cygwin_utils.o globalregistry.o ringbuf.o messagebus.o configfile.o getopt.o filtercore.o ifcontrol.o iwcontrol.o madwifing_control.o nl80211_control.o  psutils.o ipc_remote.o netframework.o clinetframework.o tcpserver.o tcpclient.o timetracker.o drone_kisnetframe.o packetsourcetracker.o packetchain.o packetsource_pcap.o packetsource_wext.o packetsource_bsdrt.o packetsource_drone.o packetsource_ipwlive.o packetsource_airpcap.o packetsource_darwin.o packetsource_macusb.o dumpfile.o dumpfile_tuntap.o kismet_capture.o -lcap  -ldl -lstdc++ -lpcap  -lnl-genl-3 -lnl-3  
+arm-musl-linuxeabihf-g++ --sysroot=/ -fno-rtti -I/usr/include -I/include -L/usr/lib -L/lib -rdynamic -o kismet_server util.o cygwin_utils.o globalregistry.o ringbuf.o messagebus.o configfile.o getopt.o filtercore.o ifcontrol.o iwcontrol.o madwifing_control.o nl80211_control.o  psutils.o ipc_remote.o soundcontrol.o battery.o kismet_json.o netframework.o clinetframework.o tcpserver.o tcpclient.o unixdomainserver.o serialclient.o packetsourcetracker.o packetsource_pcap.o packetsource_wext.o packetsource_bsdrt.o packetsource_drone.o packetsource_ipwlive.o packetsource_airpcap.o packetsource_darwin.o packetsource_macusb.o kis_netframe.o kis_droneframe.o gpswrapper.o gpscore.o gpsdclient.o gpsserial.o gpsfixed.o packetchain.o plugintracker.o alertracker.o timetracker.o packetdissectors.o devicetracker.o netracker.o channeltracker.o phy_80211.o manuf.o dumpfile.o dumpfile_pcap.o dumpfile_gpsxml.o dumpfile_tuntap.o dumpfile_netxml.o dumpfile_nettxt.o dumpfile_string.o dumpfile_alert.o statealert.o kismet_server.o -lcap  -ldl -lstdc++ -lpcap -lnl-genl-3 -lnl-3  
+arm-musl-linuxeabihf-g++ --sysroot=/ -fno-rtti -I/usr/include -I/include -L/usr/lib -L/lib -rdynamic -o kismet_drone util.o cygwin_utils.o globalregistry.o ringbuf.o messagebus.o configfile.o getopt.o ifcontrol.o iwcontrol.o madwifing_control.o nl80211_control.o  psutils.o ipc_remote.o soundcontrol.o kismet_json.o netframework.o clinetframework.o tcpserver.o tcpclient.o serialclient.o drone_kisnetframe.o kis_droneframe.o gpswrapper.o gpscore.o gpsdclient.o gpsserial.o gpsfixed.o packetchain.o packetsource_pcap.o packetsource_wext.o packetsource_bsdrt.o packetsource_drone.o packetsource_ipwlive.o packetsource_airpcap.o packetsource_darwin.o packetsource_macusb.o plugintracker.o packetsourcetracker.o timetracker.o kismet_drone.o -lcap  -ldl -lstdc++ -lpcap -lnl-genl-3 -lnl-3  
+arm-musl-linuxeabihf-g++ --sysroot=/ -fno-rtti -I/usr/include -I/include -L/usr/lib -L/lib -rdynamic -o kismet_client util.o ringbuf.o globalregistry.o messagebus.o configfile.o getopt.o soundcontrol.o timetracker.o ipc_remote.o clinetframework.o tcpclient.o popenclient.o kis_clinetframe.o text_cliframe.o kis_panel_widgets.o kis_panel_network.o kis_panel_windows.o kis_panel_details.o kis_panel_preferences.o kis_panel_frontend.o kismet_client.o -lstdc++ -ldl -lncurses -lpanel
+make -e commoninstall
+make[1]: Entering directory `/tmp/kismet-2016-01-R1'
+mkdir -p /tmp/package-kismet/usr/etc
+mkdir -p /tmp/package-kismet/usr/bin
+if test -e kismet_client; then \
+	echo "Installing client"; \
+	/bin/ginstall -c -o "root" -g "root" -m 555 scripts/kismet /tmp/package-kismet/usr/bin/kismet; \
+	/bin/ginstall -c -o "root" -g "root" -m 555 kismet_client /tmp/package-kismet/usr/bin/kismet_client; \
+fi;
+Installing client
+/bin/ginstall -c -o "root" -g "root" -m 555 kismet_server /tmp/package-kismet/usr/bin/kismet_server; 
+/bin/ginstall -c -o "root" -g "root" -m 555 kismet_drone /tmp/package-kismet/usr/bin/kismet_drone;
+mkdir -p /tmp/package-kismet/usr/share/man/man1
+/bin/ginstall -c -o "root" -g "root" -m 644 man/kismet.1 /tmp/package-kismet/usr/share/man/man1/kismet.1
+/bin/ginstall -c -o "root" -g "root" -m 644 man/kismet_drone.1 /tmp/package-kismet/usr/share/man/man1/kismet_drone.1
+mkdir -p /tmp/package-kismet/usr/share/man/man5
+/bin/ginstall -c -o "root" -g "root" -m 644 man/kismet.conf.5 /tmp/package-kismet/usr/share/man/man5/kismet.conf.5
+/bin/ginstall -c -o "root" -g "root" -m 644 man/kismet_drone.conf.5 /tmp/package-kismet/usr/share/man/man5/kismet_drone.conf.5
+mkdir -p /tmp/package-kismet/usr/share/kismet/wav/
+/bin/ginstall -c -o "root" -g "root" -m 644 wav/new.wav /tmp/package-kismet/usr/share/kismet/wav//new.wav
+/bin/ginstall -c -o "root" -g "root" -m 644 wav/packet.wav /tmp/package-kismet/usr/share/kismet/wav//packet.wav
+/bin/ginstall -c -o "root" -g "root" -m 644 wav/alert.wav /tmp/package-kismet/usr/share/kismet/wav//alert.wav
+/bin/ginstall -c -o "root" -g "root" -m 644 wav/gpslost.wav /tmp/package-kismet/usr/share/kismet/wav//gpslost.wav
+/bin/ginstall -c -o "root" -g "root" -m 644 wav/gpslock.wav /tmp/package-kismet/usr/share/kismet/wav//gpslock.wav
+make[1]: Leaving directory `/tmp/kismet-2016-01-R1'
+install -o root -g root -m 644 conf/kismet.conf /tmp/package-kismet/usr/etc/kismet.conf
+Installed config into /tmp/package-kismet/usr/etc/kismet.conf.
+install -o root -g root -m 644 conf/kismet_drone.conf /tmp/package-kismet/usr/etc/kismet_drone.conf
+Installed drone config into /tmp/package-kismet/usr/etc/kismet_drone.conf.
+Installed kismet into /tmp/package-kismet/usr/bin/.
+If you have not done so already, read the README file and the FAQ file.  Additional
+documentation is in the docs/ directory.  You MUST edit /tmp/package-kismet/usr/etc/kismet.conf 
+and configure Kismet for your system, or it will NOT run properly!
+
+Kismet has NOT been installed suid-root.  This means you will need to start 
+it as root.  If you add your user to the kismet group and install 
+Kismet with 'make suidinstall', users in that group will be able to 
+run Kismet directly.
+
+READ THE KISMET DOCUMENTATION ABOUT THE KISMET SECURITY MODEL TO
+DECIDE IF YOU WANT TO INSTALL IT SUID-ROOT
+
+It is generally  more secure to install Kismet with the suid-root helper 
+option.
+
+Slackware package maker, version 3.14159.
+
+Searching for symbolic links:
+
+No symbolic links were found, so we won't make an installation script.
+You can make your own later in ./install/doinst.sh and rebuild the
+package if you like.
+
+This next step is optional - you can set the directories in your package
+to some sane permissions. If any of the directories in your package have
+special permissions, then DO NOT reset them here!
+
+Would you like to reset all directory permissions to 755 (drwxr-xr-x) and
+directory ownerships to root.root ([y]es, [n]o)? n
+
+Creating Slackware package:  /tmp/kismet-2016-01-R1-arm-2.txz
+
+./
+usr/
+usr/bin/
+usr/bin/kismet_drone
+usr/bin/kismet_client
+usr/bin/kismet
+usr/bin/kismet_server
+usr/share/
+usr/share/man/
+usr/share/man/man1/
+usr/share/man/man1/kismet_drone.1
+usr/share/man/man1/kismet.1
+usr/share/man/man5/
+usr/share/man/man5/kismet.conf.5
+usr/share/man/man5/kismet_drone.conf.5
+usr/share/kismet/
+usr/share/kismet/wav/
+usr/share/kismet/wav/alert.wav
+usr/share/kismet/wav/packet.wav
+usr/share/kismet/wav/gpslock.wav
+usr/share/kismet/wav/gpslost.wav
+usr/share/kismet/wav/new.wav
+usr/etc/
+usr/etc/kismet.conf
+usr/etc/kismet_drone.conf
+install/
+WARNING:  /usr/share/man (with possibly not gzipped man pages) detected
+
+Slackware package /tmp/kismet-2016-01-R1-arm-2.txz created.
+

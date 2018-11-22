@@ -1,0 +1,78 @@
+#!/bin/sh
+
+# DO WHATEVER YOU WANT TO PUBLIC LICENSE                                                                                                                                  
+# 0. You just DO WHATEVER YOU WANT TO.                                                                                                                                    
+#    As simple as that.  
+
+VERSION=1.5
+BUILD=${BUILD:-2}
+
+if [ -z "$ARCH" ]; then                                                                                                                                                   
+  case "$( uname -m )" in                                                                                                                                                 
+    i?86) ARCH=i586 ;;                                                                                                                                                    
+    arm*) ARCH=arm ;;                                                                                                                                                     
+       *) ARCH=$( uname -m ) ;;                                                                                                                                           
+  esac                                                                                                                                                                    
+fi                                                                                                             
+
+CWD=$(pwd)
+TMP=${TMP:-/tmp}
+PKG=$TMP/package-sysklogd
+
+rm -rf $PKG
+mkdir -p $TMP $PKG
+cd $TMP
+rm -rf sysklogd-$VERSION
+tar xvf $CWD/sysklogd-$VERSION.tar.gz || exit 1
+cd sysklogd-$VERSION
+chown -R root:root .
+
+# Use memmove() instead of strcpy() in syslogd.c
+zcat $CWD/use_memmove_not_strcpy.diff.gz | patch -p1 --verbose || exit 1
+patch -p1 < $CWD/fix-includes.patch
+sleep 3
+
+make all syslog_tst $jobs CC="gcc -static" || exit
+
+mkdir -p $PKG/usr/sbin
+cat klogd > $PKG/usr/sbin/klogd
+cat syslog_tst > $PKG/usr/sbin/syslog_tst
+cat syslogd > $PKG/usr/sbin/syslogd
+chmod 0755 $PKG/usr/sbin/*
+
+mkdir -p $PKG/usr/man/man{5,8}
+cat syslog.conf.5 | gzip -9c > $PKG/usr/man/man5/syslog.conf.5.gz
+cat klogd.8 | gzip -9c > $PKG/usr/man/man8/klogd.8.gz
+cat sysklogd.8 | gzip -9c > $PKG/usr/man/man8/sysklogd.8.gz
+( cd $PKG/usr/man/man8 ; ln -s sysklogd.8.gz syslogd.8.gz )
+
+mkdir -p $PKG/etc
+cat $CWD/config/syslog.conf.new > $PKG/etc/syslog.conf.new
+
+mkdir -p $PKG/etc/logrotate.d
+cat $CWD/config/syslog.logrotate > $PKG/etc/logrotate.d/syslog.new
+
+mkdir -p $PKG/etc/rc.d
+cat $CWD/config/rc.syslog.new > $PKG/etc/rc.d/rc.syslog.new
+chmod 0755 $PKG/etc/rc.d/rc.syslog.new
+
+mkdir -p $PKG/var/log
+for i in cron debug maillog messages secure spooler syslog ; do
+  touch $PKG/var/log/$i.new
+  chmod 640 $PKG/var/log/$i.new
+done
+
+mkdir -p $PKG/usr/doc/sysklogd-$VERSION
+cp -a \
+  ANNOUNCE CHANGES COPYING INSTALL MANIFEST NEWS README.1st README.linux \
+  $PKG/usr/doc/sysklogd-$VERSION
+chmod 0644 $PKG/usr/doc/sysklogd-$VERSION/*
+
+cd $PKG
+/sbin/makepkg -l y -c n $TMP/sysklogd-$VERSION-$ARCH-$BUILD-sml.txz
+
+# Clean up the extra stuff:
+if [ "$1" = "--cleanup" ]; then
+  rm -rf $TMP/sysklogd-$VERSION
+  rm -rf $PKG
+fi

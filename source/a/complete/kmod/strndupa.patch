@@ -1,0 +1,13 @@
+--- a/libkmod/libkmod-util.c	2016-05-29 16:43:48.153813105 +0000
++++ a/libkmod/libkmod-util.c	2016-05-29 16:45:12.946819488 +0000
+@@ -334,7 +334,9 @@
+ {
+ 	char *start, *end;
+ 
+-	start = strndupa(path, len);
++	start = alloca(len+1);
++	strncpy(start, path, len);
++	start[len] = '\0';
+ 	end = start + len;
+ 
+ 	/*

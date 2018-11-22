@@ -1,0 +1,105 @@
+#!/bin/sh
+
+# DO WHATEVER YOU WANT TO PUBLIC LICENSE
+# 0. You just DO WHATEVER YOU WANT TO.
+#    As simple as that.
+
+
+CWD=$(pwd)
+if [ "$TMP" = "" ]; then
+  TMP=/tmp
+fi
+
+BUILD=1
+APP=dbus
+VERSION=1.10.8
+PKG=$TMP/package-$APP
+
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) ARCH=i586 ;;
+    arm*) ARCH=arm ;;
+       *) ARCH=$( uname -m ) ;;
+  esac
+fi
+
+rm -rf $PKG
+rm -rf $TMP/$APP-$VERSION
+mkdir -p $TMP $PKG
+
+if [ "$ARCH" = "i586" ]; then
+  SLKCFLAGS="-O2 -march=i586 -mtune=i686"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "i686" ]; then
+  SLKCFLAGS="-O2 -march=i686 -mtune=i686"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "x86_64" ]; then
+  SLKCFLAGS="-O2 -fPIC"
+  LIBDIRSUFFIX=""        
+else                  
+  SLKCFLAGS="-O2"    
+  LIBDIRSUFFIX=""              
+fi    
+
+cd $TMP || exit
+tar -xvf $CWD/$APP-$VERSION.tar.?z || exit
+cd $APP-$VERSION
+chown -R root:root .
+find -L . \                              
+ \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
+  -o -perm 511 \) -exec chmod 755 {} \; -o \
+ \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
+ -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
+
+zcat $CWD/dbus-1.10.x-allow_root_globally.diff.gz | patch -p1 --verbose || exit 1
+
+./configure \
+--prefix=/usr \
+--libdir=/usr/lib \
+--sysconfdir=/etc \
+--mandir=/usr/man \
+--localstatedir=/var \
+--disable-Werror \
+--disable-installed-tests \
+--with-init-scripts=slackware \
+--disable-doxygen-docs \
+--enable-shared=yes \
+--enable-static=yes \
+--enable-inotify \
+--enable-x11-autolaunch \
+--with-system-pid-file=/var/run/dbus/dbus.pid \
+--with-system-socket=/var/run/dbus/system_bus_socket \
+--with-console-auth-dir=/var/run/console 
+
+mkdir -p $PKG/etc/rc.d
+cp $CWD/rc.messagebus $PKG/etc/rc.d/
+
+# Fix some directory ownership
+chown messagebus $PKG/var/lib/dbus
+
+make $jobs 
+make install DESTDIR=$PKG || exit
+
+cd $PKG                                  
+echo "Stripping binaries and shared objects, if any..."            
+ find . | xargs file | grep "executable" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+ find . | xargs file | grep "shared object" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+                                                   
+find $PKG/usr/man -type f -exec gzip -9 {} \;
+for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
+                         
+rm -f $PKG/usr/info/dir
+gzip -9 $PKG/usr/info/*.info*
+
+mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION  
+cp -a \                                          
+  <documentation> \                
+  $PKG/usr/doc/$PRGNAM-$VERSION
+cat $CWD/$APP.SMBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$APP.SMBuild
+                                                                   
+mkdir -p $PKG/install                                                                                          
+cat $CWD/slack-desc > $PKG/install/slack-desc                                                                     
+cat $CWD/doinst.sh > $PKG/install/doinst.sh    
+
+cd $PKG
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-$BUILD-sml.txz 

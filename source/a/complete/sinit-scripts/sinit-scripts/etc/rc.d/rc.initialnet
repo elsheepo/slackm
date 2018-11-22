@@ -1,0 +1,49 @@
+#!/bin/sh
+# Setup the initial network interfaces.
+# For daemon activation, see rc.network
+# whether dhcp should be enabled
+# Whether to enable networking.
+networking=no
+# Whether to start the DHCP client
+dhcp0=no
+# Whether to start the NTPD client
+ntpdstart=no
+# DHCP Interface
+dhcpint=""
+
+# Set the IP address
+ip0=""
+# Netmask in CIDR format. 
+netmask=""
+# Network gateway 
+gate=""
+
+# We bring the loopback interface.
+/bin/ip addr add 127.0.0.1/8 dev lo broadcast + scope host
+/bin/ip link set lo up
+
+if [ "$networking" = "yes" ]; then
+
+# Bring up the link
+/bin/ip link set "$dhcpint" up
+
+if [ "$dhcp0" = "yes" ]; then
+/bin/udhcpc -i "$dhcpint"
+else
+/bin/ip addr add $ip0/$netmask dev "$dhcpint"
+/bin/ip route add default via $gate
+fi
+
+sleep 3
+if [ "$ntpdstart" = "yes" ]; then
+echo "Starting NTPD daemon: /bin/ntpd -N"
+/bin/ntpd -N
+sleep 5
+fi
+else echo "Networking is disabled! Kindly modify /etc/rc.d/rc.initialnet"
+fi
+
+# Bring up the dropbear daemon right after NTPD
+if [ -x /etc/rc.d/rc.dropbear ]; then
+/etc/rc.d/rc.dropbear start
+fi
