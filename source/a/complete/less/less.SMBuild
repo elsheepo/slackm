@@ -6,7 +6,7 @@
 # 0. You just DO WHATEVER YOU WANT TO.
 #    As simple as that. 
 
-BUILD=${BUILD:-1}
+BUILD=${BUILD:-2sml}
 JOBS="-j2"
 PRGNAM=less
 VERSION=${VERSION:-471}
@@ -70,23 +70,14 @@ echo "Stripping binaries and shared objects, if any..."
 find $PKG/usr/man -type f -exec gzip -9 {} \;
 for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
 
-rm -f $PKG/usr/info/dir
-gzip -9 $PKG/usr/info/*.info*
-
 find $PKG -name perllocal.pod \
   -o -name ".packlist" \
   -o -name "*.bs" \
   | xargs rm -f
-
-mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp -a \
-  COPYING INSTALL LICENSE NEWS README \
-  $PKG/usr/doc/$PRGNAM-$VERSION
-cat $CWD/$PRGNAM.SMBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SMBuild
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
 zcat $CWD/lesspipe.sh.gz > $PKG/usr/bin/lesspipe.sh
-/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-txz}
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD.txz

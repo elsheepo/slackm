@@ -9,7 +9,7 @@ if [ "$TMP" = "" ]; then
   TMP=/tmp
 fi
 
-BUILD=1
+BUILD=2sml
 APP=lm-sensors
 VERSION=3.3.5
 PKG=$TMP/package-$APP
@@ -61,11 +61,7 @@ echo "Stripping binaries and shared objects, if any..."
 find $PKG/usr/man -type f -exec gzip -9 {} \;                                              
 for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
                                                                                  
-rm -f $PKG/usr/info/dir      
-gzip -9 $PKG/usr/info/*.info*
+mkdir -p $PKG/install
 
-mkdir -p $PKG/install                                                                                             
-cat $CWD/slack-desc > $PKG/install/slack-desc                                                                     
-cat $CWD/doinst.sh > $PKG/install/doinst.sh
-
-/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-$BUILD-sml.txz 
+cd $PKG
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-$BUILD.txz 

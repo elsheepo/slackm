@@ -8,8 +8,8 @@
 
 PRGNAM=coreutils
 VERSION=${VERSION:-8.24}
-BUILD=${BUILD:-1}
-TAG=${TAG:-_sml}
+BUILD=${BUILD:-2}
+TAG=${TAG:-sml}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in

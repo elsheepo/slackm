@@ -6,7 +6,7 @@
 
 PKGNAM=htop
 VERSION=2.2.0
-BUILD=${BUILD:-1}
+BUILD=${BUILD:-2sml}
 
 if [ -z "$ARCH" ]; then                                                                    
   case "$( uname -m )" in                                                                  
@@ -69,7 +69,6 @@ gzip -9 $PKG/usr/info/*.info*
 
 mkdir -p $PKG/install                                                                                          
 cat $CWD/slack-desc > $PKG/install/slack-desc                                                                     
-cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/$PKGNAM-$VERSION-$ARCH-$BUILD-sml.txz
+/sbin/makepkg -l y -c n $TMP/$PKGNAM-$VERSION-$ARCH-$BUILD.txz

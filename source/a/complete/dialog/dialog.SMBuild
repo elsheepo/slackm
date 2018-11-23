@@ -9,8 +9,8 @@
 JOBS=${JOBS:-2}
 PRGNAM=dialog-1.3
 VERSION=${VERSION:-20170509}
-BUILD=${BUILD:-1}
-TAG=${TAG:-_sml}
+BUILD=${BUILD:-2}
+TAG=${TAG:-sml}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -52,7 +52,6 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-LDFLAGS="-lncurses -lterminfo" \
   ./configure \
   --prefix=/usr \
   --mandir=/usr/man \
@@ -71,20 +70,6 @@ echo "Stripping binaries and shared objects, if any..."
 
 find $PKG/usr/man -type f -exec gzip -9 {} \;
 for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
-
-rm -f $PKG/usr/info/dir
-gzip -9 $PKG/usr/info/*.info*
-
-find $PKG -name perllocal.pod \
-  -o -name ".packlist" \
-  -o -name "*.bs" \
-  | xargs rm -f
-
-mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp -a \
-  CHANGES COPYING README VERSION \
-  $PKG/usr/doc/$PRGNAM-$VERSION
-cat $CWD/$PRGNAM.SMBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SMBuild
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc

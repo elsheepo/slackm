@@ -6,11 +6,11 @@
 # 0. You just DO WHATEVER YOU WANT TO.
 #    As simple as that. 
 
-BUILD=${BUILD:-1}
+BUILD=${BUILD:-2}
 JOBS="-j2"
 PRGNAM=parted
 VERSION=${VERSION:-3.2}
-TAG=${TAG:-_sml}
+TAG=${TAG:-sml}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -55,15 +55,14 @@ find -L . \
 zcat $CWD/parted.configure.diff.gz | patch -p1 || exit 1
 patch -p1 < $CWD/fix-includes.patch
 
-CFLAGS="-D_GNU_SOURCE -Dloff_t=off_t" \
+CFLAGS="-D_GNU_SOURCE" \
   ./configure \
   --prefix=/usr \
   --sbindir=/bin \
   --libdir=/usr/lib \
   --mandir=/usr/man \
   --disable-debug \
-  --disable-nls \
-  --without-readline 
+  --disable-nls 
 
 make $JOBS V=s 
 make install DESTDIR=$PKG 
@@ -76,19 +75,10 @@ echo "Stripping binaries and shared objects, if any..."
 find $PKG/usr/man -type f -exec gzip -9 {} \;
 for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
 
-rm -f $PKG/usr/info/dir
-gzip -9 $PKG/usr/info/*.info*
-
 find $PKG -name perllocal.pod \
   -o -name ".packlist" \
   -o -name "*.bs" \
   | xargs rm -f
-
-mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp -a \
-  AUTHORS COPYING ChangeLog INSTALL NEWS README THANKS TODO doc \
-  $PKG/usr/doc/$PRGNAM-$VERSION
-cat $CWD/$PRGNAM.SMBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SMBuild
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc

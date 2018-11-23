@@ -6,10 +6,10 @@
 # 0. You just DO WHATEVER YOU WANT TO.
 #    As simple as that. 
 
-BUILD=${BUILD:-1}
+BUILD=${BUILD:-2}
 JOBS="-j2"
 PRGNAM=util-linux
-VERSION=${VERSION:-2.28}
+VERSION=${VERSION:-2.33}
 TAG=${TAG:-sml}
 
 if [ -z "$ARCH" ]; then
@@ -54,7 +54,6 @@ find -L . \
 
 
 # We build binaries and libs that are dynamically-linked first
-LIBS="-lncurses -lterminfo" \
  ./configure \
   --prefix=/usr \
   --libdir=/usr/lib \
@@ -72,7 +71,8 @@ LIBS="-lncurses -lterminfo" \
   --disable-su \
   --disable-more \
   --disable-pg \
-  --without-python
+  --without-python \
+  --without-tinfo 
 
 make $JOBS V=s || exit 1
 make install DESTDIR=$PKG || exit 1
@@ -84,7 +84,7 @@ tar xvf $CWD/$PRGNAM-$VERSION.tar.xz || exit 1
 cd $PRGNAM-$VERSION || exit 1 
 
 CFLAGS="-D_GNU_SOURCE" \
-LDFLAGS="--static -lncurses -lterminfo" \
+LDFLAGS="--static" \
  ./configure \
   --prefix=/usr \
   --libdir=/usr/lib \
@@ -103,7 +103,8 @@ LDFLAGS="--static -lncurses -lterminfo" \
   --disable-su \
   --disable-more \
   --disable-pg \
-  --without-python 
+  --without-python \
+  --without-tinfo 
   
 make $JOBS V=s || exit 1
 make install DESTDIR=$PKG || exit 1

@@ -6,11 +6,11 @@
 # 0. You just DO WHATEVER YOU WANT TO.
 #    As simple as that. 
 
-BUILD=${BUILD:-1}
+BUILD=${BUILD:-2}
 JOBS="-j2"
 PRGNAM=testdisk
 VERSION=${VERSION:-7.1-WIP}
-TAG=${TAG:-_sml}
+TAG=${TAG:-sml}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -53,7 +53,6 @@ find -L . \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
 CC="gcc -static -O3 -fPIC" \
-LIBS="-lncurses -lterminfo" \
 ./configure \
   --prefix=/usr \
   --libdir=/usr/lib \
@@ -71,21 +70,6 @@ echo "Stripping binaries and shared objects, if any..."
 
 find $PKG/usr/man -type f -exec gzip -9 {} \;
 for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
-
-rm -f $PKG/usr/info/dir
-gzip -9 $PKG/usr/info/*.info*
-
-find $PKG -name perllocal.pod \
-  -o -name ".packlist" \
-  -o -name "*.bs" \
-  | xargs rm -f
-
-mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp -a \
-  AUTHORS COPYING ChangeLog INSTALL NEWS README_dev_photorec.txt \
-    README.md THANKS *.txt \
-  $PKG/usr/doc/$PRGNAM-$VERSION
-cat $CWD/$PRGNAM.SMBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SMBuild
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc

@@ -2,7 +2,7 @@
 
 PKGNAM=ncurses
 VERSION=${VERSION:-$(echo $PKGNAM-*.tar.?z | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
-BUILD=${BUILD:-1sml}
+BUILD=${BUILD:-2sml}
 
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
@@ -34,7 +34,7 @@ else
 fi
 
 ncurses_configure() {
-CFLAGS="$SLKCFLAGS" \
+CFLAGS="-D_GNU_SOURCE $SLKCFLAGS" \
 ./configure \
   --prefix=/usr \
   --libdir=/usr/lib${LIBDIRSUFFIX} \
@@ -43,7 +43,6 @@ CFLAGS="$SLKCFLAGS" \
   --disable-termcap \
   --with-shared \
   --with-cxx-shared \
-  --without-normal \
   --without-debug \
   --without-profile \
   --enable-symlinks \
