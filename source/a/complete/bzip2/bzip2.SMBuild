@@ -9,7 +9,7 @@
 PRGNAM=bzip2
 VERSION=${VERSION:-1.0.6}
 BUILD=${BUILD:-1}
-TAG=${TAG:-_sml}
+TAG=${TAG:-sml}
 SOLIB=1.0.6
 
 if [ -z "$ARCH" ]; then

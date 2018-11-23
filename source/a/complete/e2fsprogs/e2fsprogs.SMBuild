@@ -10,7 +10,7 @@ BUILD=${BUILD:-1}
 JOBS=${JOBS:-j2}
 PRGNAM=e2fsprogs
 VERSION=${VERSION:-1.42.13}
-TAG=${TAG:-_sml}
+TAG=${TAG:-sml}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in

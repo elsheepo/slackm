@@ -116,7 +116,7 @@ cp -a \
   $PKG/usr/doc/tar-$VERSION
 
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/tar-$VERSION-$ARCH-$BUILD-sml.txz
+/sbin/makepkg -l y -c n $TMP/tar-$VERSION-$ARCH-"$BUILD"sml.txz
 
 # Clean up the extra stuff:
 if [ "$1" = "--cleanup" ]; then

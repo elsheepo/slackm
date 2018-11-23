@@ -5,7 +5,7 @@
 #    As simple as that.  
 
 VERSION=${VERSION:-$(echo pciutils-*.tar.xz | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
-BUILD=${BUILD:-1}
+BUILD=${BUILD:-1sml}
 
 if [ -z "$ARCH" ]; then                                                                    
   case "$( uname -m )" in                                                        
@@ -103,4 +103,4 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/pciutils-$VERSION-$ARCH-$BUILD-sml.txz
+/sbin/makepkg -l y -c n $TMP/pciutils-$VERSION-$ARCH-$BUILD.txz

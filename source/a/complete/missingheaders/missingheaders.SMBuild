@@ -27,4 +27,4 @@ mkdir -p $PKG/install
 mkdir -p $PKG/usr/include/sys
 cp $CWD/stab.h $CWD/cdefs.h $CWD/queue.h $CWD/tree.h $PKG/usr/include/sys/
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-noarch-$BUILD-sml.txz 
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-noarch-"$BUILD"sml.txz 

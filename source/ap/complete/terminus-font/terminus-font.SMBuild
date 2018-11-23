@@ -6,7 +6,7 @@
 
 PKGNAM=terminus-font
 VERSION=${VERSION:-$(echo $PKGNAM-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d - | rev)}
-BUILD=1
+BUILD=1sml
 
 if [ -z "$ARCH" ]; then                                                                    
   case "$( uname -m )" in                                                        
@@ -69,4 +69,4 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/$PKGNAM-$VERSION-noarch-$BUILD-sml.txz
+/sbin/makepkg -l y -c n $TMP/$PKGNAM-$VERSION-noarch-$BUILD.txz

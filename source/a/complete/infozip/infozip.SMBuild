@@ -89,7 +89,7 @@ done
 cd ..
 
 cd $PKG
-makepkg -l y -c n $TMP/infozip-$VERSION-$ARCH-$BUILD-sml.txz
+makepkg -l y -c n $TMP/infozip-$VERSION-$ARCH-"$BUILD"sml.txz
 
 # Clean up the extra stuff:
 if [ "$1" = "--cleanup" ]; then

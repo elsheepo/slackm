@@ -16,7 +16,7 @@ PKG=$TMP/package-pkgtools
 # *** UPDATE THESE WITH EACH BUILD:
 VERSION=14.1
 ARCH=${ARCH:-noarch}
-BUILD=1-sml
+BUILD=1sml
 
 if [ ! -d $TMP ]; then
   mkdir -p $TMP # location to build the source

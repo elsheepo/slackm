@@ -69,7 +69,7 @@ cp -a \
 chmod 0644 $PKG/usr/doc/sysklogd-$VERSION/*
 
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/sysklogd-$VERSION-$ARCH-$BUILD-sml.txz
+/sbin/makepkg -l y -c n $TMP/sysklogd-$VERSION-$ARCH-"$BUILD"sml.txz
 
 # Clean up the extra stuff:
 if [ "$1" = "--cleanup" ]; then

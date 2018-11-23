@@ -64,4 +64,4 @@ rm -f $PKG/usr/info/dir
 gzip -9 $PKG/usr/info/*.info*  
 
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-$BUILD-sml.txz 
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-"$BUILD"sml.txz 

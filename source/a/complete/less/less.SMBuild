@@ -10,7 +10,7 @@ BUILD=${BUILD:-2sml}
 JOBS="-j2"
 PRGNAM=less
 VERSION=${VERSION:-471}
-TAG=${TAG:-_sml}
+TAG=${TAG:-sml}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in

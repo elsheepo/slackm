@@ -102,4 +102,4 @@ make CC="gcc -static" $PREFIXED_PATHS AUXDIR="/usr/lib/syslinux/bios" INSTALLROO
 cd $PKG
 mkdir -p $PKG/boot/boot/syslinux
 cp $CWD/syslinux.cfg.slackmlinux $PKG/boot/boot/syslinux/
-/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-$BUILD-sml.txz 
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-"$BUILD"sml.txz 

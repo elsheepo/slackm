@@ -220,5 +220,5 @@ fi
 install -vpm644 $CWD/slack-desc $PKG/install/
 
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/$PKGNAM-$VERSION-$ARCH-$BUILD-sml.txz
+/sbin/makepkg -l y -c n $TMP/$PKGNAM-$VERSION-$ARCH-"$BUILD"sml.txz
 

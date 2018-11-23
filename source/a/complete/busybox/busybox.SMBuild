@@ -9,7 +9,7 @@
 PRGNAM=busybox
 VERSION=${VERSION:-1.29.3}
 BUILD=${BUILD:-1}
-TAG=${TAG:-_sml}
+TAG=${TAG:-sml}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
