@@ -17,6 +17,7 @@ if [ -z "$ARCH" ]; then
   esac                                        
 fi
 
+BUILD=1sml
 APP=nettle
 VERSION=3.1
 PKG=$TMP/package-$APP
@@ -75,4 +76,4 @@ cat $CWD/doinst.sh > $PKG/install/doinst.sh
                                                                                            
 cd $PKG
 
-/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-sml.txz
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-$BUILD.txz

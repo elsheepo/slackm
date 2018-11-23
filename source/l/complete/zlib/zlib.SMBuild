@@ -6,7 +6,7 @@
 
 PKGNAM=zlib
 VERSION=1.2.8 
-BUILD=${BUILD:-1}
+BUILD=${BUILD:-1sml}
 
 if [ -z "$ARCH" ]; then                                                                    
   case "$( uname -m )" in                                                        
@@ -79,4 +79,4 @@ if [ -r ChangeLog ]; then
 fi
 
 cd $PKG
-makepkg -l y -c n $TMP/zlib-$VERSION-$ARCH-$BUILD-sml.txz
+makepkg -l y -c n $TMP/zlib-$VERSION-$ARCH-$BUILD.txz

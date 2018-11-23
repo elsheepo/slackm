@@ -20,7 +20,7 @@ if [ -z "$ARCH" ]; then
   esac                                        
 fi 
 
-BUILD=1-sml
+BUILD=1sml
 APP=libvorbis
 VERSION=1.3.3
 PKG=$TMP/package-$APP

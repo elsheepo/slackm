@@ -17,7 +17,7 @@ if [ -z "$ARCH" ]; then
   esac                                        
 fi
 
-BUILD=1-sml
+BUILD=1sml
 APP=libtheora
 VERSION=1.1.1
 PKG=$TMP/package-$APP

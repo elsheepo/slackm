@@ -17,7 +17,7 @@ if [ -z "$ARCH" ]; then
   esac                         
 fi 
 
-BUILD=1
+BUILD=1sml
 APP=attr
 VERSION=2.4.47.src
 PKG=$TMP/package-$APP
@@ -78,4 +78,4 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh        
                                              
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/$APP-2.4.47-$ARCH-$BUILD-sml.txz 
+/sbin/makepkg -l y -c n $TMP/$APP-2.4.47-$ARCH-$BUILD.txz 

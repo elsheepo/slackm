@@ -17,7 +17,7 @@ if [ -z "$ARCH" ]; then
   esac                                        
 fi  
 
-BUILD=1-sml
+BUILD=1sml
 APP=libwebp
 VERSION=1.0.0
 PKG=$TMP/package-$APP

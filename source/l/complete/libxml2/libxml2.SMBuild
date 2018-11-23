@@ -19,7 +19,7 @@ fi
 
 # Depends on util-linux's uuid library, jansson library
 
-BUILD=1
+BUILD=1sml
 APP=libxml2
 VERSION=2.9.4
 PKG=$TMP/package-$APP
@@ -79,4 +79,4 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh                                                                       
                                                                                            
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-$BUILD-sml.txz 
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-$BUILD.txz 

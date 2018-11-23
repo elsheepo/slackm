@@ -17,7 +17,7 @@ if [ -z "$ARCH" ]; then
   esac                                        
 fi 
 
-BUILD=1
+BUILD=1sml
 APP=ninja
 VERSION=1.8.2
 PKG=$TMP/package-$APP
@@ -65,4 +65,4 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh                                                                       
                                                                                            
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-$BUILD-sml.txz 
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-$BUILD.txz 

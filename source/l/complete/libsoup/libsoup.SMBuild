@@ -17,7 +17,7 @@ if [ -z "$ARCH" ]; then
   esac                                        
 fi
 
-BUILD=1-sml
+BUILD=1sml
 APP=libsoup
 VERSION=2.52.2
 PKG=$TMP/package-$APP

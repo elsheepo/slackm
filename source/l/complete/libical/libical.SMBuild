@@ -9,7 +9,7 @@
 PRGNAM=libical
 VERSION=${VERSION:-2.0.0}
 BUILD=${BUILD:-1}
-TAG=${TAG:-_sml}
+TAG=${TAG:-sml}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
