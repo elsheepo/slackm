@@ -9,7 +9,7 @@ if [ "$TMP" = "" ]; then
   TMP=/tmp
 fi
 VERSION=0.1
-BUILD=10
+BUILD=11
 APP=etc
 PKG=$TMP/package-$APP
 TAG=sml
@@ -26,4 +26,4 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 
 # Build the package:
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-noarch-$BUILD-$TAG.txz 
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-noarch-$BUILD$TAG.txz 
