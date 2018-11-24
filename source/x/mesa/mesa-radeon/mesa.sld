@@ -1,7 +1,6 @@
 #!/bin/sh
 
-. /etc/compiler.vars
-
+ARCH=x86_64
 CWD=$(pwd)
 if [ "$TMP" = "" ]; then
   TMP=/tmp
@@ -10,7 +9,7 @@ fi
 # Requires freeglut, glu and glew packages in source/x
 # Also dri2proto in source/x/proto
 
-BUILD=3
+BUILD=3sml
 APP=mesa
 VERSION=18.2.4
 DEMOVERS=8.3.0
@@ -66,7 +65,7 @@ CPPFLAGS="-D_GNU_SOURCE -I $PWD/include/c11" \
 
 echo true > bin/missing
 
-make $jobs || exit
+make -j2 || exit
 make install DESTDIR=$PKG
 
 strdoc

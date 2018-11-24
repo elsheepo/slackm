@@ -1,0 +1,106 @@
+#!/bin/sh
+
+# Slackware build script for firefox
+# DO WHATEVER YOU WANT TO PUBLIC LICENSE
+# 0. You just DO WHATEVER YOU WANT TO.
+#    As simple as that.
+
+CWD=$(pwd)
+if [ "$TMP" = "" ]; then
+  TMP=/tmp
+fi
+
+BUILD=1sml
+APP=firefox
+VERSION=52.0esr.source
+PKG=$TMP/package-$APP
+
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) ARCH=i586 ;;
+    arm*) ARCH=arm ;;
+       *) ARCH=$( uname -m ) ;; 
+  esac
+fi
+
+if [ "$ARCH" = "i586" ]; then           
+  SLKCFLAGS="-O2 -march=i586 -mtune=i686"
+  LIBDIRSUFFIX=""                        
+elif [ "$ARCH" = "i686" ]; then          
+  SLKCFLAGS="-O2 -march=i686 -mtune=i686"
+  LIBDIRSUFFIX=""                        
+elif [ "$ARCH" = "x86_64" ]; then        
+  SLKCFLAGS="-O2 -fPIC"                  
+  LIBDIRSUFFIX=""                        
+else                                     
+  SLKCFLAGS="-O2"                        
+  LIBDIRSUFFIX=""                        
+fi 
+
+rm -rf $PKG
+mkdir -p $TMP $PKG
+rm -rf $TMP/$APP-$VERSION
+rm -rf $TMP/firefox-52.0esr
+
+cd $TMP || exit
+tar -xvf $CWD/$APP-$VERSION.tar.?z || exit 1
+cd $APP-52.0esr
+chown -R root:root .
+
+patch -p1 < $CWD/firefox-disable-hunspell_hooks.patch || exit 1
+patch -p1 < $CWD/firefox-disable-moz-stackwalk.patch || exit 1
+patch -p1 < $CWD/firefox-finite.patch || exit 1
+patch -p1 < $CWD/firefox-fix-arm-atomics-grsec.patch || exit 1
+patch -p1 < $CWD/firefox-fix-arm-version-detect.patch || exit 1
+patch -p1 < $CWD/firefox-fix-toolkit.patch || exit 1
+patch -p1 < $CWD/firefox-fix-tools.patch || exit 1
+patch -p1 < $CWD/firefox-getprotobyname_r.patch || exit 1
+patch -p1 < $CWD/firefox45-libavutil.patch || exit 1
+patch -p1 < $CWD/firefox45-mallinfo.patch || exit 1
+patch -p1 < $CWD/firefox45-seccomp-bpf.patch || exit 1
+
+cd build
+../configure \
+--prefix="/usr" \
+--disable-pulseaudio \
+--enable-alsa \
+--disable-necko-wifi \
+--enable-official-branding \
+--libdir=/usr/lib \
+--enable-application=browser \
+--enable-default-toolkit=cairo-gtk2 \
+--disable-startup-notification \
+--enable-strip \
+--enable-cpp-rtti \
+--disable-tests \
+--disable-printing \
+--disable-gio \
+--disable-dbus \
+--disable-gconf \
+--disable-accessibility \
+--disable-crashreporter \
+--disable-webrtc \
+--disable-jemalloc \
+--disable-callgrind || exit 1
+
+make -j2 || exit 1
+make install DESTDIR=$PKG
+
+cd $PKG                                       
+echo "Stripping binaries and shared objects, if any..."
+ find . | xargs file | grep "executable" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+ find . | xargs file | grep "shared object" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+
+# sabotage linux does a cleanup of the headers and the
+# /usr/bin/firefox script, replacing it with another script
+# that has LD_LIBRARY_PATH set for correct finding of libs
+# at runtime. So we follow suit.
+
+mkdir -p "$PKG"/usr/bin
+rm -rf "$PKG"/include "$PKG"/lib/firefox-devel-52.0
+rm -f "$PKG"/usr/bin/firefox
+cp "$CWD"/firefox "$PKG"/usr/bin/
+chmod +x "$PKG"/usr/bin/firefox
+
+cd $PKG
+/sbin/makepkg -l y -c n $TMP/firefox-52.0esr-$ARCH-$BUILD.txz 

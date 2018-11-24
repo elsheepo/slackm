@@ -1,0 +1,4316 @@
+xorg-server-1.20.3/
+xorg-server-1.20.3/record/
+xorg-server-1.20.3/record/set.c
+xorg-server-1.20.3/record/record.c
+xorg-server-1.20.3/record/set.h
+xorg-server-1.20.3/record/Makefile.am
+xorg-server-1.20.3/record/meson.build
+xorg-server-1.20.3/record/Makefile.in
+xorg-server-1.20.3/xorg-server.m4
+xorg-server-1.20.3/configure
+xorg-server-1.20.3/aclocal.m4
+xorg-server-1.20.3/composite/
+xorg-server-1.20.3/composite/compalloc.c
+xorg-server-1.20.3/composite/compwindow.c
+xorg-server-1.20.3/composite/compinit.c
+xorg-server-1.20.3/composite/compext.c
+xorg-server-1.20.3/composite/compint.h
+xorg-server-1.20.3/composite/Makefile.am
+xorg-server-1.20.3/composite/meson.build
+xorg-server-1.20.3/composite/Makefile.in
+xorg-server-1.20.3/composite/compoverlay.c
+xorg-server-1.20.3/composite/compositeext.h
+xorg-server-1.20.3/pseudoramiX/
+xorg-server-1.20.3/pseudoramiX/pseudoramiX.h
+xorg-server-1.20.3/pseudoramiX/Makefile.am
+xorg-server-1.20.3/pseudoramiX/meson.build
+xorg-server-1.20.3/pseudoramiX/Makefile.in
+xorg-server-1.20.3/pseudoramiX/pseudoramiX.c
+xorg-server-1.20.3/dbe/
+xorg-server-1.20.3/dbe/midbe.h
+xorg-server-1.20.3/dbe/Makefile.am
+xorg-server-1.20.3/dbe/meson.build
+xorg-server-1.20.3/dbe/dbe.c
+xorg-server-1.20.3/dbe/Makefile.in
+xorg-server-1.20.3/dbe/dbestruct.h
+xorg-server-1.20.3/dbe/midbe.c
+xorg-server-1.20.3/xorg-server.pc.in
+xorg-server-1.20.3/devbook.am
+xorg-server-1.20.3/man/
+xorg-server-1.20.3/man/Xserver.man
+xorg-server-1.20.3/man/Makefile.am
+xorg-server-1.20.3/man/Makefile.in
+xorg-server-1.20.3/glamor/
+xorg-server-1.20.3/glamor/glamor_triangles.c
+xorg-server-1.20.3/glamor/glamor_dash.c
+xorg-server-1.20.3/glamor/glamor_vbo.c
+xorg-server-1.20.3/glamor/glamor_largepixmap.c
+xorg-server-1.20.3/glamor/glamor_transfer.c
+xorg-server-1.20.3/glamor/glamor_sync.c
+xorg-server-1.20.3/glamor/glamor_egl_ext.h
+xorg-server-1.20.3/glamor/glamor_transform.h
+xorg-server-1.20.3/glamor/glamor_lines.c
+xorg-server-1.20.3/glamor/glamor_fbo.c
+xorg-server-1.20.3/glamor/glamor_font.c
+xorg-server-1.20.3/glamor/glamor_gradient.c
+xorg-server-1.20.3/glamor/glamor_composite_glyphs.c
+xorg-server-1.20.3/glamor/glamor_eglmodule.c
+xorg-server-1.20.3/glamor/glamor_program.h
+xorg-server-1.20.3/glamor/glamor_trapezoid.c
+xorg-server-1.20.3/glamor/glamor_text.c
+xorg-server-1.20.3/glamor/glamor_egl.c
+xorg-server-1.20.3/glamor/glamor_utils.h
+xorg-server-1.20.3/glamor/glamor_transform.c
+xorg-server-1.20.3/glamor/glamor_priv.h
+xorg-server-1.20.3/glamor/glamor_egl.h
+xorg-server-1.20.3/glamor/Makefile.am
+xorg-server-1.20.3/glamor/meson.build
+xorg-server-1.20.3/glamor/glamor_glyphblt.c
+xorg-server-1.20.3/glamor/glamor_segs.c
+xorg-server-1.20.3/glamor/glamor_glx.c
+xorg-server-1.20.3/glamor/glamor_addtraps.c
+xorg-server-1.20.3/glamor/glamor_font.h
+xorg-server-1.20.3/glamor/glamor_render.c
+xorg-server-1.20.3/glamor/glamor_transfer.h
+xorg-server-1.20.3/glamor/glamor.h
+xorg-server-1.20.3/glamor/glamor.c
+xorg-server-1.20.3/glamor/glamor_debug.h
+xorg-server-1.20.3/glamor/glamor_prepare.c
+xorg-server-1.20.3/glamor/Makefile.in
+xorg-server-1.20.3/glamor/glamor_compositerects.c
+xorg-server-1.20.3/glamor/glamor_context.h
+xorg-server-1.20.3/glamor/glamor_xv.c
+xorg-server-1.20.3/glamor/glamor_rects.c
+xorg-server-1.20.3/glamor/glamor_utils.c
+xorg-server-1.20.3/glamor/glamor_pixmap.c
+xorg-server-1.20.3/glamor/glamor_picture.c
+xorg-server-1.20.3/glamor/glamor_image.c
+xorg-server-1.20.3/glamor/glamor_program.c
+xorg-server-1.20.3/glamor/glamor_copy.c
+xorg-server-1.20.3/glamor/glamor_core.c
+xorg-server-1.20.3/glamor/glamor_window.c
+xorg-server-1.20.3/glamor/glamor_spans.c
+xorg-server-1.20.3/glamor/glamor_prepare.h
+xorg-server-1.20.3/glamor/glamor_points.c
+xorg-server-1.20.3/glamor/glamor_egl_stubs.c
+xorg-server-1.20.3/install-sh
+xorg-server-1.20.3/README
+xorg-server-1.20.3/miext/
+xorg-server-1.20.3/miext/damage/
+xorg-server-1.20.3/miext/damage/Makefile.am
+xorg-server-1.20.3/miext/damage/meson.build
+xorg-server-1.20.3/miext/damage/damagestr.h
+xorg-server-1.20.3/miext/damage/damage.c
+xorg-server-1.20.3/miext/damage/Makefile.in
+xorg-server-1.20.3/miext/damage/damage.h
+xorg-server-1.20.3/miext/rootless/
+xorg-server-1.20.3/miext/rootless/rootlessCommon.c
+xorg-server-1.20.3/miext/rootless/rootlessScreen.c
+xorg-server-1.20.3/miext/rootless/rootless.h
+xorg-server-1.20.3/miext/rootless/rootlessValTree.c
+xorg-server-1.20.3/miext/rootless/README.txt
+xorg-server-1.20.3/miext/rootless/Makefile.am
+xorg-server-1.20.3/miext/rootless/rootlessWindow.h
+xorg-server-1.20.3/miext/rootless/rootlessGC.c
+xorg-server-1.20.3/miext/rootless/Makefile.in
+xorg-server-1.20.3/miext/rootless/rootlessWindow.c
+xorg-server-1.20.3/miext/rootless/rootlessCommon.h
+xorg-server-1.20.3/miext/rootless/rootlessConfig.h
+xorg-server-1.20.3/miext/shadow/
+xorg-server-1.20.3/miext/shadow/shrot16pack_270.c
+xorg-server-1.20.3/miext/shadow/shiplan2p4.c
+xorg-server-1.20.3/miext/shadow/shpacked.c
+xorg-server-1.20.3/miext/shadow/shrotate.c
+xorg-server-1.20.3/miext/shadow/shafb8.c
+xorg-server-1.20.3/miext/shadow/shrot16pack.c
+xorg-server-1.20.3/miext/shadow/shrot16pack_180.c
+xorg-server-1.20.3/miext/shadow/shafb4.c
+xorg-server-1.20.3/miext/shadow/sh3224.c
+xorg-server-1.20.3/miext/shadow/shrot8pack_90.c
+xorg-server-1.20.3/miext/shadow/shrot32pack.c
+xorg-server-1.20.3/miext/shadow/c2p_core.h
+xorg-server-1.20.3/miext/shadow/Makefile.am
+xorg-server-1.20.3/miext/shadow/shrot32pack_90.c
+xorg-server-1.20.3/miext/shadow/meson.build
+xorg-server-1.20.3/miext/shadow/shrot8pack.c
+xorg-server-1.20.3/miext/shadow/shrot8pack_180.c
+xorg-server-1.20.3/miext/shadow/shrot8pack_270.c
+xorg-server-1.20.3/miext/shadow/shrotpackYX.h
+xorg-server-1.20.3/miext/shadow/Makefile.in
+xorg-server-1.20.3/miext/shadow/shplanar8.c
+xorg-server-1.20.3/miext/shadow/shrot32pack_270.c
+xorg-server-1.20.3/miext/shadow/shadow.h
+xorg-server-1.20.3/miext/shadow/shrot16pack_90.c
+xorg-server-1.20.3/miext/shadow/shplanar.c
+xorg-server-1.20.3/miext/shadow/shrot16pack_90YX.c
+xorg-server-1.20.3/miext/shadow/shiplan2p8.c
+xorg-server-1.20.3/miext/shadow/shadow.c
+xorg-server-1.20.3/miext/shadow/shrot32pack_180.c
+xorg-server-1.20.3/miext/shadow/shrot16pack_270YX.c
+xorg-server-1.20.3/miext/shadow/shrotpack.h
+xorg-server-1.20.3/miext/Makefile.am
+xorg-server-1.20.3/miext/Makefile.in
+xorg-server-1.20.3/miext/sync/
+xorg-server-1.20.3/miext/sync/misyncstr.h
+xorg-server-1.20.3/miext/sync/Makefile.am
+xorg-server-1.20.3/miext/sync/meson.build
+xorg-server-1.20.3/miext/sync/misyncfd.c
+xorg-server-1.20.3/miext/sync/misyncshm.h
+xorg-server-1.20.3/miext/sync/Makefile.in
+xorg-server-1.20.3/miext/sync/misyncshm.c
+xorg-server-1.20.3/miext/sync/misyncfd.h
+xorg-server-1.20.3/miext/sync/misync.h
+xorg-server-1.20.3/miext/sync/misync.c
+xorg-server-1.20.3/config.guess
+xorg-server-1.20.3/Xi/
+xorg-server-1.20.3/Xi/chgptr.c
+xorg-server-1.20.3/Xi/opendev.c
+xorg-server-1.20.3/Xi/queryst.h
+xorg-server-1.20.3/Xi/setbmap.c
+xorg-server-1.20.3/Xi/xiselectev.c
+xorg-server-1.20.3/Xi/xigetclientpointer.h
+xorg-server-1.20.3/Xi/grabdevb.h
+xorg-server-1.20.3/Xi/ungrdevk.h
+xorg-server-1.20.3/Xi/xiselectev.h
+xorg-server-1.20.3/Xi/devbell.h
+xorg-server-1.20.3/Xi/chgfctl.h
+xorg-server-1.20.3/Xi/gtmotion.c
+xorg-server-1.20.3/Xi/devbell.c
+xorg-server-1.20.3/Xi/xichangehierarchy.c
+xorg-server-1.20.3/Xi/chgdctl.c
+xorg-server-1.20.3/Xi/ungrdev.h
+xorg-server-1.20.3/Xi/chgkbd.h
+xorg-server-1.20.3/Xi/setdval.c
+xorg-server-1.20.3/Xi/chgprop.h
+xorg-server-1.20.3/Xi/queryst.c
+xorg-server-1.20.3/Xi/xipassivegrab.h
+xorg-server-1.20.3/Xi/xigetclientpointer.c
+xorg-server-1.20.3/Xi/xiwarppointer.h
+xorg-server-1.20.3/Xi/listdev.c
+xorg-server-1.20.3/Xi/getfocus.c
+xorg-server-1.20.3/Xi/chgdctl.h
+xorg-server-1.20.3/Xi/xichangehierarchy.h
+xorg-server-1.20.3/Xi/xiallowev.c
+xorg-server-1.20.3/Xi/selectev.c
+xorg-server-1.20.3/Xi/getprop.c
+xorg-server-1.20.3/Xi/xiproperty.c
+xorg-server-1.20.3/Xi/sendexev.c
+xorg-server-1.20.3/Xi/extinit.c
+xorg-server-1.20.3/Xi/ungrdevb.c
+xorg-server-1.20.3/Xi/xiallowev.h
+xorg-server-1.20.3/Xi/xibarriers.c
+xorg-server-1.20.3/Xi/xiquerydevice.c
+xorg-server-1.20.3/Xi/selectev.h
+xorg-server-1.20.3/Xi/grabdev.c
+xorg-server-1.20.3/Xi/grabdevk.h
+xorg-server-1.20.3/Xi/grabdevk.c
+xorg-server-1.20.3/Xi/chgprop.c
+xorg-server-1.20.3/Xi/xiqueryversion.h
+xorg-server-1.20.3/Xi/getkmap.h
+xorg-server-1.20.3/Xi/stubs.c
+xorg-server-1.20.3/Xi/allowev.c
+xorg-server-1.20.3/Xi/getfctl.c
+xorg-server-1.20.3/Xi/xigrabdev.h
+xorg-server-1.20.3/Xi/setmode.h
+xorg-server-1.20.3/Xi/chgkbd.c
+xorg-server-1.20.3/Xi/xichangecursor.c
+xorg-server-1.20.3/Xi/xisetclientpointer.c
+xorg-server-1.20.3/Xi/ungrdevk.c
+xorg-server-1.20.3/Xi/exglobals.h
+xorg-server-1.20.3/Xi/xiwarppointer.c
+xorg-server-1.20.3/Xi/setfocus.h
+xorg-server-1.20.3/Xi/getbmap.h
+xorg-server-1.20.3/Xi/Makefile.am
+xorg-server-1.20.3/Xi/getdctl.c
+xorg-server-1.20.3/Xi/getfocus.h
+xorg-server-1.20.3/Xi/chgkmap.c
+xorg-server-1.20.3/Xi/meson.build
+xorg-server-1.20.3/Xi/xiquerydevice.h
+xorg-server-1.20.3/Xi/xipassivegrab.c
+xorg-server-1.20.3/Xi/xiproperty.h
+xorg-server-1.20.3/Xi/getfctl.h
+xorg-server-1.20.3/Xi/getkmap.c
+xorg-server-1.20.3/Xi/getmmap.h
+xorg-server-1.20.3/Xi/xichangecursor.h
+xorg-server-1.20.3/Xi/Makefile.in
+xorg-server-1.20.3/Xi/xigrabdev.c
+xorg-server-1.20.3/Xi/setmmap.c
+xorg-server-1.20.3/Xi/xibarriers.h
+xorg-server-1.20.3/Xi/getdctl.h
+xorg-server-1.20.3/Xi/getmmap.c
+xorg-server-1.20.3/Xi/grabdevb.c
+xorg-server-1.20.3/Xi/xisetclientpointer.h
+xorg-server-1.20.3/Xi/closedev.h
+xorg-server-1.20.3/Xi/getprop.h
+xorg-server-1.20.3/Xi/closedev.c
+xorg-server-1.20.3/Xi/exevents.c
+xorg-server-1.20.3/Xi/xisetdevfocus.h
+xorg-server-1.20.3/Xi/xiquerypointer.h
+xorg-server-1.20.3/Xi/listdev.h
+xorg-server-1.20.3/Xi/xisetdevfocus.c
+xorg-server-1.20.3/Xi/getbmap.c
+xorg-server-1.20.3/Xi/setbmap.h
+xorg-server-1.20.3/Xi/chgptr.h
+xorg-server-1.20.3/Xi/ungrdevb.h
+xorg-server-1.20.3/Xi/chgfctl.c
+xorg-server-1.20.3/Xi/setmode.c
+xorg-server-1.20.3/Xi/opendev.h
+xorg-server-1.20.3/Xi/getvers.c
+xorg-server-1.20.3/Xi/setmmap.h
+xorg-server-1.20.3/Xi/allowev.h
+xorg-server-1.20.3/Xi/chgkmap.h
+xorg-server-1.20.3/Xi/xiqueryversion.c
+xorg-server-1.20.3/Xi/sendexev.h
+xorg-server-1.20.3/Xi/getselev.h
+xorg-server-1.20.3/Xi/grabdev.h
+xorg-server-1.20.3/Xi/getselev.c
+xorg-server-1.20.3/Xi/setdval.h
+xorg-server-1.20.3/Xi/gtmotion.h
+xorg-server-1.20.3/Xi/xiquerypointer.c
+xorg-server-1.20.3/Xi/getvers.h
+xorg-server-1.20.3/Xi/setfocus.c
+xorg-server-1.20.3/Xi/ungrdev.c
+xorg-server-1.20.3/ylwrap
+xorg-server-1.20.3/mi/
+xorg-server-1.20.3/mi/mi.h
+xorg-server-1.20.3/mi/mizerarc.c
+xorg-server-1.20.3/mi/mizerclip.c
+xorg-server-1.20.3/mi/micopy.c
+xorg-server-1.20.3/mi/miscrinit.c
+xorg-server-1.20.3/mi/miline.h
+xorg-server-1.20.3/mi/mivalidate.h
+xorg-server-1.20.3/mi/mipolyseg.c
+xorg-server-1.20.3/mi/mivaltree.c
+xorg-server-1.20.3/mi/mipointrst.h
+xorg-server-1.20.3/mi/micoord.h
+xorg-server-1.20.3/mi/miexpose.c
+xorg-server-1.20.3/mi/mioverlay.c
+xorg-server-1.20.3/mi/mieq.c
+xorg-server-1.20.3/mi/mipolytext.c
+xorg-server-1.20.3/mi/miwideline.h
+xorg-server-1.20.3/mi/mioverlay.h
+xorg-server-1.20.3/mi/mipoly.c
+xorg-server-1.20.3/mi/miglblt.c
+xorg-server-1.20.3/mi/mibitblt.c
+xorg-server-1.20.3/mi/mifillarc.h
+xorg-server-1.20.3/mi/mipoly.h
+xorg-server-1.20.3/mi/misprite.c
+xorg-server-1.20.3/mi/miscanfill.h
+xorg-server-1.20.3/mi/mifillrct.c
+xorg-server-1.20.3/mi/micmap.h
+xorg-server-1.20.3/mi/mifpoly.h
+xorg-server-1.20.3/mi/migc.c
+xorg-server-1.20.3/mi/Makefile.am
+xorg-server-1.20.3/mi/meson.build
+xorg-server-1.20.3/mi/mipolyrect.c
+xorg-server-1.20.3/mi/migc.h
+xorg-server-1.20.3/mi/micmap.c
+xorg-server-1.20.3/mi/mipolypnt.c
+xorg-server-1.20.3/mi/misprite.h
+xorg-server-1.20.3/mi/Makefile.in
+xorg-server-1.20.3/mi/mizerline.c
+xorg-server-1.20.3/mi/mistruct.h
+xorg-server-1.20.3/mi/miarc.c
+xorg-server-1.20.3/mi/mifillarc.c
+xorg-server-1.20.3/mi/mipushpxl.c
+xorg-server-1.20.3/mi/midispcur.c
+xorg-server-1.20.3/mi/midash.c
+xorg-server-1.20.3/mi/miinitext.c
+xorg-server-1.20.3/mi/mipointer.c
+xorg-server-1.20.3/mi/mipointer.h
+xorg-server-1.20.3/mi/miwideline.c
+xorg-server-1.20.3/mi/mizerarc.h
+xorg-server-1.20.3/mi/miwindow.c
+xorg-server-1.20.3/doc/
+xorg-server-1.20.3/doc/smartsched
+xorg-server-1.20.3/doc/filter-xmlto.sh
+xorg-server-1.20.3/doc/dtrace/
+xorg-server-1.20.3/doc/dtrace/Xserver-DTrace.xml
+xorg-server-1.20.3/doc/dtrace/Makefile.am
+xorg-server-1.20.3/doc/dtrace/Makefile.in
+xorg-server-1.20.3/doc/Makefile.am
+xorg-server-1.20.3/doc/Xserver-spec.xml
+xorg-server-1.20.3/doc/Makefile.in
+xorg-server-1.20.3/doc/Xinput.xml
+xorg-server-1.20.3/test/
+xorg-server-1.20.3/test/tests.c
+xorg-server-1.20.3/test/test_xkb.c
+xorg-server-1.20.3/test/xi1/
+xorg-server-1.20.3/test/xi1/protocol-xchangedevicecontrol.c
+xorg-server-1.20.3/test/string.c
+xorg-server-1.20.3/test/xfree86.c
+xorg-server-1.20.3/test/tests.h
+xorg-server-1.20.3/test/touch.c
+xorg-server-1.20.3/test/README
+xorg-server-1.20.3/test/xi2/
+xorg-server-1.20.3/test/xi2/protocol-eventconvert.c
+xorg-server-1.20.3/test/xi2/protocol-xigetclientpointer.c
+xorg-server-1.20.3/test/xi2/protocol-common.c
+xorg-server-1.20.3/test/xi2/xi2.c
+xorg-server-1.20.3/test/xi2/protocol-xiquerydevice.c
+xorg-server-1.20.3/test/xi2/protocol-xiwarppointer.c
+xorg-server-1.20.3/test/xi2/protocol-xisetclientpointer.c
+xorg-server-1.20.3/test/xi2/protocol-xiqueryversion.c
+xorg-server-1.20.3/test/xi2/protocol-xiselectevents.c
+xorg-server-1.20.3/test/xi2/protocol-common.h
+xorg-server-1.20.3/test/xi2/protocol-xipassivegrabdevice.c
+xorg-server-1.20.3/test/xi2/protocol-xiquerypointer.c
+xorg-server-1.20.3/test/xi2/protocol-xigetselectedevents.c
+xorg-server-1.20.3/test/hashtabletest.c
+xorg-server-1.20.3/test/simple-xinit.c
+xorg-server-1.20.3/test/list.c
+xorg-server-1.20.3/test/fixes.c
+xorg-server-1.20.3/test/input.c
+xorg-server-1.20.3/test/Makefile.am
+xorg-server-1.20.3/test/meson.build
+xorg-server-1.20.3/test/scripts/
+xorg-server-1.20.3/test/scripts/run-piglit.sh
+xorg-server-1.20.3/test/scripts/xinit-piglit-session.sh
+xorg-server-1.20.3/test/scripts/xvfb-piglit.sh
+xorg-server-1.20.3/test/scripts/xephyr-glamor-piglit.sh
+xorg-server-1.20.3/test/tests-common.c
+xorg-server-1.20.3/test/Makefile.in
+xorg-server-1.20.3/test/tests-common.h
+xorg-server-1.20.3/test/bigreq/
+xorg-server-1.20.3/test/bigreq/meson.build
+xorg-server-1.20.3/test/bigreq/request-length.c
+xorg-server-1.20.3/test/xtest.c
+xorg-server-1.20.3/test/signal-logging.c
+xorg-server-1.20.3/test/misc.c
+xorg-server-1.20.3/test/sync/
+xorg-server-1.20.3/test/sync/sync.c
+xorg-server-1.20.3/test/sync/meson.build
+xorg-server-1.20.3/glx/
+xorg-server-1.20.3/glx/indirect_util.h
+xorg-server-1.20.3/glx/indirect_dispatch.c
+xorg-server-1.20.3/glx/singlesize.c
+xorg-server-1.20.3/glx/glxcmds.c
+xorg-server-1.20.3/glx/indirect_size.h
+xorg-server-1.20.3/glx/glxdriswrast.c
+xorg-server-1.20.3/glx/vndext.c
+xorg-server-1.20.3/glx/indirect_reqsize.h
+xorg-server-1.20.3/glx/unpack.h
+xorg-server-1.20.3/glx/vndcmds.c
+xorg-server-1.20.3/glx/singlepixswap.c
+xorg-server-1.20.3/glx/indirect_reqsize.c
+xorg-server-1.20.3/glx/render2swap.c
+xorg-server-1.20.3/glx/glxbyteorder.h
+xorg-server-1.20.3/glx/indirect_size_get.c
+xorg-server-1.20.3/glx/glxserver.h
+xorg-server-1.20.3/glx/vndserver.h
+xorg-server-1.20.3/glx/glxdrawable.h
+xorg-server-1.20.3/glx/glxdri2.c
+xorg-server-1.20.3/glx/glxdricommon.c
+xorg-server-1.20.3/glx/indirect_dispatch.h
+xorg-server-1.20.3/glx/glxscreens.c
+xorg-server-1.20.3/glx/glxext.h
+xorg-server-1.20.3/glx/indirect_texture_compression.c
+xorg-server-1.20.3/glx/indirect_table.h
+xorg-server-1.20.3/glx/vndservermapping.c
+xorg-server-1.20.3/glx/indirect_size_get.h
+xorg-server-1.20.3/glx/glxdricommon.h
+xorg-server-1.20.3/glx/single2swap.c
+xorg-server-1.20.3/glx/rensize.c
+xorg-server-1.20.3/glx/glxcmdsswap.c
+xorg-server-1.20.3/glx/vnd_dispatch_stubs.c
+xorg-server-1.20.3/glx/single2.c
+xorg-server-1.20.3/glx/Makefile.am
+xorg-server-1.20.3/glx/meson.build
+xorg-server-1.20.3/glx/extension_string.c
+xorg-server-1.20.3/glx/vndservervendor.h
+xorg-server-1.20.3/glx/clientinfo.c
+xorg-server-1.20.3/glx/glxscreens.h
+xorg-server-1.20.3/glx/extension_string.h
+xorg-server-1.20.3/glx/vndservervendor.c
+xorg-server-1.20.3/glx/glxext.c
+xorg-server-1.20.3/glx/Makefile.in
+xorg-server-1.20.3/glx/swap_interval.c
+xorg-server-1.20.3/glx/indirect_dispatch_swap.c
+xorg-server-1.20.3/glx/indirect_util.c
+xorg-server-1.20.3/glx/indirect_table.c
+xorg-server-1.20.3/glx/singlesize.h
+xorg-server-1.20.3/glx/singlepix.c
+xorg-server-1.20.3/glx/indirect_program.c
+xorg-server-1.20.3/glx/createcontext.c
+xorg-server-1.20.3/glx/render2.c
+xorg-server-1.20.3/glx/glxutil.h
+xorg-server-1.20.3/glx/renderpixswap.c
+xorg-server-1.20.3/glx/xfont.c
+xorg-server-1.20.3/glx/renderpix.c
+xorg-server-1.20.3/glx/glxcontext.h
+xorg-server-1.20.3/manpages.am
+xorg-server-1.20.3/present/
+xorg-server-1.20.3/present/present_vblank.c
+xorg-server-1.20.3/present/presentext.h
+xorg-server-1.20.3/present/present.c
+xorg-server-1.20.3/present/present_wnmd.c
+xorg-server-1.20.3/present/present_event.c
+xorg-server-1.20.3/present/present_priv.h
+xorg-server-1.20.3/present/Makefile.am
+xorg-server-1.20.3/present/meson.build
+xorg-server-1.20.3/present/present_execute.c
+xorg-server-1.20.3/present/Makefile.in
+xorg-server-1.20.3/present/present_scmd.c
+xorg-server-1.20.3/present/present.h
+xorg-server-1.20.3/present/present_screen.c
+xorg-server-1.20.3/present/present_request.c
+xorg-server-1.20.3/present/present_notify.c
+xorg-server-1.20.3/present/present_fence.c
+xorg-server-1.20.3/present/present_fake.c
+xorg-server-1.20.3/damageext/
+xorg-server-1.20.3/damageext/damageextint.h
+xorg-server-1.20.3/damageext/Makefile.am
+xorg-server-1.20.3/damageext/meson.build
+xorg-server-1.20.3/damageext/damageext.c
+xorg-server-1.20.3/damageext/Makefile.in
+xorg-server-1.20.3/dri3/
+xorg-server-1.20.3/dri3/dri3_request.c
+xorg-server-1.20.3/dri3/dri3.h
+xorg-server-1.20.3/dri3/dri3_screen.c
+xorg-server-1.20.3/dri3/dri3.c
+xorg-server-1.20.3/dri3/Makefile.am
+xorg-server-1.20.3/dri3/meson.build
+xorg-server-1.20.3/dri3/dri3_priv.h
+xorg-server-1.20.3/dri3/Makefile.in
+xorg-server-1.20.3/ltmain.sh
+xorg-server-1.20.3/include/
+xorg-server-1.20.3/include/dix-config-apple-verbatim.h
+xorg-server-1.20.3/include/glx_extinit.h
+xorg-server-1.20.3/include/xserver-properties.h
+xorg-server-1.20.3/include/registry.h
+xorg-server-1.20.3/include/pixmapstr.h
+xorg-server-1.20.3/include/eventstr.h
+xorg-server-1.20.3/include/os.h
+xorg-server-1.20.3/include/client.h
+xorg-server-1.20.3/include/optionstr.h
+xorg-server-1.20.3/include/displaymode.h
+xorg-server-1.20.3/include/swaprep.h
+xorg-server-1.20.3/include/xorg-server.h.in
+xorg-server-1.20.3/include/closestr.h
+xorg-server-1.20.3/include/xwin-config.h.meson.in
+xorg-server-1.20.3/include/regionstr.h
+xorg-server-1.20.3/include/xwin-config.h.in
+xorg-server-1.20.3/include/exevents.h
+xorg-server-1.20.3/include/resource.h
+xorg-server-1.20.3/include/window.h
+xorg-server-1.20.3/include/xkbfile.h
+xorg-server-1.20.3/include/Xprintf.h
+xorg-server-1.20.3/include/swapreq.h
+xorg-server-1.20.3/include/extinit.h
+xorg-server-1.20.3/include/scrnintstr.h
+xorg-server-1.20.3/include/windowstr.h
+xorg-server-1.20.3/include/glxvndabi.h
+xorg-server-1.20.3/include/nonsdk_extinit.h
+xorg-server-1.20.3/include/propertyst.h
+xorg-server-1.20.3/include/validate.h
+xorg-server-1.20.3/include/privates.h
+xorg-server-1.20.3/include/xorg-config.h.in
+xorg-server-1.20.3/include/dixgrabs.h
+xorg-server-1.20.3/include/xkbsrv.h
+xorg-server-1.20.3/include/pixmap.h
+xorg-server-1.20.3/include/systemd-logind.h
+xorg-server-1.20.3/include/inpututils.h
+xorg-server-1.20.3/include/protocol-versions.h
+xorg-server-1.20.3/include/dixstruct.h
+xorg-server-1.20.3/include/selection.h
+xorg-server-1.20.3/include/xorg-server.h.meson.in
+xorg-server-1.20.3/include/eventconvert.h
+xorg-server-1.20.3/include/colormap.h
+xorg-server-1.20.3/include/dix.h
+xorg-server-1.20.3/include/rgb.h
+xorg-server-1.20.3/include/extension.h
+xorg-server-1.20.3/include/site.h
+xorg-server-1.20.3/include/xsha1.h
+xorg-server-1.20.3/include/xwayland-config.h.in
+xorg-server-1.20.3/include/ptrveloc.h
+xorg-server-1.20.3/include/probes.h
+xorg-server-1.20.3/include/Makefile.am
+xorg-server-1.20.3/include/xserver_poll.h
+xorg-server-1.20.3/include/gcstruct.h
+xorg-server-1.20.3/include/meson.build
+xorg-server-1.20.3/include/screenint.h
+xorg-server-1.20.3/include/xkbrules.h
+xorg-server-1.20.3/include/colormapst.h
+xorg-server-1.20.3/include/XIstubs.h
+xorg-server-1.20.3/include/cursorstr.h
+xorg-server-1.20.3/include/miscstruct.h
+xorg-server-1.20.3/include/extnsionst.h
+xorg-server-1.20.3/include/input.h
+xorg-server-1.20.3/include/do-not-use-config.h.in
+xorg-server-1.20.3/include/vidmodestr.h
+xorg-server-1.20.3/include/property.h
+xorg-server-1.20.3/include/Makefile.in
+xorg-server-1.20.3/include/callback.h
+xorg-server-1.20.3/include/dixfontstr.h
+xorg-server-1.20.3/include/dixfont.h
+xorg-server-1.20.3/include/opaque.h
+xorg-server-1.20.3/include/misc.h
+xorg-server-1.20.3/include/dix-config.h.in
+xorg-server-1.20.3/include/xkb-config.h.in
+xorg-server-1.20.3/include/region.h
+xorg-server-1.20.3/include/inputstr.h
+xorg-server-1.20.3/include/globals.h
+xorg-server-1.20.3/include/dixevents.h
+xorg-server-1.20.3/include/cursor.h
+xorg-server-1.20.3/include/gc.h
+xorg-server-1.20.3/include/xorg-config.h.meson.in
+xorg-server-1.20.3/include/hotplug.h
+xorg-server-1.20.3/include/version-config.h.in
+xorg-server-1.20.3/include/list.h
+xorg-server-1.20.3/include/servermd.h
+xorg-server-1.20.3/include/dixaccess.h
+xorg-server-1.20.3/include/dbus-core.h
+xorg-server-1.20.3/include/busfault.h
+xorg-server-1.20.3/include/xkbstr.h
+xorg-server-1.20.3/include/closure.h
+xorg-server-1.20.3/include/events.h
+xorg-server-1.20.3/configure.ac
+xorg-server-1.20.3/dix/
+xorg-server-1.20.3/dix/gc.c
+xorg-server-1.20.3/dix/glyphcurs.c
+xorg-server-1.20.3/dix/initatoms.c
+xorg-server-1.20.3/dix/region.c
+xorg-server-1.20.3/dix/colormap.c
+xorg-server-1.20.3/dix/dispatch.h
+xorg-server-1.20.3/dix/buildatoms
+xorg-server-1.20.3/dix/dixutils.c
+xorg-server-1.20.3/dix/ptrveloc.c
+xorg-server-1.20.3/dix/main.c
+xorg-server-1.20.3/dix/tables.c
+xorg-server-1.20.3/dix/touch.c
+xorg-server-1.20.3/dix/events.c
+xorg-server-1.20.3/dix/window.c
+xorg-server-1.20.3/dix/getevents.c
+xorg-server-1.20.3/dix/cursor.c
+xorg-server-1.20.3/dix/Xserver.d
+xorg-server-1.20.3/dix/Xserver-dtrace.h.in
+xorg-server-1.20.3/dix/selection.c
+xorg-server-1.20.3/dix/atom.c
+xorg-server-1.20.3/dix/swapreq.c
+xorg-server-1.20.3/dix/privates.c
+xorg-server-1.20.3/dix/dixfonts.c
+xorg-server-1.20.3/dix/Makefile.am
+xorg-server-1.20.3/dix/meson.build
+xorg-server-1.20.3/dix/stubmain.c
+xorg-server-1.20.3/dix/swaprep.c
+xorg-server-1.20.3/dix/property.c
+xorg-server-1.20.3/dix/grabs.c
+xorg-server-1.20.3/dix/globals.c
+xorg-server-1.20.3/dix/inpututils.c
+xorg-server-1.20.3/dix/Makefile.in
+xorg-server-1.20.3/dix/protocol.txt
+xorg-server-1.20.3/dix/pixmap.c
+xorg-server-1.20.3/dix/enterleave.c
+xorg-server-1.20.3/dix/enterleave.h
+xorg-server-1.20.3/dix/BuiltInAtoms
+xorg-server-1.20.3/dix/extension.c
+xorg-server-1.20.3/dix/registry.c
+xorg-server-1.20.3/dix/eventconvert.c
+xorg-server-1.20.3/dix/dispatch.c
+xorg-server-1.20.3/dix/resource.c
+xorg-server-1.20.3/dix/devices.c
+xorg-server-1.20.3/Makefile.am
+xorg-server-1.20.3/meson.build
+xorg-server-1.20.3/xkb/
+xorg-server-1.20.3/xkb/xkbDflts.h
+xorg-server-1.20.3/xkb/xkbPrKeyEv.c
+xorg-server-1.20.3/xkb/maprules.c
+xorg-server-1.20.3/xkb/ddxBeep.c
+xorg-server-1.20.3/xkb/XKBAlloc.c
+xorg-server-1.20.3/xkb/ddxCtrls.c
+xorg-server-1.20.3/xkb/xkbout.c
+xorg-server-1.20.3/xkb/xkbLEDs.c
+xorg-server-1.20.3/xkb/xkbfmisc.c
+xorg-server-1.20.3/xkb/ddxPrivate.c
+xorg-server-1.20.3/xkb/xkbAccessX.c
+xorg-server-1.20.3/xkb/ddxLEDs.c
+xorg-server-1.20.3/xkb/ddxLoad.c
+xorg-server-1.20.3/xkb/xkbgeom.h
+xorg-server-1.20.3/xkb/xkbUtils.c
+xorg-server-1.20.3/xkb/XKBMisc.c
+xorg-server-1.20.3/xkb/XKBGAlloc.c
+xorg-server-1.20.3/xkb/xkb.c
+xorg-server-1.20.3/xkb/Makefile.am
+xorg-server-1.20.3/xkb/xkbInit.c
+xorg-server-1.20.3/xkb/meson.build
+xorg-server-1.20.3/xkb/xkbEvents.c
+xorg-server-1.20.3/xkb/Makefile.in
+xorg-server-1.20.3/xkb/ddxVT.c
+xorg-server-1.20.3/xkb/ddxKillSrv.c
+xorg-server-1.20.3/xkb/XKBMAlloc.c
+xorg-server-1.20.3/xkb/xkbtext.c
+xorg-server-1.20.3/xkb/xkmread.c
+xorg-server-1.20.3/xkb/README.compiled
+xorg-server-1.20.3/xkb/xkbSwap.c
+xorg-server-1.20.3/xkb/xkb.h
+xorg-server-1.20.3/xkb/xkbActions.c
+xorg-server-1.20.3/meson_options.txt
+xorg-server-1.20.3/test-driver
+xorg-server-1.20.3/COPYING
+xorg-server-1.20.3/Xext/
+xorg-server-1.20.3/Xext/xace.c
+xorg-server-1.20.3/Xext/securitysrv.h
+xorg-server-1.20.3/Xext/panoramiXh.h
+xorg-server-1.20.3/Xext/sync.c
+xorg-server-1.20.3/Xext/xres.c
+xorg-server-1.20.3/Xext/xvdisp.c
+xorg-server-1.20.3/Xext/bigreq.c
+xorg-server-1.20.3/Xext/xace.h
+xorg-server-1.20.3/Xext/saver.c
+xorg-server-1.20.3/Xext/panoramiXSwap.c
+xorg-server-1.20.3/Xext/shape.c
+xorg-server-1.20.3/Xext/syncsrv.h
+xorg-server-1.20.3/Xext/xvmc.c
+xorg-server-1.20.3/Xext/panoramiXprocs.c
+xorg-server-1.20.3/Xext/hashtable.c
+xorg-server-1.20.3/Xext/vidmode.c
+xorg-server-1.20.3/Xext/shm.c
+xorg-server-1.20.3/Xext/xselinux_ext.c
+xorg-server-1.20.3/Xext/geint.h
+xorg-server-1.20.3/Xext/xselinux_hooks.c
+xorg-server-1.20.3/Xext/xvdix.h
+xorg-server-1.20.3/Xext/panoramiXsrv.h
+xorg-server-1.20.3/Xext/xf86bigfontsrv.h
+xorg-server-1.20.3/Xext/security.c
+xorg-server-1.20.3/Xext/geext.c
+xorg-server-1.20.3/Xext/dpms.c
+xorg-server-1.20.3/Xext/sleepuntil.c
+xorg-server-1.20.3/Xext/xselinux.h
+xorg-server-1.20.3/Xext/Makefile.am
+xorg-server-1.20.3/Xext/meson.build
+xorg-server-1.20.3/Xext/panoramiX.h
+xorg-server-1.20.3/Xext/xselinuxint.h
+xorg-server-1.20.3/Xext/syncsdk.h
+xorg-server-1.20.3/Xext/panoramiX.c
+xorg-server-1.20.3/Xext/xacestr.h
+xorg-server-1.20.3/Xext/xvmcext.h
+xorg-server-1.20.3/Xext/Makefile.in
+xorg-server-1.20.3/Xext/sleepuntil.h
+xorg-server-1.20.3/Xext/hashtable.h
+xorg-server-1.20.3/Xext/xvdisp.h
+xorg-server-1.20.3/Xext/xtest.c
+xorg-server-1.20.3/Xext/xcmisc.c
+xorg-server-1.20.3/Xext/xvmain.c
+xorg-server-1.20.3/Xext/shmint.h
+xorg-server-1.20.3/Xext/xselinux_label.c
+xorg-server-1.20.3/Xext/dpmsproc.h
+xorg-server-1.20.3/Xext/xf86bigfont.c
+xorg-server-1.20.3/Xext/geext.h
+xorg-server-1.20.3/config/
+xorg-server-1.20.3/config/dbus-core.c
+xorg-server-1.20.3/config/fdi2iclass.py
+xorg-server-1.20.3/config/10-quirks.conf
+xorg-server-1.20.3/config/x11-input.fdi
+xorg-server-1.20.3/config/Makefile.am
+xorg-server-1.20.3/config/meson.build
+xorg-server-1.20.3/config/config.c
+xorg-server-1.20.3/config/config-backends.h
+xorg-server-1.20.3/config/udev.c
+xorg-server-1.20.3/config/hal.c
+xorg-server-1.20.3/config/Makefile.in
+xorg-server-1.20.3/config/wscons.c
+xorg-server-1.20.3/Makefile.in
+xorg-server-1.20.3/randr/
+xorg-server-1.20.3/randr/rrscreen.c
+xorg-server-1.20.3/randr/rrpointer.c
+xorg-server-1.20.3/randr/randr.c
+xorg-server-1.20.3/randr/rroutput.c
+xorg-server-1.20.3/randr/rrmode.c
+xorg-server-1.20.3/randr/rrproperty.c
+xorg-server-1.20.3/randr/rrcrtc.c
+xorg-server-1.20.3/randr/rrxinerama.c
+xorg-server-1.20.3/randr/rrproviderproperty.c
+xorg-server-1.20.3/randr/Makefile.am
+xorg-server-1.20.3/randr/rrinfo.c
+xorg-server-1.20.3/randr/meson.build
+xorg-server-1.20.3/randr/rrsdispatch.c
+xorg-server-1.20.3/randr/rrlease.c
+xorg-server-1.20.3/randr/rrdispatch.c
+xorg-server-1.20.3/randr/Makefile.in
+xorg-server-1.20.3/randr/rrtransform.h
+xorg-server-1.20.3/randr/randrstr.h
+xorg-server-1.20.3/randr/rrprovider.c
+xorg-server-1.20.3/randr/rrmonitor.c
+xorg-server-1.20.3/randr/rrtransform.c
+xorg-server-1.20.3/depcomp
+xorg-server-1.20.3/docbook.am
+xorg-server-1.20.3/exa/
+xorg-server-1.20.3/exa/exa_glyphs.c
+xorg-server-1.20.3/exa/exa_migration_classic.c
+xorg-server-1.20.3/exa/exa_classic.c
+xorg-server-1.20.3/exa/exa_offscreen.c
+xorg-server-1.20.3/exa/exa_priv.h
+xorg-server-1.20.3/exa/exa.c
+xorg-server-1.20.3/exa/exa_migration_mixed.c
+xorg-server-1.20.3/exa/exa.h
+xorg-server-1.20.3/exa/Makefile.am
+xorg-server-1.20.3/exa/meson.build
+xorg-server-1.20.3/exa/exa_mixed.c
+xorg-server-1.20.3/exa/Makefile.in
+xorg-server-1.20.3/exa/exa_accel.c
+xorg-server-1.20.3/exa/exa_render.c
+xorg-server-1.20.3/exa/exa_unaccel.c
+xorg-server-1.20.3/exa/exa_driver.c
+xorg-server-1.20.3/xfixes/
+xorg-server-1.20.3/xfixes/region.c
+xorg-server-1.20.3/xfixes/select.c
+xorg-server-1.20.3/xfixes/cursor.c
+xorg-server-1.20.3/xfixes/xfixesint.h
+xorg-server-1.20.3/xfixes/xfixes.h
+xorg-server-1.20.3/xfixes/Makefile.am
+xorg-server-1.20.3/xfixes/meson.build
+xorg-server-1.20.3/xfixes/xfixes.c
+xorg-server-1.20.3/xfixes/Makefile.in
+xorg-server-1.20.3/xfixes/saveset.c
+xorg-server-1.20.3/m4/
+xorg-server-1.20.3/m4/ltsugar.m4
+xorg-server-1.20.3/m4/libtool.m4
+xorg-server-1.20.3/m4/ltoptions.m4
+xorg-server-1.20.3/m4/ltversion.m4
+xorg-server-1.20.3/m4/lt~obsolete.m4
+xorg-server-1.20.3/m4/ax_pthread.m4
+xorg-server-1.20.3/m4/ac_define_dir.m4
+xorg-server-1.20.3/render/
+xorg-server-1.20.3/render/mirect.c
+xorg-server-1.20.3/render/mitrap.c
+xorg-server-1.20.3/render/animcur.c
+xorg-server-1.20.3/render/matrix.c
+xorg-server-1.20.3/render/filter.c
+xorg-server-1.20.3/render/picture.h
+xorg-server-1.20.3/render/mitri.c
+xorg-server-1.20.3/render/miindex.c
+xorg-server-1.20.3/render/picture.c
+xorg-server-1.20.3/render/Makefile.am
+xorg-server-1.20.3/render/meson.build
+xorg-server-1.20.3/render/Makefile.in
+xorg-server-1.20.3/render/mipict.h
+xorg-server-1.20.3/render/picturestr.h
+xorg-server-1.20.3/render/glyphstr.h
+xorg-server-1.20.3/render/mipict.c
+xorg-server-1.20.3/render/render.c
+xorg-server-1.20.3/render/glyph.c
+xorg-server-1.20.3/fb/
+xorg-server-1.20.3/fb/fbtrap.c
+xorg-server-1.20.3/fb/fbbltone.c
+xorg-server-1.20.3/fb/fbblt.c
+xorg-server-1.20.3/fb/fbcopy.c
+xorg-server-1.20.3/fb/fbline.c
+xorg-server-1.20.3/fb/fbglyph.c
+xorg-server-1.20.3/fb/fbpush.c
+xorg-server-1.20.3/fb/fboverlay.c
+xorg-server-1.20.3/fb/fbwindow.c
+xorg-server-1.20.3/fb/fbscreen.c
+xorg-server-1.20.3/fb/fbbits.c
+xorg-server-1.20.3/fb/fbfill.c
+xorg-server-1.20.3/fb/fbpict.c
+xorg-server-1.20.3/fb/fboverlay.h
+xorg-server-1.20.3/fb/fb.h
+xorg-server-1.20.3/fb/Makefile.am
+xorg-server-1.20.3/fb/meson.build
+xorg-server-1.20.3/fb/fbfillrect.c
+xorg-server-1.20.3/fb/fbseg.c
+xorg-server-1.20.3/fb/fbcmap_mi.c
+xorg-server-1.20.3/fb/fbsolid.c
+xorg-server-1.20.3/fb/Makefile.in
+xorg-server-1.20.3/fb/fbpoint.c
+xorg-server-1.20.3/fb/fballpriv.c
+xorg-server-1.20.3/fb/fbimage.c
+xorg-server-1.20.3/fb/wfbrename.h
+xorg-server-1.20.3/fb/fbarc.c
+xorg-server-1.20.3/fb/fbgc.c
+xorg-server-1.20.3/fb/fbsetsp.c
+xorg-server-1.20.3/fb/fbpixmap.c
+xorg-server-1.20.3/fb/fbbits.h
+xorg-server-1.20.3/fb/fbfillsp.c
+xorg-server-1.20.3/fb/fbpict.h
+xorg-server-1.20.3/fb/fbrop.h
+xorg-server-1.20.3/fb/fbgetsp.c
+xorg-server-1.20.3/fb/fbutil.c
+xorg-server-1.20.3/compile
+xorg-server-1.20.3/config.sub
+xorg-server-1.20.3/INSTALL
+xorg-server-1.20.3/missing
+xorg-server-1.20.3/hw/
+xorg-server-1.20.3/hw/xquartz/
+xorg-server-1.20.3/hw/xquartz/darwinEvents.h
+xorg-server-1.20.3/hw/xquartz/bundle/
+xorg-server-1.20.3/hw/xquartz/bundle/X11.sh
+xorg-server-1.20.3/hw/xquartz/bundle/Info.plist.cpp
+xorg-server-1.20.3/hw/xquartz/bundle/cpprules.in
+xorg-server-1.20.3/hw/xquartz/bundle/Makefile.am
+xorg-server-1.20.3/hw/xquartz/bundle/Makefile.in
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Japanese.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Japanese.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Japanese.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Japanese.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Japanese.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Japanese.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/hu.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/hu.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/hu.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/hu.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/hu.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/hu.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/English.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/English.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/English.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/English.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/English.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/English.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pt.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pt.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pt.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pt.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pt.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pt.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/fi.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/fi.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/fi.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/fi.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/fi.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/fi.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ko.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ko.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ko.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ko.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ko.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ko.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/el.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/el.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/el.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/el.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/el.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/el.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Dutch.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Dutch.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Dutch.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Dutch.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Dutch.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Dutch.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ro.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ro.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ro.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ro.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ro.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ro.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/X11.icns
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/sk.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/sk.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/sk.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/sk.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/sk.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/sk.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ca.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ca.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ca.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ca.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ca.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ca.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/cs.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/cs.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/cs.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/cs.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/cs.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/cs.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pl.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pl.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pl.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pl.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pl.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pl.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ar.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ar.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ar.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ar.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ar.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ar.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/no.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/no.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/no.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/no.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/no.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/no.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/uk.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/uk.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/uk.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/uk.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/uk.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/uk.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pt_PT.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pt_PT.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pt_PT.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pt_PT.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pt_PT.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/pt_PT.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Spanish.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Spanish.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Spanish.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Spanish.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Spanish.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Spanish.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/zh_TW.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/zh_TW.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/zh_TW.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/zh_TW.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/zh_TW.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/zh_TW.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ru.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ru.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ru.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ru.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ru.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/ru.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/German.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/German.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/German.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/German.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/German.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/German.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Italian.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Italian.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Italian.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Italian.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Italian.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/Italian.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/hr.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/hr.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/hr.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/hr.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/hr.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/hr.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/he.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/he.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/he.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/he.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/he.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/he.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/da.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/da.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/da.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/da.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/da.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/da.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/tr.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/tr.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/tr.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/tr.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/tr.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/tr.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/French.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/French.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/French.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/French.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/French.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/French.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/sv.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/sv.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/sv.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/sv.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/sv.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/sv.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/th.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/th.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/th.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/th.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/th.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/th.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/zh_CN.lproj/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/zh_CN.lproj/locversion.plist
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/zh_CN.lproj/main.nib/
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/zh_CN.lproj/main.nib/keyedobjects.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/zh_CN.lproj/main.nib/designable.nib
+xorg-server-1.20.3/hw/xquartz/bundle/Resources/zh_CN.lproj/Localizable.strings
+xorg-server-1.20.3/hw/xquartz/bundle/mk_bundke.sh
+xorg-server-1.20.3/hw/xquartz/bundle/PkgInfo
+xorg-server-1.20.3/hw/xquartz/bundle/Xquartz.plist
+xorg-server-1.20.3/hw/xquartz/sanitizedCarbon.h
+xorg-server-1.20.3/hw/xquartz/quartz.c
+xorg-server-1.20.3/hw/xquartz/darwinEvents.c
+xorg-server-1.20.3/hw/xquartz/man/
+xorg-server-1.20.3/hw/xquartz/man/Makefile.am
+xorg-server-1.20.3/hw/xquartz/man/Xquartz.man
+xorg-server-1.20.3/hw/xquartz/man/Makefile.in
+xorg-server-1.20.3/hw/xquartz/X11Controller.m
+xorg-server-1.20.3/hw/xquartz/applewm.c
+xorg-server-1.20.3/hw/xquartz/keysym2ucs.h
+xorg-server-1.20.3/hw/xquartz/quartz.h
+xorg-server-1.20.3/hw/xquartz/X11Controller.h
+xorg-server-1.20.3/hw/xquartz/quartzCocoa.m
+xorg-server-1.20.3/hw/xquartz/quartzKeyboard.h
+xorg-server-1.20.3/hw/xquartz/quartzCommon.h
+xorg-server-1.20.3/hw/xquartz/console_redirect.h
+xorg-server-1.20.3/hw/xquartz/xpr/
+xorg-server-1.20.3/hw/xquartz/xpr/appledri.c
+xorg-server-1.20.3/hw/xquartz/xpr/dri.c
+xorg-server-1.20.3/hw/xquartz/xpr/x-hash.c
+xorg-server-1.20.3/hw/xquartz/xpr/driWrap.c
+xorg-server-1.20.3/hw/xquartz/xpr/xprAppleWM.c
+xorg-server-1.20.3/hw/xquartz/xpr/xprCursor.c
+xorg-server-1.20.3/hw/xquartz/xpr/dri.h
+xorg-server-1.20.3/hw/xquartz/xpr/appledristr.h
+xorg-server-1.20.3/hw/xquartz/xpr/driWrap.h
+xorg-server-1.20.3/hw/xquartz/xpr/x-hook.c
+xorg-server-1.20.3/hw/xquartz/xpr/Makefile.am
+xorg-server-1.20.3/hw/xquartz/xpr/dristruct.h
+xorg-server-1.20.3/hw/xquartz/xpr/x-list.c
+xorg-server-1.20.3/hw/xquartz/xpr/xpr.h
+xorg-server-1.20.3/hw/xquartz/xpr/xprEvent.c
+xorg-server-1.20.3/hw/xquartz/xpr/Makefile.in
+xorg-server-1.20.3/hw/xquartz/xpr/xprScreen.c
+xorg-server-1.20.3/hw/xquartz/xpr/x-hook.h
+xorg-server-1.20.3/hw/xquartz/xpr/x-list.h
+xorg-server-1.20.3/hw/xquartz/xpr/appledri.h
+xorg-server-1.20.3/hw/xquartz/xpr/x-hash.h
+xorg-server-1.20.3/hw/xquartz/xpr/xprFrame.c
+xorg-server-1.20.3/hw/xquartz/xpr/xprEvent.h
+xorg-server-1.20.3/hw/xquartz/X11Application.h
+xorg-server-1.20.3/hw/xquartz/Makefile.am
+xorg-server-1.20.3/hw/xquartz/meson.build
+xorg-server-1.20.3/hw/xquartz/darwin.c
+xorg-server-1.20.3/hw/xquartz/darwin.h
+xorg-server-1.20.3/hw/xquartz/X11Application.m
+xorg-server-1.20.3/hw/xquartz/console_redirect.c
+xorg-server-1.20.3/hw/xquartz/Makefile.in
+xorg-server-1.20.3/hw/xquartz/pbproxy/
+xorg-server-1.20.3/hw/xquartz/pbproxy/x-selection.m
+xorg-server-1.20.3/hw/xquartz/pbproxy/pbproxy.h
+xorg-server-1.20.3/hw/xquartz/pbproxy/Makefile.am
+xorg-server-1.20.3/hw/xquartz/pbproxy/app-main.m
+xorg-server-1.20.3/hw/xquartz/pbproxy/Makefile.in
+xorg-server-1.20.3/hw/xquartz/pbproxy/x-input.m
+xorg-server-1.20.3/hw/xquartz/pbproxy/x-selection.h
+xorg-server-1.20.3/hw/xquartz/pbproxy/trick_autotools.c
+xorg-server-1.20.3/hw/xquartz/pbproxy/main.m
+xorg-server-1.20.3/hw/xquartz/keysym2ucs.c
+xorg-server-1.20.3/hw/xquartz/quartzRandR.h
+xorg-server-1.20.3/hw/xquartz/quartzRandR.c
+xorg-server-1.20.3/hw/xquartz/darwinfb.h
+xorg-server-1.20.3/hw/xquartz/GL/
+xorg-server-1.20.3/hw/xquartz/GL/indirect.c
+xorg-server-1.20.3/hw/xquartz/GL/visualConfigs.c
+xorg-server-1.20.3/hw/xquartz/GL/capabilities.c
+xorg-server-1.20.3/hw/xquartz/GL/Makefile.am
+xorg-server-1.20.3/hw/xquartz/GL/Makefile.in
+xorg-server-1.20.3/hw/xquartz/GL/capabilities.h
+xorg-server-1.20.3/hw/xquartz/GL/visualConfigs.h
+xorg-server-1.20.3/hw/xquartz/quartzKeyboard.c
+xorg-server-1.20.3/hw/xquartz/applewmExt.h
+xorg-server-1.20.3/hw/xquartz/quartzStartup.c
+xorg-server-1.20.3/hw/xquartz/sanitizedCocoa.h
+xorg-server-1.20.3/hw/xquartz/mach-startup/
+xorg-server-1.20.3/hw/xquartz/mach-startup/bundle-main.c
+xorg-server-1.20.3/hw/xquartz/mach-startup/mach_startup.defs
+xorg-server-1.20.3/hw/xquartz/mach-startup/mach_startup_types.h
+xorg-server-1.20.3/hw/xquartz/mach-startup/Makefile.am
+xorg-server-1.20.3/hw/xquartz/mach-startup/stub.c
+xorg-server-1.20.3/hw/xquartz/mach-startup/Makefile.in
+xorg-server-1.20.3/hw/xquartz/mach-startup/launchd_fd.c
+xorg-server-1.20.3/hw/xquartz/mach-startup/launchd_fd.h
+xorg-server-1.20.3/hw/xquartz/darwinXinput.c
+xorg-server-1.20.3/hw/kdrive/
+xorg-server-1.20.3/hw/kdrive/Makefile.am
+xorg-server-1.20.3/hw/kdrive/meson.build
+xorg-server-1.20.3/hw/kdrive/ephyr/
+xorg-server-1.20.3/hw/kdrive/ephyr/ephyrvideo.c
+xorg-server-1.20.3/hw/kdrive/ephyr/hostx.h
+xorg-server-1.20.3/hw/kdrive/ephyr/man/
+xorg-server-1.20.3/hw/kdrive/ephyr/man/Makefile.am
+xorg-server-1.20.3/hw/kdrive/ephyr/man/Makefile.in
+xorg-server-1.20.3/hw/kdrive/ephyr/man/Xephyr.man
+xorg-server-1.20.3/hw/kdrive/ephyr/ephyrlog.h
+xorg-server-1.20.3/hw/kdrive/ephyr/ephyr.c
+xorg-server-1.20.3/hw/kdrive/ephyr/README
+xorg-server-1.20.3/hw/kdrive/ephyr/ephyr_draw.c
+xorg-server-1.20.3/hw/kdrive/ephyr/ephyrinit.c
+xorg-server-1.20.3/hw/kdrive/ephyr/Makefile.am
+xorg-server-1.20.3/hw/kdrive/ephyr/meson.build
+xorg-server-1.20.3/hw/kdrive/ephyr/hostx.c
+xorg-server-1.20.3/hw/kdrive/ephyr/ephyr_glamor_xv.c
+xorg-server-1.20.3/hw/kdrive/ephyr/ephyr.h
+xorg-server-1.20.3/hw/kdrive/ephyr/Makefile.in
+xorg-server-1.20.3/hw/kdrive/ephyr/ephyr_glamor_glx.h
+xorg-server-1.20.3/hw/kdrive/ephyr/ephyr_glamor_glx.c
+xorg-server-1.20.3/hw/kdrive/ephyr/ephyrcursor.c
+xorg-server-1.20.3/hw/kdrive/src/
+xorg-server-1.20.3/hw/kdrive/src/kdrive.h
+xorg-server-1.20.3/hw/kdrive/src/fourcc.h
+xorg-server-1.20.3/hw/kdrive/src/kcmap.c
+xorg-server-1.20.3/hw/kdrive/src/kshadow.c
+xorg-server-1.20.3/hw/kdrive/src/kdrive.c
+xorg-server-1.20.3/hw/kdrive/src/Makefile.am
+xorg-server-1.20.3/hw/kdrive/src/meson.build
+xorg-server-1.20.3/hw/kdrive/src/kxv.h
+xorg-server-1.20.3/hw/kdrive/src/Makefile.in
+xorg-server-1.20.3/hw/kdrive/src/kinfo.c
+xorg-server-1.20.3/hw/kdrive/src/kxv.c
+xorg-server-1.20.3/hw/kdrive/src/kinput.c
+xorg-server-1.20.3/hw/kdrive/Makefile.in
+xorg-server-1.20.3/hw/xfree86/
+xorg-server-1.20.3/hw/xfree86/ddc/
+xorg-server-1.20.3/hw/xfree86/ddc/edid.h
+xorg-server-1.20.3/hw/xfree86/ddc/interpret_edid.c
+xorg-server-1.20.3/hw/xfree86/ddc/ddc.c
+xorg-server-1.20.3/hw/xfree86/ddc/Makefile.am
+xorg-server-1.20.3/hw/xfree86/ddc/meson.build
+xorg-server-1.20.3/hw/xfree86/ddc/DDC.HOWTO
+xorg-server-1.20.3/hw/xfree86/ddc/Makefile.in
+xorg-server-1.20.3/hw/xfree86/ddc/print_edid.c
+xorg-server-1.20.3/hw/xfree86/ddc/xf86DDC.h
+xorg-server-1.20.3/hw/xfree86/ddc/ddcProperty.c
+xorg-server-1.20.3/hw/xfree86/x86emu/
+xorg-server-1.20.3/hw/xfree86/x86emu/sys.c
+xorg-server-1.20.3/hw/xfree86/x86emu/x86emu/
+xorg-server-1.20.3/hw/xfree86/x86emu/x86emu/ops.h
+xorg-server-1.20.3/hw/xfree86/x86emu/x86emu/fpu.h
+xorg-server-1.20.3/hw/xfree86/x86emu/x86emu/regs.h
+xorg-server-1.20.3/hw/xfree86/x86emu/x86emu/debug.h
+xorg-server-1.20.3/hw/xfree86/x86emu/x86emu/x86emui.h
+xorg-server-1.20.3/hw/xfree86/x86emu/x86emu/fpu_regs.h
+xorg-server-1.20.3/hw/xfree86/x86emu/x86emu/prim_asm.h
+xorg-server-1.20.3/hw/xfree86/x86emu/x86emu/decode.h
+xorg-server-1.20.3/hw/xfree86/x86emu/x86emu/prim_ops.h
+xorg-server-1.20.3/hw/xfree86/x86emu/x86emu/prim_x86_gcc.h
+xorg-server-1.20.3/hw/xfree86/x86emu/x86emu/types.h
+xorg-server-1.20.3/hw/xfree86/x86emu/ops.c
+xorg-server-1.20.3/hw/xfree86/x86emu/Makefile.am
+xorg-server-1.20.3/hw/xfree86/x86emu/meson.build
+xorg-server-1.20.3/hw/xfree86/x86emu/validate.c
+xorg-server-1.20.3/hw/xfree86/x86emu/Makefile.in
+xorg-server-1.20.3/hw/xfree86/x86emu/ops2.c
+xorg-server-1.20.3/hw/xfree86/x86emu/x86emu.h
+xorg-server-1.20.3/hw/xfree86/x86emu/prim_ops.c
+xorg-server-1.20.3/hw/xfree86/x86emu/debug.c
+xorg-server-1.20.3/hw/xfree86/x86emu/fpu.c
+xorg-server-1.20.3/hw/xfree86/x86emu/decode.c
+xorg-server-1.20.3/hw/xfree86/man/
+xorg-server-1.20.3/hw/xfree86/man/Xwrapper.config.man
+xorg-server-1.20.3/hw/xfree86/man/xorg.conf.man
+xorg-server-1.20.3/hw/xfree86/man/Xorg.wrap.man
+xorg-server-1.20.3/hw/xfree86/man/Makefile.am
+xorg-server-1.20.3/hw/xfree86/man/xorg.conf.d.man
+xorg-server-1.20.3/hw/xfree86/man/Makefile.in
+xorg-server-1.20.3/hw/xfree86/man/Xorg.man
+xorg-server-1.20.3/hw/xfree86/vbe/
+xorg-server-1.20.3/hw/xfree86/vbe/vbeModes.h
+xorg-server-1.20.3/hw/xfree86/vbe/Makefile.am
+xorg-server-1.20.3/hw/xfree86/vbe/meson.build
+xorg-server-1.20.3/hw/xfree86/vbe/vbe_module.c
+xorg-server-1.20.3/hw/xfree86/vbe/Makefile.in
+xorg-server-1.20.3/hw/xfree86/vbe/vbe.c
+xorg-server-1.20.3/hw/xfree86/vbe/vbe.h
+xorg-server-1.20.3/hw/xfree86/vbe/vbeModes.c
+xorg-server-1.20.3/hw/xfree86/dixmods/
+xorg-server-1.20.3/hw/xfree86/dixmods/glxmodule.c
+xorg-server-1.20.3/hw/xfree86/dixmods/Makefile.am
+xorg-server-1.20.3/hw/xfree86/dixmods/meson.build
+xorg-server-1.20.3/hw/xfree86/dixmods/shmodule.c
+xorg-server-1.20.3/hw/xfree86/dixmods/Makefile.in
+xorg-server-1.20.3/hw/xfree86/dixmods/fbmodule.c
+xorg-server-1.20.3/hw/xfree86/shadowfb/
+xorg-server-1.20.3/hw/xfree86/shadowfb/shadowfb.h
+xorg-server-1.20.3/hw/xfree86/shadowfb/sfbmodule.c
+xorg-server-1.20.3/hw/xfree86/shadowfb/Makefile.am
+xorg-server-1.20.3/hw/xfree86/shadowfb/meson.build
+xorg-server-1.20.3/hw/xfree86/shadowfb/shadowfb.c
+xorg-server-1.20.3/hw/xfree86/shadowfb/Makefile.in
+xorg-server-1.20.3/hw/xfree86/utils/
+xorg-server-1.20.3/hw/xfree86/utils/man/
+xorg-server-1.20.3/hw/xfree86/utils/man/Makefile.am
+xorg-server-1.20.3/hw/xfree86/utils/man/Makefile.in
+xorg-server-1.20.3/hw/xfree86/utils/man/cvt.man
+xorg-server-1.20.3/hw/xfree86/utils/man/gtf.man
+xorg-server-1.20.3/hw/xfree86/utils/gtf/
+xorg-server-1.20.3/hw/xfree86/utils/gtf/Makefile.am
+xorg-server-1.20.3/hw/xfree86/utils/gtf/Makefile.in
+xorg-server-1.20.3/hw/xfree86/utils/gtf/gtf.c
+xorg-server-1.20.3/hw/xfree86/utils/cvt/
+xorg-server-1.20.3/hw/xfree86/utils/cvt/Makefile.am
+xorg-server-1.20.3/hw/xfree86/utils/cvt/Makefile.in
+xorg-server-1.20.3/hw/xfree86/utils/cvt/cvt.c
+xorg-server-1.20.3/hw/xfree86/utils/Makefile.am
+xorg-server-1.20.3/hw/xfree86/utils/Makefile.in
+xorg-server-1.20.3/hw/xfree86/ramdac/
+xorg-server-1.20.3/hw/xfree86/ramdac/TIPriv.h
+xorg-server-1.20.3/hw/xfree86/ramdac/TI.h
+xorg-server-1.20.3/hw/xfree86/ramdac/xf86RamDac.c
+xorg-server-1.20.3/hw/xfree86/ramdac/IBM.c
+xorg-server-1.20.3/hw/xfree86/ramdac/xf86CursorRD.c
+xorg-server-1.20.3/hw/xfree86/ramdac/IBMPriv.h
+xorg-server-1.20.3/hw/xfree86/ramdac/IBM.h
+xorg-server-1.20.3/hw/xfree86/ramdac/xf86RamDacCmap.c
+xorg-server-1.20.3/hw/xfree86/ramdac/xf86RamDacPriv.h
+xorg-server-1.20.3/hw/xfree86/ramdac/Makefile.am
+xorg-server-1.20.3/hw/xfree86/ramdac/xf86CursorPriv.h
+xorg-server-1.20.3/hw/xfree86/ramdac/BTPriv.h
+xorg-server-1.20.3/hw/xfree86/ramdac/meson.build
+xorg-server-1.20.3/hw/xfree86/ramdac/TI.c
+xorg-server-1.20.3/hw/xfree86/ramdac/BT.h
+xorg-server-1.20.3/hw/xfree86/ramdac/xf86RamDac.h
+xorg-server-1.20.3/hw/xfree86/ramdac/xf86HWCurs.c
+xorg-server-1.20.3/hw/xfree86/ramdac/Makefile.in
+xorg-server-1.20.3/hw/xfree86/ramdac/CURSOR.NOTES
+xorg-server-1.20.3/hw/xfree86/ramdac/BT.c
+xorg-server-1.20.3/hw/xfree86/ramdac/xf86Cursor.h
+xorg-server-1.20.3/hw/xfree86/common/
+xorg-server-1.20.3/hw/xfree86/common/xf86Build.sh
+xorg-server-1.20.3/hw/xfree86/common/xf86xv.h
+xorg-server-1.20.3/hw/xfree86/common/xf86MatchDrivers.h
+xorg-server-1.20.3/hw/xfree86/common/fourcc.h
+xorg-server-1.20.3/hw/xfree86/common/xf86Optionstr.h
+xorg-server-1.20.3/hw/xfree86/common/xf86sbusBus.c
+xorg-server-1.20.3/hw/xfree86/common/xorgVersion.h
+xorg-server-1.20.3/hw/xfree86/common/xf86Build.h.in
+xorg-server-1.20.3/hw/xfree86/common/xf86InPriv.h
+xorg-server-1.20.3/hw/xfree86/common/xf86fbman.h
+xorg-server-1.20.3/hw/xfree86/common/xf86PciInfo.h
+xorg-server-1.20.3/hw/xfree86/common/xisb.c
+xorg-server-1.20.3/hw/xfree86/common/xaarop.h
+xorg-server-1.20.3/hw/xfree86/common/xf86.h
+xorg-server-1.20.3/hw/xfree86/common/xf86Events.c
+xorg-server-1.20.3/hw/xfree86/common/xf86Option.c
+xorg-server-1.20.3/hw/xfree86/common/xf86Privstr.h
+xorg-server-1.20.3/hw/xfree86/common/xf86Cursor.c
+xorg-server-1.20.3/hw/xfree86/common/xf86Config.c
+xorg-server-1.20.3/hw/xfree86/common/xf86Module.h
+xorg-server-1.20.3/hw/xfree86/common/xf86platformBus.c
+xorg-server-1.20.3/hw/xfree86/common/xf86Helper.c
+xorg-server-1.20.3/hw/xfree86/common/xf86Bus.c
+xorg-server-1.20.3/hw/xfree86/common/xf86xvmc.c
+xorg-server-1.20.3/hw/xfree86/common/xf86fbBus.c
+xorg-server-1.20.3/hw/xfree86/common/xisb.h
+xorg-server-1.20.3/hw/xfree86/common/xf86cmap.c
+xorg-server-1.20.3/hw/xfree86/common/xf86VGAarbiter.h
+xorg-server-1.20.3/hw/xfree86/common/xf86Extensions.h
+xorg-server-1.20.3/hw/xfree86/common/xf86xvmc.h
+xorg-server-1.20.3/hw/xfree86/common/xf86xvpriv.h
+xorg-server-1.20.3/hw/xfree86/common/xf86AutoConfig.c
+xorg-server-1.20.3/hw/xfree86/common/xf86Configure.c
+xorg-server-1.20.3/hw/xfree86/common/xf86pciBus.h
+xorg-server-1.20.3/hw/xfree86/common/xorgHelper.c
+xorg-server-1.20.3/hw/xfree86/common/Makefile.am
+xorg-server-1.20.3/hw/xfree86/common/meson.build
+xorg-server-1.20.3/hw/xfree86/common/dgaproc.h
+xorg-server-1.20.3/hw/xfree86/common/xf86Bus.h
+xorg-server-1.20.3/hw/xfree86/common/xf86VGAarbiter.c
+xorg-server-1.20.3/hw/xfree86/common/xf86RandR.c
+xorg-server-1.20.3/hw/xfree86/common/xf86Xinput.h
+xorg-server-1.20.3/hw/xfree86/common/compiler.h
+xorg-server-1.20.3/hw/xfree86/common/Makefile.in
+xorg-server-1.20.3/hw/xfree86/common/xf86VGAarbiterPriv.h
+xorg-server-1.20.3/hw/xfree86/common/xf86VidMode.c
+xorg-server-1.20.3/hw/xfree86/common/xf86Priv.h
+xorg-server-1.20.3/hw/xfree86/common/xf86sbusBus.h
+xorg-server-1.20.3/hw/xfree86/common/xf86noBus.c
+xorg-server-1.20.3/hw/xfree86/common/extramodes
+xorg-server-1.20.3/hw/xfree86/common/xf86Mode.c
+xorg-server-1.20.3/hw/xfree86/common/xf86xv.c
+xorg-server-1.20.3/hw/xfree86/common/xf86str.h
+xorg-server-1.20.3/hw/xfree86/common/modeline2c.awk
+xorg-server-1.20.3/hw/xfree86/common/xf86Init.c
+xorg-server-1.20.3/hw/xfree86/common/xf86platformBus.h
+xorg-server-1.20.3/hw/xfree86/common/xf86Config.h
+xorg-server-1.20.3/hw/xfree86/common/xf86PM.c
+xorg-server-1.20.3/hw/xfree86/common/xf86DGA.c
+xorg-server-1.20.3/hw/xfree86/common/xf86DPMS.c
+xorg-server-1.20.3/hw/xfree86/common/xf86Globals.c
+xorg-server-1.20.3/hw/xfree86/common/xf86cmap.h
+xorg-server-1.20.3/hw/xfree86/common/xf86fbman.c
+xorg-server-1.20.3/hw/xfree86/common/xf86Opt.h
+xorg-server-1.20.3/hw/xfree86/common/xf86pciBus.c
+xorg-server-1.20.3/hw/xfree86/common/xf86Xinput.c
+xorg-server-1.20.3/hw/xfree86/common/xf86Extensions.c
+xorg-server-1.20.3/hw/xfree86/common/vesamodes
+xorg-server-1.20.3/hw/xfree86/xorg-wrapper.c
+xorg-server-1.20.3/hw/xfree86/doc/
+xorg-server-1.20.3/hw/xfree86/doc/ddxDesign.xml
+xorg-server-1.20.3/hw/xfree86/doc/Registry
+xorg-server-1.20.3/hw/xfree86/doc/Makefile.am
+xorg-server-1.20.3/hw/xfree86/doc/Makefile.in
+xorg-server-1.20.3/hw/xfree86/doc/README.modes
+xorg-server-1.20.3/hw/xfree86/doc/exa-driver.txt
+xorg-server-1.20.3/hw/xfree86/fbdevhw/
+xorg-server-1.20.3/hw/xfree86/fbdevhw/man/
+xorg-server-1.20.3/hw/xfree86/fbdevhw/man/fbdevhw.man
+xorg-server-1.20.3/hw/xfree86/fbdevhw/man/Makefile.am
+xorg-server-1.20.3/hw/xfree86/fbdevhw/man/Makefile.in
+xorg-server-1.20.3/hw/xfree86/fbdevhw/fbdevhw.c
+xorg-server-1.20.3/hw/xfree86/fbdevhw/README
+xorg-server-1.20.3/hw/xfree86/fbdevhw/Makefile.am
+xorg-server-1.20.3/hw/xfree86/fbdevhw/meson.build
+xorg-server-1.20.3/hw/xfree86/fbdevhw/fbpriv.h
+xorg-server-1.20.3/hw/xfree86/fbdevhw/fbdevhwstub.c
+xorg-server-1.20.3/hw/xfree86/fbdevhw/Makefile.in
+xorg-server-1.20.3/hw/xfree86/fbdevhw/fbdevhw.h
+xorg-server-1.20.3/hw/xfree86/glamor_egl/
+xorg-server-1.20.3/hw/xfree86/glamor_egl/glamor_xf86_xv.c
+xorg-server-1.20.3/hw/xfree86/glamor_egl/Makefile.am
+xorg-server-1.20.3/hw/xfree86/glamor_egl/meson.build
+xorg-server-1.20.3/hw/xfree86/glamor_egl/Makefile.in
+xorg-server-1.20.3/hw/xfree86/Xorg.sh.in
+xorg-server-1.20.3/hw/xfree86/dri2/
+xorg-server-1.20.3/hw/xfree86/dri2/dri2int.h
+xorg-server-1.20.3/hw/xfree86/dri2/dri2ext.c
+xorg-server-1.20.3/hw/xfree86/dri2/pci_ids/
+xorg-server-1.20.3/hw/xfree86/dri2/pci_ids/vmwgfx_pci_ids.h
+xorg-server-1.20.3/hw/xfree86/dri2/pci_ids/virtio_gpu_pci_ids.h
+xorg-server-1.20.3/hw/xfree86/dri2/pci_ids/i915_pci_ids.h
+xorg-server-1.20.3/hw/xfree86/dri2/pci_ids/pci_id_driver_map.h
+xorg-server-1.20.3/hw/xfree86/dri2/pci_ids/Makefile.am
+xorg-server-1.20.3/hw/xfree86/dri2/pci_ids/r600_pci_ids.h
+xorg-server-1.20.3/hw/xfree86/dri2/pci_ids/radeon_pci_ids.h
+xorg-server-1.20.3/hw/xfree86/dri2/pci_ids/i810_pci_ids.h
+xorg-server-1.20.3/hw/xfree86/dri2/pci_ids/r300_pci_ids.h
+xorg-server-1.20.3/hw/xfree86/dri2/pci_ids/Makefile.in
+xorg-server-1.20.3/hw/xfree86/dri2/pci_ids/radeonsi_pci_ids.h
+xorg-server-1.20.3/hw/xfree86/dri2/pci_ids/r200_pci_ids.h
+xorg-server-1.20.3/hw/xfree86/dri2/pci_ids/i965_pci_ids.h
+xorg-server-1.20.3/hw/xfree86/dri2/dri2.h
+xorg-server-1.20.3/hw/xfree86/dri2/dri2.c
+xorg-server-1.20.3/hw/xfree86/dri2/Makefile.am
+xorg-server-1.20.3/hw/xfree86/dri2/meson.build
+xorg-server-1.20.3/hw/xfree86/dri2/Makefile.in
+xorg-server-1.20.3/hw/xfree86/drivers/
+xorg-server-1.20.3/hw/xfree86/drivers/Makefile.am
+xorg-server-1.20.3/hw/xfree86/drivers/Makefile.in
+xorg-server-1.20.3/hw/xfree86/drivers/modesetting/
+xorg-server-1.20.3/hw/xfree86/drivers/modesetting/driver.h
+xorg-server-1.20.3/hw/xfree86/drivers/modesetting/driver.c
+xorg-server-1.20.3/hw/xfree86/drivers/modesetting/drmmode_display.c
+xorg-server-1.20.3/hw/xfree86/drivers/modesetting/present.c
+xorg-server-1.20.3/hw/xfree86/drivers/modesetting/pageflip.c
+xorg-server-1.20.3/hw/xfree86/drivers/modesetting/dri2.c
+xorg-server-1.20.3/hw/xfree86/drivers/modesetting/Makefile.am
+xorg-server-1.20.3/hw/xfree86/drivers/modesetting/meson.build
+xorg-server-1.20.3/hw/xfree86/drivers/modesetting/modesetting.man
+xorg-server-1.20.3/hw/xfree86/drivers/modesetting/vblank.c
+xorg-server-1.20.3/hw/xfree86/drivers/modesetting/Makefile.in
+xorg-server-1.20.3/hw/xfree86/drivers/modesetting/dumb_bo.h
+xorg-server-1.20.3/hw/xfree86/drivers/modesetting/dumb_bo.c
+xorg-server-1.20.3/hw/xfree86/drivers/modesetting/drmmode_display.h
+xorg-server-1.20.3/hw/xfree86/loader/
+xorg-server-1.20.3/hw/xfree86/loader/loaderProcs.h
+xorg-server-1.20.3/hw/xfree86/loader/loader.h
+xorg-server-1.20.3/hw/xfree86/loader/symbol-test.c
+xorg-server-1.20.3/hw/xfree86/loader/Makefile.am
+xorg-server-1.20.3/hw/xfree86/loader/meson.build
+xorg-server-1.20.3/hw/xfree86/loader/loadmod.c
+xorg-server-1.20.3/hw/xfree86/loader/Makefile.in
+xorg-server-1.20.3/hw/xfree86/loader/loader.c
+xorg-server-1.20.3/hw/xfree86/xorgconf.cpp
+xorg-server-1.20.3/hw/xfree86/modes/
+xorg-server-1.20.3/hw/xfree86/modes/xf86RandR12.h
+xorg-server-1.20.3/hw/xfree86/modes/xf86cvt.c
+xorg-server-1.20.3/hw/xfree86/modes/xf86gtf.c
+xorg-server-1.20.3/hw/xfree86/modes/xf86DiDGA.c
+xorg-server-1.20.3/hw/xfree86/modes/xf86Crtc.c
+xorg-server-1.20.3/hw/xfree86/modes/xf86Cursors.c
+xorg-server-1.20.3/hw/xfree86/modes/xf86Crtc.h
+xorg-server-1.20.3/hw/xfree86/modes/Makefile.am
+xorg-server-1.20.3/hw/xfree86/modes/meson.build
+xorg-server-1.20.3/hw/xfree86/modes/Makefile.in
+xorg-server-1.20.3/hw/xfree86/modes/xf86Modes.c
+xorg-server-1.20.3/hw/xfree86/modes/xf86RandR12.c
+xorg-server-1.20.3/hw/xfree86/modes/xf86Modes.h
+xorg-server-1.20.3/hw/xfree86/modes/xf86Rotate.c
+xorg-server-1.20.3/hw/xfree86/modes/xf86EdidModes.c
+xorg-server-1.20.3/hw/xfree86/Makefile.am
+xorg-server-1.20.3/hw/xfree86/int10/
+xorg-server-1.20.3/hw/xfree86/int10/xf86int10.c
+xorg-server-1.20.3/hw/xfree86/int10/helper_mem.c
+xorg-server-1.20.3/hw/xfree86/int10/xf86x86emu.h
+xorg-server-1.20.3/hw/xfree86/int10/helper_exec.c
+xorg-server-1.20.3/hw/xfree86/int10/xf86x86emu.c
+xorg-server-1.20.3/hw/xfree86/int10/Makefile.am
+xorg-server-1.20.3/hw/xfree86/int10/meson.build
+xorg-server-1.20.3/hw/xfree86/int10/stub.c
+xorg-server-1.20.3/hw/xfree86/int10/Makefile.in
+xorg-server-1.20.3/hw/xfree86/int10/x86emu.c
+xorg-server-1.20.3/hw/xfree86/int10/generic.c
+xorg-server-1.20.3/hw/xfree86/int10/xf86int10.h
+xorg-server-1.20.3/hw/xfree86/int10/xf86int10module.c
+xorg-server-1.20.3/hw/xfree86/int10/INT10.HOWTO
+xorg-server-1.20.3/hw/xfree86/meson.build
+xorg-server-1.20.3/hw/xfree86/xkb/
+xorg-server-1.20.3/hw/xfree86/xkb/Makefile.am
+xorg-server-1.20.3/hw/xfree86/xkb/meson.build
+xorg-server-1.20.3/hw/xfree86/xkb/Makefile.in
+xorg-server-1.20.3/hw/xfree86/xkb/xkbPrivate.c
+xorg-server-1.20.3/hw/xfree86/xkb/xkbVT.c
+xorg-server-1.20.3/hw/xfree86/xkb/xkbKillSrv.c
+xorg-server-1.20.3/hw/xfree86/os-support/
+xorg-server-1.20.3/hw/xfree86/os-support/xf86_OSproc.h
+xorg-server-1.20.3/hw/xfree86/os-support/xf86_OSlib.h
+xorg-server-1.20.3/hw/xfree86/os-support/stub/
+xorg-server-1.20.3/hw/xfree86/os-support/stub/stub_video.c
+xorg-server-1.20.3/hw/xfree86/os-support/stub/stub_bell.c
+xorg-server-1.20.3/hw/xfree86/os-support/stub/Makefile.am
+xorg-server-1.20.3/hw/xfree86/os-support/stub/stub_init.c
+xorg-server-1.20.3/hw/xfree86/os-support/stub/Makefile.in
+xorg-server-1.20.3/hw/xfree86/os-support/shared/
+xorg-server-1.20.3/hw/xfree86/os-support/shared/VTsw_usl.c
+xorg-server-1.20.3/hw/xfree86/os-support/shared/ioperm_noop.c
+xorg-server-1.20.3/hw/xfree86/os-support/shared/vidmem.c
+xorg-server-1.20.3/hw/xfree86/os-support/shared/kmod_noop.c
+xorg-server-1.20.3/hw/xfree86/os-support/shared/pm_noop.c
+xorg-server-1.20.3/hw/xfree86/os-support/shared/sigiostubs.c
+xorg-server-1.20.3/hw/xfree86/os-support/shared/sigio.c
+xorg-server-1.20.3/hw/xfree86/os-support/shared/posix_tty.c
+xorg-server-1.20.3/hw/xfree86/os-support/shared/VTsw_noop.c
+xorg-server-1.20.3/hw/xfree86/os-support/shared/agp_noop.c
+xorg-server-1.20.3/hw/xfree86/os-support/xf86OSpriv.h
+xorg-server-1.20.3/hw/xfree86/os-support/linux/
+xorg-server-1.20.3/hw/xfree86/os-support/linux/lnx_video.c
+xorg-server-1.20.3/hw/xfree86/os-support/linux/systemd-logind.c
+xorg-server-1.20.3/hw/xfree86/os-support/linux/lnx_apm.c
+xorg-server-1.20.3/hw/xfree86/os-support/linux/lnx_agp.c
+xorg-server-1.20.3/hw/xfree86/os-support/linux/lnx_bell.c
+xorg-server-1.20.3/hw/xfree86/os-support/linux/Makefile.am
+xorg-server-1.20.3/hw/xfree86/os-support/linux/int10/
+xorg-server-1.20.3/hw/xfree86/os-support/linux/int10/vm86/
+xorg-server-1.20.3/hw/xfree86/os-support/linux/int10/vm86/linux_vm86.c
+xorg-server-1.20.3/hw/xfree86/os-support/linux/int10/linux.c
+xorg-server-1.20.3/hw/xfree86/os-support/linux/lnx_kmod.c
+xorg-server-1.20.3/hw/xfree86/os-support/linux/lnx_acpi.c
+xorg-server-1.20.3/hw/xfree86/os-support/linux/linux.h
+xorg-server-1.20.3/hw/xfree86/os-support/linux/Makefile.in
+xorg-server-1.20.3/hw/xfree86/os-support/linux/lnx_init.c
+xorg-server-1.20.3/hw/xfree86/os-support/linux/lnx_platform.c
+xorg-server-1.20.3/hw/xfree86/os-support/int10Defines.h
+xorg-server-1.20.3/hw/xfree86/os-support/Makefile.am
+xorg-server-1.20.3/hw/xfree86/os-support/meson.build
+xorg-server-1.20.3/hw/xfree86/os-support/Makefile.in
+xorg-server-1.20.3/hw/xfree86/os-support/bus/
+xorg-server-1.20.3/hw/xfree86/os-support/bus/Pci.c
+xorg-server-1.20.3/hw/xfree86/os-support/bus/Pci.h
+xorg-server-1.20.3/hw/xfree86/os-support/bus/xf86Pci.h
+xorg-server-1.20.3/hw/xfree86/os-support/bus/bsd_pci.c
+xorg-server-1.20.3/hw/xfree86/os-support/bus/Makefile.am
+xorg-server-1.20.3/hw/xfree86/os-support/bus/nobus.c
+xorg-server-1.20.3/hw/xfree86/os-support/bus/Makefile.in
+xorg-server-1.20.3/hw/xfree86/os-support/bus/xf86Sbus.h
+xorg-server-1.20.3/hw/xfree86/os-support/bus/Sbus.c
+xorg-server-1.20.3/hw/xfree86/os-support/solaris/
+xorg-server-1.20.3/hw/xfree86/os-support/solaris/solaris-ia32.S
+xorg-server-1.20.3/hw/xfree86/os-support/solaris/sun_inout.s
+xorg-server-1.20.3/hw/xfree86/os-support/solaris/solaris-sparcv8plus.S
+xorg-server-1.20.3/hw/xfree86/os-support/solaris/solaris-amd64.S
+xorg-server-1.20.3/hw/xfree86/os-support/solaris/sun_bell.c
+xorg-server-1.20.3/hw/xfree86/os-support/solaris/sun_agp.c
+xorg-server-1.20.3/hw/xfree86/os-support/solaris/sun_vid.c
+xorg-server-1.20.3/hw/xfree86/os-support/solaris/Makefile.am
+xorg-server-1.20.3/hw/xfree86/os-support/solaris/sun_VTsw.c
+xorg-server-1.20.3/hw/xfree86/os-support/solaris/Makefile.in
+xorg-server-1.20.3/hw/xfree86/os-support/solaris/sun_init.c
+xorg-server-1.20.3/hw/xfree86/os-support/solaris/sun_apm.c
+xorg-server-1.20.3/hw/xfree86/os-support/misc/
+xorg-server-1.20.3/hw/xfree86/os-support/misc/Makefile.am
+xorg-server-1.20.3/hw/xfree86/os-support/misc/Makefile.in
+xorg-server-1.20.3/hw/xfree86/os-support/misc/SlowBcopy.c
+xorg-server-1.20.3/hw/xfree86/os-support/bsd/
+xorg-server-1.20.3/hw/xfree86/os-support/bsd/bsd_VTsw.c
+xorg-server-1.20.3/hw/xfree86/os-support/bsd/bsd_kmod.c
+xorg-server-1.20.3/hw/xfree86/os-support/bsd/memrange.h
+xorg-server-1.20.3/hw/xfree86/os-support/bsd/bsd_init.c
+xorg-server-1.20.3/hw/xfree86/os-support/bsd/sparc64_video.c
+xorg-server-1.20.3/hw/xfree86/os-support/bsd/bsd_bell.c
+xorg-server-1.20.3/hw/xfree86/os-support/bsd/bsd_kqueue_apm.c
+xorg-server-1.20.3/hw/xfree86/os-support/bsd/i386_video.c
+xorg-server-1.20.3/hw/xfree86/os-support/bsd/Makefile.am
+xorg-server-1.20.3/hw/xfree86/os-support/bsd/alpha_video.c
+xorg-server-1.20.3/hw/xfree86/os-support/bsd/Makefile.in
+xorg-server-1.20.3/hw/xfree86/os-support/bsd/arm_video.c
+xorg-server-1.20.3/hw/xfree86/os-support/bsd/bsd_apm.c
+xorg-server-1.20.3/hw/xfree86/os-support/bsd/ppc_video.c
+xorg-server-1.20.3/hw/xfree86/os-support/hurd/
+xorg-server-1.20.3/hw/xfree86/os-support/hurd/hurd_bell.c
+xorg-server-1.20.3/hw/xfree86/os-support/hurd/hurd_video.c
+xorg-server-1.20.3/hw/xfree86/os-support/hurd/hurd_init.c
+xorg-server-1.20.3/hw/xfree86/os-support/hurd/Makefile.am
+xorg-server-1.20.3/hw/xfree86/os-support/hurd/Makefile.in
+xorg-server-1.20.3/hw/xfree86/parser/
+xorg-server-1.20.3/hw/xfree86/parser/Video.c
+xorg-server-1.20.3/hw/xfree86/parser/configProcs.h
+xorg-server-1.20.3/hw/xfree86/parser/scan.c
+xorg-server-1.20.3/hw/xfree86/parser/write.c
+xorg-server-1.20.3/hw/xfree86/parser/Input.c
+xorg-server-1.20.3/hw/xfree86/parser/Monitor.c
+xorg-server-1.20.3/hw/xfree86/parser/Layout.c
+xorg-server-1.20.3/hw/xfree86/parser/xf86Optrec.h
+xorg-server-1.20.3/hw/xfree86/parser/Flags.c
+xorg-server-1.20.3/hw/xfree86/parser/Device.c
+xorg-server-1.20.3/hw/xfree86/parser/OutputClass.c
+xorg-server-1.20.3/hw/xfree86/parser/Module.c
+xorg-server-1.20.3/hw/xfree86/parser/Configint.h
+xorg-server-1.20.3/hw/xfree86/parser/Pointer.c
+xorg-server-1.20.3/hw/xfree86/parser/Makefile.am
+xorg-server-1.20.3/hw/xfree86/parser/read.c
+xorg-server-1.20.3/hw/xfree86/parser/meson.build
+xorg-server-1.20.3/hw/xfree86/parser/DRI.c
+xorg-server-1.20.3/hw/xfree86/parser/xf86Parser.h
+xorg-server-1.20.3/hw/xfree86/parser/InputClass.c
+xorg-server-1.20.3/hw/xfree86/parser/xf86tokens.h
+xorg-server-1.20.3/hw/xfree86/parser/Makefile.in
+xorg-server-1.20.3/hw/xfree86/parser/Extensions.c
+xorg-server-1.20.3/hw/xfree86/parser/Screen.c
+xorg-server-1.20.3/hw/xfree86/parser/Files.c
+xorg-server-1.20.3/hw/xfree86/parser/Vendor.c
+xorg-server-1.20.3/hw/xfree86/Makefile.in
+xorg-server-1.20.3/hw/xfree86/dri/
+xorg-server-1.20.3/hw/xfree86/dri/dri.c
+xorg-server-1.20.3/hw/xfree86/dri/dri.h
+xorg-server-1.20.3/hw/xfree86/dri/Makefile.am
+xorg-server-1.20.3/hw/xfree86/dri/meson.build
+xorg-server-1.20.3/hw/xfree86/dri/sarea.h
+xorg-server-1.20.3/hw/xfree86/dri/dristruct.h
+xorg-server-1.20.3/hw/xfree86/dri/Makefile.in
+xorg-server-1.20.3/hw/xfree86/dri/xf86dri.c
+xorg-server-1.20.3/hw/xfree86/exa/
+xorg-server-1.20.3/hw/xfree86/exa/man/
+xorg-server-1.20.3/hw/xfree86/exa/man/Makefile.am
+xorg-server-1.20.3/hw/xfree86/exa/man/exa.man
+xorg-server-1.20.3/hw/xfree86/exa/man/Makefile.in
+xorg-server-1.20.3/hw/xfree86/exa/examodule.c
+xorg-server-1.20.3/hw/xfree86/exa/Makefile.am
+xorg-server-1.20.3/hw/xfree86/exa/meson.build
+xorg-server-1.20.3/hw/xfree86/exa/Makefile.in
+xorg-server-1.20.3/hw/xfree86/sdksyms.sh
+xorg-server-1.20.3/hw/xfree86/vgahw/
+xorg-server-1.20.3/hw/xfree86/vgahw/vgaHW.h
+xorg-server-1.20.3/hw/xfree86/vgahw/Makefile.am
+xorg-server-1.20.3/hw/xfree86/vgahw/meson.build
+xorg-server-1.20.3/hw/xfree86/vgahw/vgaHW.c
+xorg-server-1.20.3/hw/xfree86/vgahw/Makefile.in
+xorg-server-1.20.3/hw/xfree86/vgahw/vgaHWmodule.c
+xorg-server-1.20.3/hw/xfree86/i2c/
+xorg-server-1.20.3/hw/xfree86/i2c/xf86i2c.h
+xorg-server-1.20.3/hw/xfree86/i2c/Makefile.am
+xorg-server-1.20.3/hw/xfree86/i2c/meson.build
+xorg-server-1.20.3/hw/xfree86/i2c/Makefile.in
+xorg-server-1.20.3/hw/xfree86/i2c/xf86i2c.c
+xorg-server-1.20.3/hw/xfree86/i2c/i2c_def.h
+xorg-server-1.20.3/hw/xwin/
+xorg-server-1.20.3/hw/xwin/winmultiwindowwm.c
+xorg-server-1.20.3/hw/xwin/winmsg.c
+xorg-server-1.20.3/hw/xwin/wincursor.c
+xorg-server-1.20.3/hw/xwin/winmultiwindowicons.h
+xorg-server-1.20.3/hw/xwin/winmultiwindowwindow.c
+xorg-server-1.20.3/hw/xwin/winconfig.c
+xorg-server-1.20.3/hw/xwin/winms.h
+xorg-server-1.20.3/hw/xwin/winprefsyacc.h
+xorg-server-1.20.3/hw/xwin/winvalargs.c
+xorg-server-1.20.3/hw/xwin/winwindowswm.c
+xorg-server-1.20.3/hw/xwin/X.ico
+xorg-server-1.20.3/hw/xwin/winkeybd.c
+xorg-server-1.20.3/hw/xwin/winscrinit.c
+xorg-server-1.20.3/hw/xwin/winprefsyacc.y
+xorg-server-1.20.3/hw/xwin/wincmap.c
+xorg-server-1.20.3/hw/xwin/winconfig.h
+xorg-server-1.20.3/hw/xwin/winos.c
+xorg-server-1.20.3/hw/xwin/winglobals.c
+xorg-server-1.20.3/hw/xwin/windisplay.c
+xorg-server-1.20.3/hw/xwin/winshadgdi.c
+xorg-server-1.20.3/hw/xwin/man/
+xorg-server-1.20.3/hw/xwin/man/XWin.man
+xorg-server-1.20.3/hw/xwin/man/Makefile.am
+xorg-server-1.20.3/hw/xwin/man/Makefile.in
+xorg-server-1.20.3/hw/xwin/man/XWinrc.man
+xorg-server-1.20.3/hw/xwin/winmisc.c
+xorg-server-1.20.3/hw/xwin/winresource.h
+xorg-server-1.20.3/hw/xwin/winmultiwindowclass.h
+xorg-server-1.20.3/hw/xwin/system.XWinrc
+xorg-server-1.20.3/hw/xwin/winmultiwindowshape.c
+xorg-server-1.20.3/hw/xwin/winkeyhook.c
+xorg-server-1.20.3/hw/xwin/winglobals.h
+xorg-server-1.20.3/hw/xwin/winlayouts.h
+xorg-server-1.20.3/hw/xwin/winshadddnl.c
+xorg-server-1.20.3/hw/xwin/winkeynames.h
+xorg-server-1.20.3/hw/xwin/winprefs.h
+xorg-server-1.20.3/hw/xwin/winclipboard/
+xorg-server-1.20.3/hw/xwin/winclipboard/xevents.c
+xorg-server-1.20.3/hw/xwin/winclipboard/xwinclip.man
+xorg-server-1.20.3/hw/xwin/winclipboard/xwinclip.c
+xorg-server-1.20.3/hw/xwin/winclipboard/thread.c
+xorg-server-1.20.3/hw/xwin/winclipboard/winclipboard.h
+xorg-server-1.20.3/hw/xwin/winclipboard/Makefile.am
+xorg-server-1.20.3/hw/xwin/winclipboard/meson.build
+xorg-server-1.20.3/hw/xwin/winclipboard/Makefile.in
+xorg-server-1.20.3/hw/xwin/winclipboard/textconv.c
+xorg-server-1.20.3/hw/xwin/winclipboard/wndproc.c
+xorg-server-1.20.3/hw/xwin/winclipboard/debug.c
+xorg-server-1.20.3/hw/xwin/XWin.rc
+xorg-server-1.20.3/hw/xwin/winwindow.c
+xorg-server-1.20.3/hw/xwin/InitOutput.c
+xorg-server-1.20.3/hw/xwin/winwndproc.c
+xorg-server-1.20.3/hw/xwin/winmsg.h
+xorg-server-1.20.3/hw/xwin/winmsgwindow.c
+xorg-server-1.20.3/hw/xwin/glx/
+xorg-server-1.20.3/hw/xwin/glx/indirect.h
+xorg-server-1.20.3/hw/xwin/glx/winpriv.c
+xorg-server-1.20.3/hw/xwin/glx/indirect.c
+xorg-server-1.20.3/hw/xwin/glx/dri_helpers.c
+xorg-server-1.20.3/hw/xwin/glx/winpriv.h
+xorg-server-1.20.3/hw/xwin/glx/wgl_ext_api.h
+xorg-server-1.20.3/hw/xwin/glx/glshim.c
+xorg-server-1.20.3/hw/xwin/glx/Makefile.am
+xorg-server-1.20.3/hw/xwin/glx/meson.build
+xorg-server-1.20.3/hw/xwin/glx/dri_helpers.h
+xorg-server-1.20.3/hw/xwin/glx/Makefile.in
+xorg-server-1.20.3/hw/xwin/glx/gen_gl_wrappers.py
+xorg-server-1.20.3/hw/xwin/glx/glthunk.c
+xorg-server-1.20.3/hw/xwin/glx/glwindows.h
+xorg-server-1.20.3/hw/xwin/glx/wgl_ext_api.c
+xorg-server-1.20.3/hw/xwin/winprocarg.c
+xorg-server-1.20.3/hw/xwin/winwin32rootlesswindow.c
+xorg-server-1.20.3/hw/xwin/winwakeup.c
+xorg-server-1.20.3/hw/xwin/winallpriv.c
+xorg-server-1.20.3/hw/xwin/winerror.c
+xorg-server-1.20.3/hw/xwin/winprefs.c
+xorg-server-1.20.3/hw/xwin/Makefile.am
+xorg-server-1.20.3/hw/xwin/winclipboardwrappers.c
+xorg-server-1.20.3/hw/xwin/meson.build
+xorg-server-1.20.3/hw/xwin/winengine.c
+xorg-server-1.20.3/hw/xwin/winmultiwindowicons.c
+xorg-server-1.20.3/hw/xwin/ddraw.h
+xorg-server-1.20.3/hw/xwin/InitInput.c
+xorg-server-1.20.3/hw/xwin/winmessages.h
+xorg-server-1.20.3/hw/xwin/winrandr.c
+xorg-server-1.20.3/hw/xwin/XWin.exe.manifest
+xorg-server-1.20.3/hw/xwin/wintaskbar.c
+xorg-server-1.20.3/hw/xwin/winmonitors.h
+xorg-server-1.20.3/hw/xwin/winprefsyacc.c
+xorg-server-1.20.3/hw/xwin/winclipboardinit.c
+xorg-server-1.20.3/hw/xwin/windialogs.c
+xorg-server-1.20.3/hw/xwin/windisplay.h
+xorg-server-1.20.3/hw/xwin/winmultiwindowwndproc.c
+xorg-server-1.20.3/hw/xwin/wincreatewnd.c
+xorg-server-1.20.3/hw/xwin/winmouse.c
+xorg-server-1.20.3/hw/xwin/winauth.c
+xorg-server-1.20.3/hw/xwin/Makefile.in
+xorg-server-1.20.3/hw/xwin/winmultiwindowclass.c
+xorg-server-1.20.3/hw/xwin/winmonitors.c
+xorg-server-1.20.3/hw/xwin/winprefslex.l
+xorg-server-1.20.3/hw/xwin/dri/
+xorg-server-1.20.3/hw/xwin/dri/windowsdri.h
+xorg-server-1.20.3/hw/xwin/dri/Makefile.am
+xorg-server-1.20.3/hw/xwin/dri/meson.build
+xorg-server-1.20.3/hw/xwin/dri/Makefile.in
+xorg-server-1.20.3/hw/xwin/dri/windowsdri.c
+xorg-server-1.20.3/hw/xwin/winwin32rootless.c
+xorg-server-1.20.3/hw/xwin/winwindow.h
+xorg-server-1.20.3/hw/xwin/win.h
+xorg-server-1.20.3/hw/xwin/winSetAppUserModelID.c
+xorg-server-1.20.3/hw/xwin/winkeybd.h
+xorg-server-1.20.3/hw/xwin/winblock.c
+xorg-server-1.20.3/hw/xwin/wintrayicon.c
+xorg-server-1.20.3/hw/xwin/propertystore.h
+xorg-server-1.20.3/hw/xwin/winwin32rootlesswndproc.c
+xorg-server-1.20.3/hw/xwin/winprefslex.c
+xorg-server-1.20.3/hw/vfb/
+xorg-server-1.20.3/hw/vfb/man/
+xorg-server-1.20.3/hw/vfb/man/Makefile.am
+xorg-server-1.20.3/hw/vfb/man/Makefile.in
+xorg-server-1.20.3/hw/vfb/man/Xvfb.man
+xorg-server-1.20.3/hw/vfb/InitOutput.c
+xorg-server-1.20.3/hw/vfb/Makefile.am
+xorg-server-1.20.3/hw/vfb/meson.build
+xorg-server-1.20.3/hw/vfb/InitInput.c
+xorg-server-1.20.3/hw/vfb/Makefile.in
+xorg-server-1.20.3/hw/xnest/
+xorg-server-1.20.3/hw/xnest/Color.h
+xorg-server-1.20.3/hw/xnest/Color.c
+xorg-server-1.20.3/hw/xnest/Visual.c
+xorg-server-1.20.3/hw/xnest/Pixmap.c
+xorg-server-1.20.3/hw/xnest/Args.h
+xorg-server-1.20.3/hw/xnest/Visual.h
+xorg-server-1.20.3/hw/xnest/Keyboard.c
+xorg-server-1.20.3/hw/xnest/man/
+xorg-server-1.20.3/hw/xnest/man/Xnest.man
+xorg-server-1.20.3/hw/xnest/man/Makefile.am
+xorg-server-1.20.3/hw/xnest/man/Makefile.in
+xorg-server-1.20.3/hw/xnest/XNCursor.h
+xorg-server-1.20.3/hw/xnest/Pointer.h
+xorg-server-1.20.3/hw/xnest/Screen.h
+xorg-server-1.20.3/hw/xnest/Handlers.c
+xorg-server-1.20.3/hw/xnest/Display.h
+xorg-server-1.20.3/hw/xnest/GCOps.h
+xorg-server-1.20.3/hw/xnest/GCOps.c
+xorg-server-1.20.3/hw/xnest/Init.h
+xorg-server-1.20.3/hw/xnest/Pointer.c
+xorg-server-1.20.3/hw/xnest/xnest-config.h
+xorg-server-1.20.3/hw/xnest/Font.c
+xorg-server-1.20.3/hw/xnest/Makefile.am
+xorg-server-1.20.3/hw/xnest/meson.build
+xorg-server-1.20.3/hw/xnest/Keyboard.h
+xorg-server-1.20.3/hw/xnest/screensaver
+xorg-server-1.20.3/hw/xnest/Drawable.h
+xorg-server-1.20.3/hw/xnest/Cursor.c
+xorg-server-1.20.3/hw/xnest/Events.c
+xorg-server-1.20.3/hw/xnest/Window.c
+xorg-server-1.20.3/hw/xnest/XNFont.h
+xorg-server-1.20.3/hw/xnest/Makefile.in
+xorg-server-1.20.3/hw/xnest/GC.c
+xorg-server-1.20.3/hw/xnest/XNPixmap.h
+xorg-server-1.20.3/hw/xnest/XNWindow.h
+xorg-server-1.20.3/hw/xnest/XNGC.h
+xorg-server-1.20.3/hw/xnest/Handlers.h
+xorg-server-1.20.3/hw/xnest/Args.c
+xorg-server-1.20.3/hw/xnest/Init.c
+xorg-server-1.20.3/hw/xnest/Screen.c
+xorg-server-1.20.3/hw/xnest/Events.h
+xorg-server-1.20.3/hw/xnest/Xnest.h
+xorg-server-1.20.3/hw/xnest/icon
+xorg-server-1.20.3/hw/xnest/Display.c
+xorg-server-1.20.3/hw/dmx/
+xorg-server-1.20.3/hw/dmx/dmxgc.h
+xorg-server-1.20.3/hw/dmx/dmxinput.c
+xorg-server-1.20.3/hw/dmx/dmxlog.c
+xorg-server-1.20.3/hw/dmx/dmxfont.h
+xorg-server-1.20.3/hw/dmx/dmxstat.h
+xorg-server-1.20.3/hw/dmx/dmxcmap.c
+xorg-server-1.20.3/hw/dmx/dmxwindow.h
+xorg-server-1.20.3/hw/dmx/dmxpixmap.h
+xorg-server-1.20.3/hw/dmx/man/
+xorg-server-1.20.3/hw/dmx/man/Makefile.am
+xorg-server-1.20.3/hw/dmx/man/Makefile.in
+xorg-server-1.20.3/hw/dmx/man/Xdmx.man
+xorg-server-1.20.3/hw/dmx/dmxsync.c
+xorg-server-1.20.3/hw/dmx/dmxextension.c
+xorg-server-1.20.3/hw/dmx/examples/
+xorg-server-1.20.3/hw/dmx/examples/ev.c
+xorg-server-1.20.3/hw/dmx/examples/dmxreconfig.c
+xorg-server-1.20.3/hw/dmx/examples/dmxrmscreen.c
+xorg-server-1.20.3/hw/dmx/examples/xbell.c
+xorg-server-1.20.3/hw/dmx/examples/dmxwininfo.c
+xorg-server-1.20.3/hw/dmx/examples/dmxresize.c
+xorg-server-1.20.3/hw/dmx/examples/Makefile.am
+xorg-server-1.20.3/hw/dmx/examples/meson.build
+xorg-server-1.20.3/hw/dmx/examples/dmxaddscreen.c
+xorg-server-1.20.3/hw/dmx/examples/evi.c
+xorg-server-1.20.3/hw/dmx/examples/xinput.c
+xorg-server-1.20.3/hw/dmx/examples/dmxrminput.c
+xorg-server-1.20.3/hw/dmx/examples/Makefile.in
+xorg-server-1.20.3/hw/dmx/examples/dmxaddinput.c
+xorg-server-1.20.3/hw/dmx/examples/xtest.c
+xorg-server-1.20.3/hw/dmx/examples/xled.c
+xorg-server-1.20.3/hw/dmx/examples/res.c
+xorg-server-1.20.3/hw/dmx/examples/dmxinfo.c
+xorg-server-1.20.3/hw/dmx/dmxgc.c
+xorg-server-1.20.3/hw/dmx/dmxcb.h
+xorg-server-1.20.3/hw/dmx/dmxclient.h
+xorg-server-1.20.3/hw/dmx/dmxscrinit.h
+xorg-server-1.20.3/hw/dmx/dmxcursor.c
+xorg-server-1.20.3/hw/dmx/doc/
+xorg-server-1.20.3/hw/dmx/doc/scaled.xml
+xorg-server-1.20.3/hw/dmx/doc/DMXSpec.txt
+xorg-server-1.20.3/hw/dmx/doc/DMXSpec-v1.txt
+xorg-server-1.20.3/hw/dmx/doc/dmx.xml
+xorg-server-1.20.3/hw/dmx/doc/Makefile.am
+xorg-server-1.20.3/hw/dmx/doc/Makefile.in
+xorg-server-1.20.3/hw/dmx/dmxinit.c
+xorg-server-1.20.3/hw/dmx/glxProxy/
+xorg-server-1.20.3/hw/dmx/glxProxy/compsize.h
+xorg-server-1.20.3/hw/dmx/glxProxy/glxcmds.c
+xorg-server-1.20.3/hw/dmx/glxProxy/g_disptab.h
+xorg-server-1.20.3/hw/dmx/glxProxy/global.c
+xorg-server-1.20.3/hw/dmx/glxProxy/unpack.h
+xorg-server-1.20.3/hw/dmx/glxProxy/glxvendor.c
+xorg-server-1.20.3/hw/dmx/glxProxy/render2swap.c
+xorg-server-1.20.3/hw/dmx/glxProxy/glxserver.h
+xorg-server-1.20.3/hw/dmx/glxProxy/glxdrawable.h
+xorg-server-1.20.3/hw/dmx/glxProxy/glxfbconfig.c
+xorg-server-1.20.3/hw/dmx/glxProxy/glxscreens.c
+xorg-server-1.20.3/hw/dmx/glxProxy/glxext.h
+xorg-server-1.20.3/hw/dmx/glxProxy/glxswap.c
+xorg-server-1.20.3/hw/dmx/glxProxy/glxcmds.h
+xorg-server-1.20.3/hw/dmx/glxProxy/glxfbconfig.h
+xorg-server-1.20.3/hw/dmx/glxProxy/glxswap.h
+xorg-server-1.20.3/hw/dmx/glxProxy/glxsingle.h
+xorg-server-1.20.3/hw/dmx/glxProxy/glxcmdsswap.c
+xorg-server-1.20.3/hw/dmx/glxProxy/g_disptab.c
+xorg-server-1.20.3/hw/dmx/glxProxy/Makefile.am
+xorg-server-1.20.3/hw/dmx/glxProxy/meson.build
+xorg-server-1.20.3/hw/dmx/glxProxy/glxscreens.h
+xorg-server-1.20.3/hw/dmx/glxProxy/glxext.c
+xorg-server-1.20.3/hw/dmx/glxProxy/glxvisuals.h
+xorg-server-1.20.3/hw/dmx/glxProxy/Makefile.in
+xorg-server-1.20.3/hw/dmx/glxProxy/glxerror.h
+xorg-server-1.20.3/hw/dmx/glxProxy/glxsingle.c
+xorg-server-1.20.3/hw/dmx/glxProxy/glxvisuals.c
+xorg-server-1.20.3/hw/dmx/glxProxy/glxvendor.h
+xorg-server-1.20.3/hw/dmx/glxProxy/compsize.c
+xorg-server-1.20.3/hw/dmx/glxProxy/glxutil.h
+xorg-server-1.20.3/hw/dmx/glxProxy/renderpixswap.c
+xorg-server-1.20.3/hw/dmx/glxProxy/glxcontext.h
+xorg-server-1.20.3/hw/dmx/glxProxy/g_renderswap.c
+xorg-server-1.20.3/hw/dmx/dmxextension.h
+xorg-server-1.20.3/hw/dmx/dmx_glxvisuals.h
+xorg-server-1.20.3/hw/dmx/dmxstat.c
+xorg-server-1.20.3/hw/dmx/doxygen/
+xorg-server-1.20.3/hw/dmx/doxygen/footer.html
+xorg-server-1.20.3/hw/dmx/doxygen/doxygen.conf.in
+xorg-server-1.20.3/hw/dmx/doxygen/Makefile.am
+xorg-server-1.20.3/hw/dmx/doxygen/Makefile.in
+xorg-server-1.20.3/hw/dmx/dmxsync.h
+xorg-server-1.20.3/hw/dmx/dmxvisual.c
+xorg-server-1.20.3/hw/dmx/dmxprop.c
+xorg-server-1.20.3/hw/dmx/dmxscrinit.c
+xorg-server-1.20.3/hw/dmx/dmxinput.h
+xorg-server-1.20.3/hw/dmx/Makefile.am
+xorg-server-1.20.3/hw/dmx/meson.build
+xorg-server-1.20.3/hw/dmx/dmxvisual.h
+xorg-server-1.20.3/hw/dmx/dmxgcops.c
+xorg-server-1.20.3/hw/dmx/dmxprop.h
+xorg-server-1.20.3/hw/dmx/dmxdpms.c
+xorg-server-1.20.3/hw/dmx/dmxfont.c
+xorg-server-1.20.3/hw/dmx/dmx_glxvisuals.c
+xorg-server-1.20.3/hw/dmx/dmx-config.h
+xorg-server-1.20.3/hw/dmx/dmxpict.h
+xorg-server-1.20.3/hw/dmx/dmxdpms.h
+xorg-server-1.20.3/hw/dmx/dmxpixmap.c
+xorg-server-1.20.3/hw/dmx/config/
+xorg-server-1.20.3/hw/dmx/config/test-e.in
+xorg-server-1.20.3/hw/dmx/config/test-e.out
+xorg-server-1.20.3/hw/dmx/config/test-c.out
+xorg-server-1.20.3/hw/dmx/config/parser.c
+xorg-server-1.20.3/hw/dmx/config/CanvasP.h
+xorg-server-1.20.3/hw/dmx/config/man/
+xorg-server-1.20.3/hw/dmx/config/man/vdltodmx.man
+xorg-server-1.20.3/hw/dmx/config/man/Makefile.am
+xorg-server-1.20.3/hw/dmx/config/man/Makefile.in
+xorg-server-1.20.3/hw/dmx/config/man/dmxtodmx.man
+xorg-server-1.20.3/hw/dmx/config/man/xdmxconfig.man
+xorg-server-1.20.3/hw/dmx/config/xdmxconfig.c
+xorg-server-1.20.3/hw/dmx/config/dmxprint.c
+xorg-server-1.20.3/hw/dmx/config/dmxcompat.c
+xorg-server-1.20.3/hw/dmx/config/dmxtodmx.c
+xorg-server-1.20.3/hw/dmx/config/test-i.out
+xorg-server-1.20.3/hw/dmx/config/test-h.in
+xorg-server-1.20.3/hw/dmx/config/test-b.out
+xorg-server-1.20.3/hw/dmx/config/test-i.in
+xorg-server-1.20.3/hw/dmx/config/dmxprint.h
+xorg-server-1.20.3/hw/dmx/config/dmxparse.h
+xorg-server-1.20.3/hw/dmx/config/Canvas.c
+xorg-server-1.20.3/hw/dmx/config/parser.h
+xorg-server-1.20.3/hw/dmx/config/TODO
+xorg-server-1.20.3/hw/dmx/config/test-b.in
+xorg-server-1.20.3/hw/dmx/config/test-k.in
+xorg-server-1.20.3/hw/dmx/config/dmxcompat.h
+xorg-server-1.20.3/hw/dmx/config/test-f.out
+xorg-server-1.20.3/hw/dmx/config/test-d.out
+xorg-server-1.20.3/hw/dmx/config/test-h.out
+xorg-server-1.20.3/hw/dmx/config/Makefile.am
+xorg-server-1.20.3/hw/dmx/config/meson.build
+xorg-server-1.20.3/hw/dmx/config/test-l.out
+xorg-server-1.20.3/hw/dmx/config/test-g.in
+xorg-server-1.20.3/hw/dmx/config/vdltodmx.c
+xorg-server-1.20.3/hw/dmx/config/test-g.out
+xorg-server-1.20.3/hw/dmx/config/test-a.out
+xorg-server-1.20.3/hw/dmx/config/test-f.in
+xorg-server-1.20.3/hw/dmx/config/Makefile.in
+xorg-server-1.20.3/hw/dmx/config/dmxconfig.h
+xorg-server-1.20.3/hw/dmx/config/parser.y
+xorg-server-1.20.3/hw/dmx/config/dmxparse.c
+xorg-server-1.20.3/hw/dmx/config/test-d.in
+xorg-server-1.20.3/hw/dmx/config/test-l.in
+xorg-server-1.20.3/hw/dmx/config/test-c.in
+xorg-server-1.20.3/hw/dmx/config/test-a.in
+xorg-server-1.20.3/hw/dmx/config/dmxconfig.c
+xorg-server-1.20.3/hw/dmx/config/Canvas.h
+xorg-server-1.20.3/hw/dmx/config/test-j.in
+xorg-server-1.20.3/hw/dmx/config/scanner.c
+xorg-server-1.20.3/hw/dmx/config/test-j.out
+xorg-server-1.20.3/hw/dmx/config/test-k.out
+xorg-server-1.20.3/hw/dmx/config/scanner.l
+xorg-server-1.20.3/hw/dmx/Makefile.in
+xorg-server-1.20.3/hw/dmx/dmx.c
+xorg-server-1.20.3/hw/dmx/dmxinit.h
+xorg-server-1.20.3/hw/dmx/dmxpict.c
+xorg-server-1.20.3/hw/dmx/dmxlog.h
+xorg-server-1.20.3/hw/dmx/dmx.h
+xorg-server-1.20.3/hw/dmx/dmxgcops.h
+xorg-server-1.20.3/hw/dmx/input/
+xorg-server-1.20.3/hw/dmx/input/dmxmap.c
+xorg-server-1.20.3/hw/dmx/input/ChkNotMaskEv.c
+xorg-server-1.20.3/hw/dmx/input/dmxdetach.c
+xorg-server-1.20.3/hw/dmx/input/usb-keyboard.h
+xorg-server-1.20.3/hw/dmx/input/dmxmotion.c
+xorg-server-1.20.3/hw/dmx/input/atKeynames.h
+xorg-server-1.20.3/hw/dmx/input/dmxmap.h
+xorg-server-1.20.3/hw/dmx/input/dmxmotion.h
+xorg-server-1.20.3/hw/dmx/input/usb-mouse.h
+xorg-server-1.20.3/hw/dmx/input/dmxarg.h
+xorg-server-1.20.3/hw/dmx/input/dmxbackend.h
+xorg-server-1.20.3/hw/dmx/input/dmxxinput.c
+xorg-server-1.20.3/hw/dmx/input/dmxdummy.c
+xorg-server-1.20.3/hw/dmx/input/Makefile.am
+xorg-server-1.20.3/hw/dmx/input/meson.build
+xorg-server-1.20.3/hw/dmx/input/dmxevents.c
+xorg-server-1.20.3/hw/dmx/input/dmxarg.c
+xorg-server-1.20.3/hw/dmx/input/usb-other.h
+xorg-server-1.20.3/hw/dmx/input/dmxconsole.h
+xorg-server-1.20.3/hw/dmx/input/Makefile.in
+xorg-server-1.20.3/hw/dmx/input/usb-mouse.c
+xorg-server-1.20.3/hw/dmx/input/dmxinputinit.h
+xorg-server-1.20.3/hw/dmx/input/dmxcommon.c
+xorg-server-1.20.3/hw/dmx/input/usb-keyboard.c
+xorg-server-1.20.3/hw/dmx/input/usb-other.c
+xorg-server-1.20.3/hw/dmx/input/dmxevents.h
+xorg-server-1.20.3/hw/dmx/input/dmxcommon.h
+xorg-server-1.20.3/hw/dmx/input/usb-private.h
+xorg-server-1.20.3/hw/dmx/input/usb-common.c
+xorg-server-1.20.3/hw/dmx/input/ChkNotMaskEv.h
+xorg-server-1.20.3/hw/dmx/input/dmxconsole.c
+xorg-server-1.20.3/hw/dmx/input/usb-common.h
+xorg-server-1.20.3/hw/dmx/input/dmxbackend.c
+xorg-server-1.20.3/hw/dmx/input/dmxinputinit.c
+xorg-server-1.20.3/hw/dmx/input/dmxdummy.h
+xorg-server-1.20.3/hw/dmx/dmxcmap.h
+xorg-server-1.20.3/hw/dmx/dmxcb.c
+xorg-server-1.20.3/hw/dmx/dmxwindow.c
+xorg-server-1.20.3/hw/dmx/dmxcursor.h
+xorg-server-1.20.3/hw/Makefile.am
+xorg-server-1.20.3/hw/meson.build
+xorg-server-1.20.3/hw/Makefile.in
+xorg-server-1.20.3/hw/xwayland/
+xorg-server-1.20.3/hw/xwayland/xwayland-shm.c
+xorg-server-1.20.3/hw/xwayland/xwayland.c
+xorg-server-1.20.3/hw/xwayland/xwayland-output.c
+xorg-server-1.20.3/hw/xwayland/drm.xml
+xorg-server-1.20.3/hw/xwayland/xwayland-input.c
+xorg-server-1.20.3/hw/xwayland/xwayland-vidmode.c
+xorg-server-1.20.3/hw/xwayland/xwayland-cvt.c
+xorg-server-1.20.3/hw/xwayland/xwayland-present.c
+xorg-server-1.20.3/hw/xwayland/xwayland.h
+xorg-server-1.20.3/hw/xwayland/Makefile.am
+xorg-server-1.20.3/hw/xwayland/meson.build
+xorg-server-1.20.3/hw/xwayland/xwayland-glamor.c
+xorg-server-1.20.3/hw/xwayland/xwayland-glamor-gbm.c
+xorg-server-1.20.3/hw/xwayland/xwayland-glamor-eglstream.c
+xorg-server-1.20.3/hw/xwayland/xwayland-cursor.c
+xorg-server-1.20.3/hw/xwayland/Makefile.in
+xorg-server-1.20.3/hw/xwayland/xwayland-glamor-xv.c
+xorg-server-1.20.3/autogen.sh
+xorg-server-1.20.3/ChangeLog
+xorg-server-1.20.3/os/
+xorg-server-1.20.3/os/strcasecmp.c
+xorg-server-1.20.3/os/strlcat.c
+xorg-server-1.20.3/os/oscolor.c
+xorg-server-1.20.3/os/io.c
+xorg-server-1.20.3/os/xstrans.c
+xorg-server-1.20.3/os/mitauth.c
+xorg-server-1.20.3/os/xsha1.c
+xorg-server-1.20.3/os/log.c
+xorg-server-1.20.3/os/osinit.c
+xorg-server-1.20.3/os/strlcpy.c
+xorg-server-1.20.3/os/xserver_poll.c
+xorg-server-1.20.3/os/ospoll.h
+xorg-server-1.20.3/os/strndup.c
+xorg-server-1.20.3/os/rpcauth.c
+xorg-server-1.20.3/os/strcasestr.c
+xorg-server-1.20.3/os/timingsafe_memcmp.c
+xorg-server-1.20.3/os/access.c
+xorg-server-1.20.3/os/Makefile.am
+xorg-server-1.20.3/os/meson.build
+xorg-server-1.20.3/os/xdmcp.c
+xorg-server-1.20.3/os/osdep.h
+xorg-server-1.20.3/os/reallocarray.c
+xorg-server-1.20.3/os/busfault.c
+xorg-server-1.20.3/os/connection.c
+xorg-server-1.20.3/os/Makefile.in
+xorg-server-1.20.3/os/utils.c
+xorg-server-1.20.3/os/inputthread.c
+xorg-server-1.20.3/os/xdmauth.c
+xorg-server-1.20.3/os/auth.c
+xorg-server-1.20.3/os/WaitFor.c
+xorg-server-1.20.3/os/xprintf.c
+xorg-server-1.20.3/os/client.c
+xorg-server-1.20.3/os/backtrace.c
+xorg-server-1.20.3/os/ospoll.c
+xorg-server-1.20.3/xserver.ent.in
+checking for a BSD-compatible install... /bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for gcc option to accept ISO C99... none needed
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wbad-function-cast... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wdeclaration-after-statement... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wshadow... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Wlogical-op... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking whether make supports nested variables... (cached) yes
+checking for doxygen... no
+configure: WARNING: doxygen not found - documentation targets will be skipped
+checking for X.Org SGML entities >= 1.8... no
+checking whether to build documentation... no
+checking whether to build developer documentation... no
+checking for xmlto... no
+configure: WARNING: xmlto not found - documentation targets will be skipped
+checking for fop... no
+configure: WARNING: fop not found - documentation targets will be skipped
+checking for xsltproc... /usr/bin/xsltproc
+checking whether to build unit test cases... auto
+checking whether the linker accepts -Wl,-wrap,exit... yes
+checking dependency style of gcc... gcc3
+checking whether ln -s works... yes
+checking how to print strings... print -r
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /x86_64-linux-musl/x86_64-linux-musl/bin/ld
+checking if the linker (/x86_64-linux-musl/x86_64-linux-musl/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /bin/nm -B
+checking the name lister (/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 32768
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /x86_64-linux-musl/x86_64-linux-musl/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... print -r --
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/x86_64-linux-musl/x86_64-linux-musl/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking for bison... bison -y
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for cpp... /bin/cpp
+checking if /bin/cpp requires -undef... yes
+checking if /bin/cpp requires -traditional... yes
+checking for dtrace... not_found
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for dlfcn.h... (cached) yes
+checking stropts.h usability... yes
+checking stropts.h presence... yes
+checking for stropts.h... yes
+checking fnmatch.h usability... yes
+checking fnmatch.h presence... yes
+checking for fnmatch.h... yes
+checking sys/mkdev.h usability... no
+checking sys/mkdev.h presence... no
+checking for sys/mkdev.h... no
+checking sys/sysmacros.h usability... yes
+checking sys/sysmacros.h presence... yes
+checking for sys/sysmacros.h... yes
+checking sys/utsname.h usability... yes
+checking sys/utsname.h presence... yes
+checking for sys/utsname.h... yes
+checking for an ANSI C-conforming const... yes
+checking for typeof syntax and keyword spelling... typeof
+checking whether byte ordering is bigendian... no
+checking size of unsigned long... 8
+checking for pid_t... yes
+checking for dlopen... yes
+checking for backtrace... no
+checking for geteuid... yes
+checking for getuid... yes
+checking for issetugid... yes
+checking for getresuid... yes
+checking for getdtablesize... yes
+checking for getifaddrs... yes
+checking for getpeereid... no
+checking for getpeerucred... no
+checking for getprogname... no
+checking for getzoneid... no
+checking for mmap... yes
+checking for posix_fallocate... yes
+checking for seteuid... yes
+checking for shmctl64... no
+checking for strncasecmp... yes
+checking for vasprintf... yes
+checking for vsnprintf... yes
+checking for walkcontext... no
+checking for setitimer... yes
+checking for poll... yes
+checking for epoll_create1... yes
+checking for mkostemp... yes
+checking for reallocarray... no
+checking for strcasecmp... yes
+checking for strcasestr... yes
+checking for strlcat... yes
+checking for strlcpy... yes
+checking for strndup... yes
+checking for timingsafe_memcmp... no
+checking for arc4random_buf in -lbsd... no
+checking for arc4random_buf... no
+checking whether program_invocation_short_name is declared... yes
+checking for SO_PEERCRED in sys/socket.h... yes
+checking for sqrt in -lm... yes
+checking for cbrt... yes
+checking linux/agpgart.h usability... yes
+checking linux/agpgart.h presence... yes
+checking for linux/agpgart.h... yes
+checking sys/agpio.h usability... no
+checking sys/agpio.h presence... no
+checking for sys/agpio.h... no
+checking sys/agpgart.h usability... no
+checking sys/agpgart.h presence... no
+checking for sys/agpgart.h... no
+checking linux/fb.h usability... yes
+checking linux/fb.h presence... yes
+checking for linux/fb.h... yes
+checking for sys/linker.h... no
+checking for SYSV IPC... yes
+checking machine/apmvar.h usability... no
+checking machine/apmvar.h presence... no
+checking for machine/apmvar.h... no
+checking execinfo.h usability... yes
+checking execinfo.h presence... yes
+checking for execinfo.h... yes
+checking for backtrace in -lc... no
+checking for fallback input driver... libinput
+checking for root directory for font files... Package fontutil was not found in the pkg-config search path.
+Perhaps you should add the directory containing `fontutil.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'fontutil' found
+${datarootdir}/fonts/X11
+checking for directory for misc files... ${FONTROOTDIR}/misc
+checking for directory for OTF files... ${FONTROOTDIR}/OTF
+checking for directory for TTF files... ${FONTROOTDIR}/TTF
+checking for directory for Type1 files... ${FONTROOTDIR}/Type1
+checking for directory for 75dpi files... ${FONTROOTDIR}/75dpi
+checking for directory for 100dpi files... ${FONTROOTDIR}/100dpi
+checking for default font path... ${FONTROOTDIR}/misc/,${FONTROOTDIR}/TTF/,${FONTROOTDIR}/OTF/,${FONTROOTDIR}/Type1/,${FONTROOTDIR}/100dpi/,${FONTROOTDIR}/75dpi/
+checking to see if we can install the Xorg server as root... yes
+checking if Xtrans should support UNIX socket connections... yes
+checking if Xtrans should support TCP socket connections... yes
+checking for library containing socket... none required
+checking for library containing gethostbyname... none required
+checking for getaddrinfo... yes
+checking if IPv6 support should be built... yes
+checking for struct sockaddr_in.sin_len... no
+checking for socklen_t... yes
+checking for struct msghdr.msg_control... yes
+checking if Xtrans should support os-specific local connections... no
+checking for authdes_seccreate... no
+checking for authdes_create... no
+checking if Secure RPC authentication ("SUN-DES-1") should be supported... no
+checking for PIXMAN... yes
+checking whether PTHREAD_MUTEX_RECURSIVE is declared... yes
+checking if compiler needs -Werror to reject unknown flags... no
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for pthread_setname_np(const char*)... no
+checking for pthread_setname_np(pthread_t, const char*)... yes
+checking for SYSTEMD_DAEMON... no
+checking for SYSTEMD_DAEMON... no
+checking for UDEV... yes
+checking for udev_monitor_filter_add_match_tag... yes
+checking for udev_enumerate_add_match_tag... yes
+checking for DBUS... yes
+checking for HAL... no
+checking for glibc...... no
+checking for clock_gettime... yes
+checking for a useful monotonic clock ...... yes
+checking whether to track client ids... yes
+checking for DRI2PROTO... yes
+Checking temp dir /run/shm
+Checking temp dir /var/tmp
+checking for DRI3PROTO... yes
+checking for sigaction... yes
+checking for XSHMFENCE... yes
+configure: DRI3 enabled
+checking for LIBDRM... yes
+checking for XLIB... yes
+checking for GL... yes
+checking for XDMCP... yes
+checking for SHA1Init... no
+checking for CC_SHA1_Init... no
+checking for wincrypt.h... no
+checking for SHA1Init in -lmd... no
+checking for LIBSHA1... no
+checking for nettle_sha1_init in -lnettle... yes
+checking for gcry_md_open in -lgcrypt... yes
+checking for SHA1_Init in -lcrypto... yes
+checking for OPENSSL... yes
+checking for SHA1 implementation... libnettle
+checking for XSERVERCFLAGS... yes
+checking for XSERVERLIBS... yes
+checking for LIBUNWIND... no
+checking if SVR4 needs to be defined... no
+checking whether to build Xvfb DDX... yes
+checking for XNESTMODULES... yes
+checking whether to build Xnest DDX... yes
+checking whether to build Xorg DDX... yes
+checking for symbol visibility support... yes
+checking whether to build Xorg PCI functions... checking for PCIACCESS... yes
+yes
+
+checking linux/apm_bios.h usability... yes
+checking linux/apm_bios.h presence... yes
+checking for linux/apm_bios.h... yes
+checking for DGA... yes
+checking for DGA... yes
+checking for XORG_MODULES... yes
+checking for GLAMOR... yes
+checking for GBM... yes
+checking whether GBM_BO_USE_LINEAR is declared... yes
+checking whether to build XWin DDX... no
+checking dependency style of $(CC)... none
+checking for DMXMODULES... yes
+checking for XDMXCONFIG_DEP... yes
+checking whether to build Xdmx DDX... no
+checking for XWAYLANDMODULES... no
+checking whether to build Xwayland DDX... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating glx/Makefile
+config.status: creating include/Makefile
+config.status: creating composite/Makefile
+config.status: creating damageext/Makefile
+config.status: creating dbe/Makefile
+config.status: creating dix/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/dtrace/Makefile
+config.status: creating man/Makefile
+config.status: creating fb/Makefile
+config.status: creating glamor/Makefile
+config.status: creating record/Makefile
+config.status: creating config/Makefile
+config.status: creating mi/Makefile
+config.status: creating miext/Makefile
+config.status: creating miext/sync/Makefile
+config.status: creating miext/damage/Makefile
+config.status: creating miext/shadow/Makefile
+config.status: creating miext/rootless/Makefile
+config.status: creating os/Makefile
+config.status: creating pseudoramiX/Makefile
+config.status: creating randr/Makefile
+config.status: creating render/Makefile
+config.status: creating xkb/Makefile
+config.status: creating Xext/Makefile
+config.status: creating Xi/Makefile
+config.status: creating xfixes/Makefile
+config.status: creating exa/Makefile
+config.status: creating dri3/Makefile
+config.status: creating present/Makefile
+config.status: creating hw/Makefile
+config.status: creating hw/xfree86/Makefile
+config.status: creating hw/xfree86/Xorg.sh
+config.status: creating hw/xfree86/common/Makefile
+config.status: creating hw/xfree86/common/xf86Build.h
+config.status: creating hw/xfree86/ddc/Makefile
+config.status: creating hw/xfree86/dixmods/Makefile
+config.status: creating hw/xfree86/doc/Makefile
+config.status: creating hw/xfree86/dri/Makefile
+config.status: creating hw/xfree86/dri2/Makefile
+config.status: creating hw/xfree86/dri2/pci_ids/Makefile
+config.status: creating hw/xfree86/drivers/Makefile
+config.status: creating hw/xfree86/drivers/modesetting/Makefile
+config.status: creating hw/xfree86/exa/Makefile
+config.status: creating hw/xfree86/exa/man/Makefile
+config.status: creating hw/xfree86/fbdevhw/Makefile
+config.status: creating hw/xfree86/fbdevhw/man/Makefile
+config.status: creating hw/xfree86/glamor_egl/Makefile
+config.status: creating hw/xfree86/i2c/Makefile
+config.status: creating hw/xfree86/int10/Makefile
+config.status: creating hw/xfree86/loader/Makefile
+config.status: creating hw/xfree86/man/Makefile
+config.status: creating hw/xfree86/modes/Makefile
+config.status: creating hw/xfree86/os-support/Makefile
+config.status: creating hw/xfree86/os-support/bsd/Makefile
+config.status: creating hw/xfree86/os-support/bus/Makefile
+config.status: creating hw/xfree86/os-support/hurd/Makefile
+config.status: creating hw/xfree86/os-support/misc/Makefile
+config.status: creating hw/xfree86/os-support/linux/Makefile
+config.status: creating hw/xfree86/os-support/solaris/Makefile
+config.status: creating hw/xfree86/os-support/stub/Makefile
+config.status: creating hw/xfree86/parser/Makefile
+config.status: creating hw/xfree86/ramdac/Makefile
+config.status: creating hw/xfree86/shadowfb/Makefile
+config.status: creating hw/xfree86/vbe/Makefile
+config.status: creating hw/xfree86/vgahw/Makefile
+config.status: creating hw/xfree86/x86emu/Makefile
+config.status: creating hw/xfree86/xkb/Makefile
+config.status: creating hw/xfree86/utils/Makefile
+config.status: creating hw/xfree86/utils/man/Makefile
+config.status: creating hw/xfree86/utils/cvt/Makefile
+config.status: creating hw/xfree86/utils/gtf/Makefile
+config.status: creating hw/dmx/config/Makefile
+config.status: creating hw/dmx/config/man/Makefile
+config.status: creating hw/dmx/doc/Makefile
+config.status: creating hw/dmx/doxygen/doxygen.conf
+config.status: creating hw/dmx/doxygen/Makefile
+config.status: creating hw/dmx/examples/Makefile
+config.status: creating hw/dmx/input/Makefile
+config.status: creating hw/dmx/glxProxy/Makefile
+config.status: creating hw/dmx/Makefile
+config.status: creating hw/dmx/man/Makefile
+config.status: creating hw/vfb/Makefile
+config.status: creating hw/vfb/man/Makefile
+config.status: creating hw/xnest/Makefile
+config.status: creating hw/xnest/man/Makefile
+config.status: creating hw/xwin/Makefile
+config.status: creating hw/xwin/dri/Makefile
+config.status: creating hw/xwin/glx/Makefile
+config.status: creating hw/xwin/man/Makefile
+config.status: creating hw/xwin/winclipboard/Makefile
+config.status: creating hw/xquartz/Makefile
+config.status: creating hw/xquartz/GL/Makefile
+config.status: creating hw/xquartz/bundle/Makefile
+config.status: creating hw/xquartz/man/Makefile
+config.status: creating hw/xquartz/mach-startup/Makefile
+config.status: creating hw/xquartz/pbproxy/Makefile
+config.status: creating hw/xquartz/xpr/Makefile
+config.status: creating hw/kdrive/Makefile
+config.status: creating hw/kdrive/ephyr/Makefile
+config.status: creating hw/kdrive/ephyr/man/Makefile
+config.status: creating hw/kdrive/src/Makefile
+config.status: creating hw/xwayland/Makefile
+config.status: creating test/Makefile
+config.status: creating xserver.ent
+config.status: creating xorg-server.pc
+config.status: creating include/do-not-use-config.h
+config.status: creating include/xorg-server.h
+config.status: creating include/dix-config.h
+config.status: creating include/xorg-config.h
+config.status: creating include/xkb-config.h
+config.status: creating include/xwin-config.h
+config.status: creating include/xwayland-config.h
+config.status: creating include/version-config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing sdksyms commands
+Making all in doc
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/doc'
+Making all in dtrace
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/doc/dtrace'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/doc/dtrace'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/doc'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/doc'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/doc'
+Making all in man
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/man'
+  GEN      Xserver.1
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/man'
+Making all in include
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/include'
+make  all-am
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/include'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/include'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/include'
+Making all in dix
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/dix'
+make  all-am
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/dix'
+  CC       atom.lo
+  CC       colormap.lo
+  CC       cursor.lo
+  CC       devices.lo
+  CC       dispatch.lo
+  CC       dixfonts.lo
+  CC       main.lo
+  CC       dixutils.lo
+  CC       enterleave.lo
+  CC       events.lo
+  CC       eventconvert.lo
+  CC       extension.lo
+  CC       gc.lo
+  CC       getevents.lo
+  CC       globals.lo
+  CC       glyphcurs.lo
+  CC       grabs.lo
+  CC       initatoms.lo
+  CC       inpututils.lo
+  CC       pixmap.lo
+  CC       privates.lo
+  CC       property.lo
+  CC       ptrveloc.lo
+  CC       region.lo
+  CC       registry.lo
+  CC       resource.lo
+  CC       selection.lo
+  CC       swaprep.lo
+  CC       swapreq.lo
+  CC       tables.lo
+  CC       touch.lo
+  CC       window.lo
+  CCLD     libdix.la
+  CC       stubmain.lo
+  CCLD     libmain.la
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/dix'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/dix'
+Making all in fb
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/fb'
+  CC       libfb_la-fballpriv.lo
+  CC       libfb_la-fbarc.lo
+  CC       libfb_la-fbbits.lo
+  CC       libfb_la-fbblt.lo
+  CC       libfb_la-fbbltone.lo
+  CC       libfb_la-fbcmap_mi.lo
+  CC       libfb_la-fbcopy.lo
+  CC       libfb_la-fbfill.lo
+  CC       libfb_la-fbfillrect.lo
+  CC       libfb_la-fbfillsp.lo
+  CC       libfb_la-fbgc.lo
+  CC       libfb_la-fbgetsp.lo
+  CC       libfb_la-fbglyph.lo
+  CC       libfb_la-fbimage.lo
+  CC       libfb_la-fbline.lo
+  CC       libfb_la-fboverlay.lo
+  CC       libfb_la-fbpict.lo
+  CC       libfb_la-fbpixmap.lo
+  CC       libfb_la-fbpoint.lo
+  CC       libfb_la-fbpush.lo
+  CC       libfb_la-fbscreen.lo
+  CC       libfb_la-fbseg.lo
+  CC       libfb_la-fbsetsp.lo
+  CC       libfb_la-fbsolid.lo
+  CC       libfb_la-fbtrap.lo
+  CC       libfb_la-fbutil.lo
+  CC       libfb_la-fbwindow.lo
+  CCLD     libfb.la
+  CC       libwfb_la-fballpriv.lo
+  CC       libwfb_la-fbarc.lo
+  CC       libwfb_la-fbbits.lo
+  CC       libwfb_la-fbblt.lo
+  CC       libwfb_la-fbbltone.lo
+  CC       libwfb_la-fbcmap_mi.lo
+  CC       libwfb_la-fbcopy.lo
+  CC       libwfb_la-fbfill.lo
+  CC       libwfb_la-fbfillrect.lo
+  CC       libwfb_la-fbfillsp.lo
+  CC       libwfb_la-fbgc.lo
+  CC       libwfb_la-fbgetsp.lo
+  CC       libwfb_la-fbglyph.lo
+  CC       libwfb_la-fbimage.lo
+  CC       libwfb_la-fbline.lo
+  CC       libwfb_la-fboverlay.lo
+  CC       libwfb_la-fbpict.lo
+  CC       libwfb_la-fbpixmap.lo
+  CC       libwfb_la-fbpoint.lo
+  CC       libwfb_la-fbpush.lo
+  CC       libwfb_la-fbscreen.lo
+  CC       libwfb_la-fbseg.lo
+  CC       libwfb_la-fbsetsp.lo
+  CC       libwfb_la-fbsolid.lo
+  CC       libwfb_la-fbtrap.lo
+  CC       libwfb_la-fbutil.lo
+  CC       libwfb_la-fbwindow.lo
+  CCLD     libwfb.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/fb'
+Making all in mi
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/mi'
+  CC       miarc.lo
+  CC       mibitblt.lo
+  CC       micmap.lo
+  CC       micopy.lo
+  CC       midash.lo
+  CC       midispcur.lo
+  CC       mieq.lo
+  CC       miexpose.lo
+  CC       mifillarc.lo
+  CC       mifillrct.lo
+  CC       migc.lo
+  CC       miglblt.lo
+  CC       mioverlay.lo
+  CC       mipointer.lo
+  CC       mipoly.lo
+  CC       mipolypnt.lo
+  CC       mipolyrect.lo
+  CC       mipolyseg.lo
+  CC       mipolytext.lo
+  CC       mipushpxl.lo
+  CC       miscrinit.lo
+  CC       misprite.lo
+  CC       mivaltree.lo
+  CC       miwideline.lo
+  CC       miwindow.lo
+  CC       mizerarc.lo
+  CC       mizerclip.lo
+  CC       mizerline.lo
+  CCLD     libmi.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/mi'
+Making all in Xext
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/Xext'
+  CC       bigreq.lo
+  CC       geext.lo
+  CC       shape.lo
+  CC       sleepuntil.lo
+  CC       sync.lo
+  CC       xcmisc.lo
+  CC       xtest.lo
+  CC       shm.lo
+  CC       xvmain.lo
+  CC       xvdisp.lo
+  CC       xvmc.lo
+  CC       hashtable.lo
+  CC       xres.lo
+  CC       saver.lo
+  CC       panoramiX.lo
+  CC       panoramiXprocs.lo
+  CC       panoramiXSwap.lo
+  CC       xace.lo
+  CC       dpms.lo
+  CCLD     libXext.la
+  CC       vidmode.lo
+  CCLD     libXvidmode.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/Xext'
+Making all in miext
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/miext'
+Making all in sync
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/miext/sync'
+  CC       misync.lo
+  CC       misyncfd.lo
+  CC       misyncshm.lo
+  CCLD     libsync.la
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/miext/sync'
+Making all in damage
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/miext/damage'
+  CC       damage.lo
+  CCLD     libdamage.la
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/miext/damage'
+Making all in shadow
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/miext/shadow'
+  CC       shadow.lo
+  CC       sh3224.lo
+  CC       shafb4.lo
+  CC       shafb8.lo
+  CC       shiplan2p4.lo
+  CC       shiplan2p8.lo
+  CC       shpacked.lo
+  CC       shplanar8.lo
+  CC       shplanar.lo
+  CC       shrot16pack_180.lo
+  CC       shrot16pack_270.lo
+  CC       shrot16pack_270YX.lo
+  CC       shrot16pack_90.lo
+  CC       shrot16pack_90YX.lo
+  CC       shrot16pack.lo
+  CC       shrot32pack_180.lo
+  CC       shrot32pack_270.lo
+  CC       shrot32pack_90.lo
+  CC       shrot32pack.lo
+  CC       shrot8pack_180.lo
+  CC       shrot8pack_270.lo
+  CC       shrot8pack_90.lo
+  CC       shrot8pack.lo
+  CC       shrotate.lo
+  CCLD     libshadow.la
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/miext/shadow'
+Making all in rootless
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/miext/rootless'
+  CC       rootlessCommon.lo
+  CC       rootlessGC.lo
+  CC       rootlessScreen.lo
+  CC       rootlessValTree.lo
+  CC       rootlessWindow.lo
+  CCLD     librootless.la
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/miext/rootless'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/miext'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/miext'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/miext'
+Making all in os
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/os'
+  CC       WaitFor.lo
+  CC       access.lo
+  CC       auth.lo
+  CC       backtrace.lo
+  CC       client.lo
+  CC       connection.lo
+  CC       inputthread.lo
+  CC       io.lo
+  CC       mitauth.lo
+  CC       oscolor.lo
+  CC       osinit.lo
+  CC       ospoll.lo
+  CC       utils.lo
+  CC       xdmauth.lo
+  CC       xsha1.lo
+  CC       xstrans.lo
+  CC       xprintf.lo
+  CC       log.lo
+  CC       xdmcp.lo
+  CC       busfault.lo
+  CC       reallocarray.lo
+  CC       timingsafe_memcmp.lo
+  CCLD     libos.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/os'
+Making all in randr
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/randr'
+  CC       randr.lo
+  CC       rrcrtc.lo
+  CC       rrdispatch.lo
+  CC       rrinfo.lo
+  CC       rrlease.lo
+  CC       rrmode.lo
+  CC       rrmonitor.lo
+  CC       rroutput.lo
+  CC       rrpointer.lo
+  CC       rrproperty.lo
+  CC       rrprovider.lo
+  CC       rrproviderproperty.lo
+  CC       rrscreen.lo
+  CC       rrsdispatch.lo
+  CC       rrtransform.lo
+  CC       rrxinerama.lo
+  CCLD     librandr.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/randr'
+Making all in render
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/render'
+  CC       animcur.lo
+  CC       filter.lo
+  CC       glyph.lo
+  CC       matrix.lo
+  CC       miindex.lo
+  CC       mipict.lo
+  CC       mirect.lo
+  CC       mitrap.lo
+  CC       mitri.lo
+  CC       picture.lo
+  CC       render.lo
+  CCLD     librender.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/render'
+Making all in Xi
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/Xi'
+  CC       allowev.lo
+  CC       chgdctl.lo
+  CC       chgfctl.lo
+  CC       chgkbd.lo
+  CC       chgkmap.lo
+  CC       chgprop.lo
+  CC       chgptr.lo
+  CC       closedev.lo
+  CC       devbell.lo
+  CC       exevents.lo
+  CC       extinit.lo
+  CC       getbmap.lo
+  CC       getdctl.lo
+  CC       getfctl.lo
+  CC       getfocus.lo
+  CC       getkmap.lo
+  CC       getmmap.lo
+  CC       getprop.lo
+  CC       getselev.lo
+  CC       getvers.lo
+  CC       grabdev.lo
+  CC       grabdevb.lo
+  CC       grabdevk.lo
+  CC       gtmotion.lo
+  CC       listdev.lo
+  CC       opendev.lo
+  CC       queryst.lo
+  CC       selectev.lo
+  CC       sendexev.lo
+  CC       setbmap.lo
+  CC       setdval.lo
+  CC       setfocus.lo
+  CC       setmmap.lo
+  CC       setmode.lo
+  CC       ungrdev.lo
+  CC       ungrdevb.lo
+  CC       ungrdevk.lo
+  CC       xiallowev.lo
+  CC       xibarriers.lo
+  CC       xichangecursor.lo
+  CC       xichangehierarchy.lo
+  CC       xigetclientpointer.lo
+  CC       xigrabdev.lo
+  CC       xipassivegrab.lo
+  CC       xiproperty.lo
+  CC       xiquerydevice.lo
+  CC       xiquerypointer.lo
+  CC       xiqueryversion.lo
+  CC       xiselectev.lo
+  CC       xisetclientpointer.lo
+  CC       xisetdevfocus.lo
+  CC       xiwarppointer.lo
+  CCLD     libXi.la
+  CC       stubs.lo
+  CCLD     libXistubs.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/Xi'
+Making all in xkb
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/xkb'
+  CC       ddxBeep.lo
+  CC       ddxCtrls.lo
+  CC       ddxLEDs.lo
+  CC       ddxLoad.lo
+  CC       xkb.lo
+xkb.c: In function 'ProcXkbSetMap':
+xkb.c:2630:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+     DeviceIntPtr master = GetMaster(dev, MASTER_KEYBOARD);
+     ^~~~~~~~~~~~
+  CC       xkbUtils.lo
+  CC       xkbEvents.lo
+  CC       xkbAccessX.lo
+  CC       xkbSwap.lo
+  CC       xkbLEDs.lo
+  CC       xkbInit.lo
+  CC       xkbActions.lo
+  CC       xkbPrKeyEv.lo
+  CC       maprules.lo
+  CC       xkmread.lo
+  CC       xkbtext.lo
+  CC       xkbfmisc.lo
+  CC       xkbout.lo
+  CC       XKBMisc.lo
+  CC       XKBAlloc.lo
+  CC       XKBGAlloc.lo
+  CC       XKBMAlloc.lo
+  CCLD     libxkb.la
+  CC       ddxVT.lo
+  CC       ddxPrivate.lo
+  CC       ddxKillSrv.lo
+  CCLD     libxkbstubs.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/xkb'
+Making all in dbe
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/dbe'
+  CC       dbe.lo
+  CC       midbe.lo
+  CCLD     libdbe.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/dbe'
+Making all in record
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/record'
+  CC       record.lo
+  CC       set.lo
+  CCLD     librecord.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/record'
+Making all in xfixes
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/xfixes'
+  CC       cursor.lo
+  CC       region.lo
+  CC       saveset.lo
+  CC       select.lo
+  CC       xfixes.lo
+  CCLD     libxfixes.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/xfixes'
+Making all in damageext
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/damageext'
+  CC       damageext.lo
+  CCLD     libdamageext.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/damageext'
+Making all in composite
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/composite'
+  CC       compalloc.lo
+  CC       compext.lo
+  CC       compinit.lo
+  CC       compoverlay.lo
+  CC       compwindow.lo
+  CCLD     libcomposite.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/composite'
+Making all in glx
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/glx'
+  CC       indirect_dispatch.lo
+  CC       indirect_dispatch_swap.lo
+indirect_dispatch_swap.c:85:1: warning: 'bswap_CARD64' defined but not used [-Wunused-function]
+ bswap_CARD64(const void *src)
+ ^~~~~~~~~~~~
+  CC       indirect_reqsize.lo
+  CC       indirect_size_get.lo
+  CC       indirect_table.lo
+  CC       clientinfo.lo
+  CC       createcontext.lo
+  CC       extension_string.lo
+  CC       indirect_util.lo
+  CC       indirect_program.lo
+  CC       indirect_texture_compression.lo
+  CC       glxcmds.lo
+  CC       glxcmdsswap.lo
+  CC       glxext.lo
+  CC       glxdriswrast.lo
+  CC       glxdricommon.lo
+  CC       glxscreens.lo
+  CC       render2.lo
+  CC       render2swap.lo
+  CC       renderpix.lo
+  CC       renderpixswap.lo
+  CC       rensize.lo
+  CC       single2.lo
+  CC       single2swap.lo
+  CC       singlepix.lo
+  CC       singlepixswap.lo
+  CC       singlesize.lo
+  CC       swap_interval.lo
+  CC       xfont.lo
+  CCLD     libglx.la
+  CC       glxdri2.lo
+  CCLD     libglxdri.la
+  CC       vndcmds.lo
+  CC       vndext.lo
+  CC       vndservermapping.lo
+  CC       vndservervendor.lo
+  CCLD     libglxvnd.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/glx'
+Making all in present
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/present'
+  CC       present.lo
+  CC       present_event.lo
+  CC       present_execute.lo
+  CC       present_fake.lo
+  CC       present_fence.lo
+  CC       present_notify.lo
+  CC       present_request.lo
+  CC       present_scmd.lo
+  CC       present_screen.lo
+  CC       present_vblank.lo
+  CC       present_wnmd.lo
+  CCLD     libpresent.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/present'
+Making all in dri3
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/dri3'
+  CC       dri3.lo
+  CC       dri3_request.lo
+  CC       dri3_screen.lo
+  CCLD     libdri3.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/dri3'
+Making all in exa
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/exa'
+  CC       exa.lo
+  CC       exa_classic.lo
+  CC       exa_migration_classic.lo
+  CC       exa_driver.lo
+  CC       exa_mixed.lo
+  CC       exa_migration_mixed.lo
+  CC       exa_accel.lo
+  CC       exa_glyphs.lo
+  CC       exa_offscreen.lo
+  CC       exa_render.lo
+  CC       exa_unaccel.lo
+  CCLD     libexa.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/exa'
+Making all in glamor
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/glamor'
+  CC       glamor.lo
+  CC       glamor_copy.lo
+  CC       glamor_core.lo
+  CC       glamor_dash.lo
+  CC       glamor_font.lo
+  CC       glamor_glx.lo
+  CC       glamor_composite_glyphs.lo
+  CC       glamor_image.lo
+  CC       glamor_lines.lo
+  CC       glamor_segs.lo
+  CC       glamor_render.lo
+  CC       glamor_gradient.lo
+  CC       glamor_prepare.lo
+  CC       glamor_program.lo
+  CC       glamor_rects.lo
+  CC       glamor_spans.lo
+  CC       glamor_text.lo
+  CC       glamor_transfer.lo
+  CC       glamor_transform.lo
+  CC       glamor_trapezoid.lo
+  CC       glamor_triangles.lo
+  CC       glamor_addtraps.lo
+  CC       glamor_glyphblt.lo
+  CC       glamor_points.lo
+  CC       glamor_pixmap.lo
+  CC       glamor_largepixmap.lo
+  CC       glamor_picture.lo
+  CC       glamor_vbo.lo
+  CC       glamor_window.lo
+  CC       glamor_fbo.lo
+  CC       glamor_compositerects.lo
+  CC       glamor_utils.lo
+  CC       glamor_sync.lo
+  CC       glamor_xv.lo
+  CCLD     libglamor.la
+  CC       glamor_egl_stubs.lo
+  CCLD     libglamor_egl_stubs.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/glamor'
+Making all in config
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/config'
+  CC       config.lo
+  CC       dbus-core.lo
+  CC       udev.lo
+  CCLD     libconfig.la
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/config'
+Making all in hw
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/hw'
+Making all in xfree86
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+  GEN      xorg.conf.example
+make  all-recursive
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+Making all in common
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/common'
+  GEN      xf86DefModeSet.c
+  GEN      xf86DefModeSet.c
+make  all-am
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/common'
+  CC       xf86Configure.lo
+  CC       xf86Bus.lo
+  CC       xf86Config.lo
+  CC       xf86Cursor.lo
+  CC       xf86DGA.lo
+  CC       xf86DPMS.lo
+  CC       xf86Events.lo
+  CC       xf86Globals.lo
+  CC       xf86AutoConfig.lo
+  CC       xf86Option.lo
+  CC       xf86Init.lo
+  CC       xf86VidMode.lo
+  CC       xf86fbman.lo
+  CC       xf86cmap.lo
+  CC       xf86Helper.lo
+  CC       xf86PM.lo
+  CC       xf86Xinput.lo
+  CC       xisb.lo
+  CC       xf86Mode.lo
+  CC       xorgHelper.lo
+  CC       xf86Extensions.lo
+  CC       xf86xv.lo
+  CC       xf86xvmc.lo
+  CC       xf86fbBus.lo
+  CC       xf86noBus.lo
+  CC       xf86pciBus.lo
+xf86pciBus.c: In function 'xf86MatchDriverFromFiles':
+xf86pciBus.c:1305:13: warning: unused variable 'read' [-Wunused-variable]
+     ssize_t read;
+             ^~~~
+  CC       xf86VGAarbiter.lo
+  CC       xf86platformBus.lo
+  CC       xf86RandR.lo
+  CC       xf86DefModeSet.lo
+  CCLD     libcommon.la
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/common'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/common'
+Making all in ddc
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/ddc'
+  CC       ddc.lo
+  CC       interpret_edid.lo
+  CC       print_edid.lo
+  CC       ddcProperty.lo
+  CCLD     libddc.la
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/ddc'
+Making all in x86emu
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/x86emu'
+  CC       debug.lo
+  CC       decode.lo
+  CC       fpu.lo
+  CC       ops2.lo
+  CC       ops.lo
+  CC       prim_ops.lo
+  CC       sys.lo
+  CCLD     libx86emu.la
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/x86emu'
+Making all in int10
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/int10'
+  CC       helper_exec.lo
+  CC       helper_mem.lo
+  CC       xf86int10.lo
+  CC       xf86int10module.lo
+  CC       xf86x86emu.lo
+  CC       generic.lo
+  CC       x86emu.lo
+  CCLD     libint10.la
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/int10'
+Making all in os-support
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support'
+Making all in bus
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/bus'
+  CC       Pci.lo
+  CC       nobus.lo
+  CCLD     libbus.la
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/bus'
+Making all in linux
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/linux'
+  CC       lnx_init.lo
+  CC       lnx_video.lo
+  CC       lnx_agp.lo
+  CC       lnx_kmod.lo
+  CC       lnx_bell.lo
+  CC       lnx_platform.lo
+  CC       VTsw_usl.lo
+  CC       posix_tty.lo
+  CC       vidmem.lo
+  CC       sigio.lo
+  CC       lnx_acpi.lo
+  CC       lnx_apm.lo
+  CC       systemd-logind.lo
+  CCLD     liblinux.la
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/linux'
+Making all in misc
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/misc'
+  CC       SlowBcopy.lo
+  CCLD     libmisc.la
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/misc'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support'
+  CCLD     libxorgos.la
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support'
+Making all in parser
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/parser'
+  CC       Device.lo
+  CC       Files.lo
+  CC       Flags.lo
+  CC       Input.lo
+  CC       InputClass.lo
+  CC       OutputClass.lo
+  CC       Layout.lo
+  CC       Module.lo
+  CC       Video.lo
+  CC       Monitor.lo
+  CC       Pointer.lo
+  CC       Screen.lo
+  CC       Vendor.lo
+  CC       read.lo
+  CC       scan.lo
+  CC       write.lo
+  CC       DRI.lo
+  CC       Extensions.lo
+  CCLD     libxf86config.la
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/parser'
+Making all in ramdac
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/ramdac'
+  CC       xf86RamDac.lo
+  CC       xf86RamDacCmap.lo
+  CC       xf86CursorRD.lo
+  CC       xf86HWCurs.lo
+  CC       IBM.lo
+  CC       BT.lo
+  CC       TI.lo
+  CCLD     libramdac.la
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/ramdac'
+Making all in vgahw
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/vgahw'
+  CC       vgaHW.lo
+  CC       vgaHWmodule.lo
+  CCLD     libvgahw.la
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/vgahw'
+Making all in loader
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/loader'
+  CC       loader.lo
+  CC       loadmod.lo
+  CCLD     libloader.la
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/loader'
+Making all in modes
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/modes'
+  CC       xf86Crtc.lo
+  CC       xf86Cursors.lo
+  CC       xf86cvt.lo
+  CC       xf86gtf.lo
+  CC       xf86EdidModes.lo
+  CC       xf86Modes.lo
+  CC       xf86RandR12.lo
+  CC       xf86Rotate.lo
+  CC       xf86DiDGA.lo
+  CCLD     libxf86modes.la
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/modes'
+Making all in dri
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri'
+  CC       dri.lo
+  CC       xf86dri.lo
+  CCLD     libdri.la
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri'
+Making all in dri2
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2'
+Making all in pci_ids
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2/pci_ids'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2/pci_ids'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2'
+  CC       dri2.lo
+  CC       dri2ext.lo
+  CCLD     libdri2.la
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2'
+Making all in .
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+  GEN      sdksyms.c
+  CC       sdksyms.o
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/dixmods'
+  CC       libdixmods_la-miinitext.lo
+  CCLD     libdixmods.la
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/dixmods'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/i2c'
+  CC       xf86i2c.lo
+  CCLD     libi2c.la
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/i2c'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/xkb'
+  CC       xkbVT.lo
+  CC       xkbPrivate.lo
+  CC       xkbKillSrv.lo
+  CCLD     libxorgxkb.la
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/xkb'
+  CCLD     Xorg
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+Making all in vbe
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/vbe'
+  CC       vbe.lo
+  CC       vbeModes.lo
+  CC       vbe_module.lo
+  CCLD     libvbe.la
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/vbe'
+Making all in i2c
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/i2c'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/i2c'
+Making all in dixmods
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/dixmods'
+  CC       glxmodule.lo
+  CCLD     libglx.la
+  CC       libfb_la-fbmodule.lo
+  CCLD     libfb.la
+  CC       libwfb_la-fbmodule.lo
+  CCLD     libwfb.la
+  CC       shmodule.lo
+  CCLD     libshadow.la
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/dixmods'
+Making all in xkb
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/xkb'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/xkb'
+Making all in fbdevhw
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw'
+Making all in man
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw/man'
+  GEN      fbdevhw.4
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw/man'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw'
+  CC       fbdevhw.lo
+  CCLD     libfbdevhw.la
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw'
+Making all in shadowfb
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/shadowfb'
+  CC       sfbmodule.lo
+  CC       shadowfb.lo
+  CCLD     libshadowfb.la
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/shadowfb'
+Making all in exa
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa'
+Making all in man
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa/man'
+  GEN      exa.4
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa/man'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa'
+  CC       examodule.lo
+  CCLD     libexa.la
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa'
+Making all in utils
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils'
+Making all in gtf
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/gtf'
+  CC       gtf-gtf.o
+  CCLD     gtf
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/gtf'
+Making all in cvt
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/cvt'
+  CC       cvt-cvt.o
+  CC       cvt-xf86cvt.o
+  CC       cvt-xprintf.o
+  CCLD     cvt
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/cvt'
+Making all in man
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/man'
+  GEN      cvt.1
+  GEN      gtf.1
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/man'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils'
+Making all in doc
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/doc'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/doc'
+Making all in man
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/man'
+  GEN      Xorg.1
+  GEN      xorg.conf.5
+  GEN      xorg.conf.d.5
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/man'
+Making all in glamor_egl
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/glamor_egl'
+  CC       glamor_egl.lo
+  CC       glamor_eglmodule.lo
+  CC       glamor_xf86_xv.lo
+  CCLD     libglamoregl.la
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/glamor_egl'
+Making all in drivers
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers'
+Making all in modesetting
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers/modesetting'
+  CC       dri2.lo
+  CC       driver.lo
+  CC       drmmode_display.lo
+drmmode_display.c: In function 'drmmode_create_bo':
+drmmode_display.c:1019:9: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+         uint32_t num_modifiers;
+         ^~~~~~~~
+  CC       dumb_bo.lo
+  CC       present.lo
+  CC       vblank.lo
+  CC       pageflip.lo
+  CCLD     modesetting_drv.la
+  GEN      modesetting.4
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers/modesetting'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers'
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+Making all in vfb
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/hw/vfb'
+Making all in man
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/hw/vfb/man'
+  GEN      Xvfb.1
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/hw/vfb/man'
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/hw/vfb'
+  CC       InitInput.o
+  CC       InitOutput.o
+  CC       miinitext.o
+  CCLD     Xvfb
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/hw/vfb'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/hw/vfb'
+Making all in xnest
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/hw/xnest'
+Making all in man
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/hw/xnest/man'
+  GEN      Xnest.1
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xnest/man'
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/hw/xnest'
+  CC       Args.o
+  CC       Color.o
+  CC       Cursor.o
+  CC       Display.o
+  CC       Events.o
+  CC       Font.o
+  CC       GC.o
+  CC       GCOps.o
+  CC       Handlers.o
+  CC       Init.o
+  CC       Keyboard.o
+  CC       Pixmap.o
+  CC       Pointer.o
+  CC       Screen.o
+  CC       Visual.o
+  CC       Window.o
+  CC       miinitext.o
+  CCLD     Xnest
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xnest'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xnest'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/hw'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/hw'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/hw'
+Making all in test
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/test'
+true
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/test'
+make[1]: Entering directory `/tmp/xorg-server-1.20.3'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3'
+Making install in doc
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/doc'
+Making install in dtrace
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/doc/dtrace'
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/doc/dtrace'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/doc/dtrace'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/doc/dtrace'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/doc'
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/doc'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/doc'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/doc'
+Making install in man
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/man'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/man'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/man/man1'
+ /bin/ginstall -c -m 644 Xserver.1 '/tmp/package-xorg-server/usr/man/man1'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/man'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/man'
+Making install in include
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/include'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/include'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 xorg-server.h '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 XIstubs.h Xprintf.h callback.h client.h closestr.h closure.h colormap.h colormapst.h hotplug.h cursor.h cursorstr.h dix.h dixaccess.h dixevents.h dixfont.h dixfontstr.h dixgrabs.h dixstruct.h events.h exevents.h extension.h extinit.h extnsionst.h gc.h gcstruct.h globals.h glx_extinit.h glxvndabi.h input.h inputstr.h list.h misc.h miscstruct.h opaque.h nonsdk_extinit.h optionstr.h os.h pixmap.h pixmapstr.h privates.h '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 property.h propertyst.h ptrveloc.h region.h regionstr.h registry.h resource.h rgb.h screenint.h scrnintstr.h selection.h servermd.h site.h validate.h displaymode.h window.h windowstr.h xkbfile.h xkbsrv.h xkbstr.h xkbrules.h xserver_poll.h xserver-properties.h '/tmp/package-xorg-server/usr/include/xorg'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/include'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/include'
+Making install in dix
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/dix'
+make  install-am
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/dix'
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/dix'
+make[3]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/lib/xorg'
+ /bin/ginstall -c -m 644 protocol.txt '/tmp/package-xorg-server/usr/lib/xorg'
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/dix'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/dix'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/dix'
+Making install in fb
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/fb'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/fb'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 fb.h fbrop.h fboverlay.h wfbrename.h fbpict.h '/tmp/package-xorg-server/usr/include/xorg'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/fb'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/fb'
+Making install in mi
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/mi'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/mi'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 micmap.h miline.h mipointer.h mi.h migc.h mipointrst.h mizerarc.h micoord.h mistruct.h mioverlay.h '/tmp/package-xorg-server/usr/include/xorg'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/mi'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/mi'
+Making install in Xext
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/Xext'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/Xext'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 xvdix.h xvmcext.h geext.h geint.h shmint.h syncsdk.h panoramiXsrv.h panoramiX.h xace.h xacestr.h '/tmp/package-xorg-server/usr/include/xorg'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/Xext'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/Xext'
+Making install in miext
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/miext'
+Making install in sync
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/miext/sync'
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/miext/sync'
+make[3]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 misync.h misyncstr.h misyncshm.h misyncfd.h '/tmp/package-xorg-server/usr/include/xorg'
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/miext/sync'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/miext/sync'
+Making install in damage
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/miext/damage'
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/miext/damage'
+make[3]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 damage.h damagestr.h '/tmp/package-xorg-server/usr/include/xorg'
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/miext/damage'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/miext/damage'
+Making install in shadow
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/miext/shadow'
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/miext/shadow'
+make[3]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 shadow.h '/tmp/package-xorg-server/usr/include/xorg'
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/miext/shadow'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/miext/shadow'
+Making install in rootless
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/miext/rootless'
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/miext/rootless'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/miext/rootless'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/miext/rootless'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/miext'
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/miext'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/miext'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/miext'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/miext'
+Making install in os
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/os'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/os'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/os'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/os'
+Making install in randr
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/randr'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/randr'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 randrstr.h rrtransform.h '/tmp/package-xorg-server/usr/include/xorg'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/randr'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/randr'
+Making install in render
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/render'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/render'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 picture.h mipict.h glyphstr.h picturestr.h '/tmp/package-xorg-server/usr/include/xorg'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/render'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/render'
+Making install in Xi
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/Xi'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/Xi'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/Xi'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/Xi'
+Making install in xkb
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/xkb'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/xkb'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/var/lib/xkb'
+ /bin/ginstall -c -m 644 README.compiled '/tmp/package-xorg-server/var/lib/xkb'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/xkb'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/xkb'
+Making install in dbe
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/dbe'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/dbe'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 dbestruct.h '/tmp/package-xorg-server/usr/include/xorg'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/dbe'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/dbe'
+Making install in record
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/record'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/record'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/record'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/record'
+Making install in xfixes
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/xfixes'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/xfixes'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/xfixes'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/xfixes'
+Making install in damageext
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/damageext'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/damageext'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/damageext'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/damageext'
+Making install in composite
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/composite'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/composite'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 compositeext.h '/tmp/package-xorg-server/usr/include/xorg'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/composite'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/composite'
+Making install in glx
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/glx'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/glx'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 vndserver.h '/tmp/package-xorg-server/usr/include/xorg'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/glx'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/glx'
+Making install in present
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/present'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/present'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 present.h presentext.h '/tmp/package-xorg-server/usr/include/xorg'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/present'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/present'
+Making install in dri3
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/dri3'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/dri3'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 dri3.h '/tmp/package-xorg-server/usr/include/xorg'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/dri3'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/dri3'
+Making install in exa
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/exa'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/exa'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 exa.h '/tmp/package-xorg-server/usr/include/xorg'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/exa'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/exa'
+Making install in glamor
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/glamor'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/glamor'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 glamor.h '/tmp/package-xorg-server/usr/include/xorg'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/glamor'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/glamor'
+Making install in config
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/config'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/config'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/share/X11/xorg.conf.d'
+ /bin/ginstall -c -m 644 10-quirks.conf '/tmp/package-xorg-server/usr/share/X11/xorg.conf.d'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/config'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/config'
+Making install in hw
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/hw'
+Making install in xfree86
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+make  install-recursive
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+Making install in common
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/common'
+make  install-am
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/common'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/common'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 compiler.h fourcc.h xf86.h xf86Module.h xf86Opt.h xf86PciInfo.h xf86Priv.h xf86Privstr.h xf86cmap.h xf86fbman.h xf86str.h xf86Xinput.h xisb.h xf86xv.h xf86xvmc.h xf86xvpriv.h dgaproc.h xorgVersion.h xf86sbusBus.h xf86VGAarbiter.h xf86Optionstr.h xf86platformBus.h xf86MatchDrivers.h xaarop.h '/tmp/package-xorg-server/usr/include/xorg'
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/common'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/common'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/common'
+Making install in ddc
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/ddc'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/ddc'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 edid.h xf86DDC.h '/tmp/package-xorg-server/usr/include/xorg'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/ddc'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/ddc'
+Making install in x86emu
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/x86emu'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/x86emu'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/x86emu'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/x86emu'
+Making install in int10
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/int10'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/int10'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /bin/ginstall -c   libint10.la '/tmp/package-xorg-server/usr/lib/xorg/modules'
+libtool: install: /bin/ginstall -c .libs/libint10.so /tmp/package-xorg-server/usr/lib/xorg/modules/libint10.so
+libtool: install: /bin/ginstall -c .libs/libint10.lai /tmp/package-xorg-server/usr/lib/xorg/modules/libint10.la
+libtool: warning: remember to run 'libtool --finish /usr/lib/xorg/modules'
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 xf86int10.h '/tmp/package-xorg-server/usr/include/xorg'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/int10'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/int10'
+Making install in os-support
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support'
+Making install in bus
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/bus'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/bus'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 xf86Pci.h '/tmp/package-xorg-server/usr/include/xorg'
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/bus'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/bus'
+Making install in linux
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/linux'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/linux'
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/linux'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/linux'
+Making install in misc
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/misc'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/misc'
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/misc'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support/misc'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 xf86_OSproc.h xf86_OSlib.h '/tmp/package-xorg-server/usr/include/xorg'
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/os-support'
+Making install in parser
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/parser'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/parser'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 xf86Parser.h xf86Optrec.h '/tmp/package-xorg-server/usr/include/xorg'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/parser'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/parser'
+Making install in ramdac
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/ramdac'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/ramdac'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 BT.h IBM.h TI.h xf86Cursor.h xf86RamDac.h '/tmp/package-xorg-server/usr/include/xorg'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/ramdac'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/ramdac'
+Making install in vgahw
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/vgahw'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/vgahw'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /bin/ginstall -c   libvgahw.la '/tmp/package-xorg-server/usr/lib/xorg/modules'
+libtool: install: /bin/ginstall -c .libs/libvgahw.so /tmp/package-xorg-server/usr/lib/xorg/modules/libvgahw.so
+libtool: install: /bin/ginstall -c .libs/libvgahw.lai /tmp/package-xorg-server/usr/lib/xorg/modules/libvgahw.la
+libtool: warning: remember to run 'libtool --finish /usr/lib/xorg/modules'
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 vgaHW.h '/tmp/package-xorg-server/usr/include/xorg'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/vgahw'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/vgahw'
+Making install in loader
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/loader'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/loader'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/loader'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/loader'
+Making install in modes
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/modes'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/modes'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 xf86Crtc.h xf86Modes.h xf86RandR12.h '/tmp/package-xorg-server/usr/include/xorg'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/modes'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/modes'
+Making install in dri
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 dri.h sarea.h dristruct.h '/tmp/package-xorg-server/usr/include/xorg'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri'
+Making install in dri2
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2'
+Making install in pci_ids
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2/pci_ids'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2/pci_ids'
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2/pci_ids'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2/pci_ids'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 dri2.h '/tmp/package-xorg-server/usr/include/xorg'
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/dri2'
+Making install in .
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/bin'
+  /bin/sh ../../libtool   --mode=install /bin/ginstall -c Xorg '/tmp/package-xorg-server/usr/bin'
+libtool: install: /bin/ginstall -c Xorg /tmp/package-xorg-server/usr/bin/Xorg
+make  install-exec-hook
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+(cd /tmp/package-xorg-server/usr/bin && rm -f X && ln -s Xorg X)
+chown 0 /tmp/package-xorg-server/usr/bin/Xorg
+chmod u+s /tmp/package-xorg-server/usr/bin/Xorg
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+  GEN      install-data-local
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+Making install in vbe
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/vbe'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/vbe'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /bin/ginstall -c   libvbe.la '/tmp/package-xorg-server/usr/lib/xorg/modules'
+libtool: install: /bin/ginstall -c .libs/libvbe.so /tmp/package-xorg-server/usr/lib/xorg/modules/libvbe.so
+libtool: install: /bin/ginstall -c .libs/libvbe.lai /tmp/package-xorg-server/usr/lib/xorg/modules/libvbe.la
+libtool: warning: remember to run 'libtool --finish /usr/lib/xorg/modules'
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 vbe.h vbeModes.h '/tmp/package-xorg-server/usr/include/xorg'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/vbe'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/vbe'
+Making install in i2c
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/i2c'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/i2c'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 xf86i2c.h i2c_def.h '/tmp/package-xorg-server/usr/include/xorg'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/i2c'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/i2c'
+Making install in dixmods
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/dixmods'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/dixmods'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/lib/xorg/modules/extensions'
+ /bin/sh ../../../libtool   --mode=install /bin/ginstall -c   libglx.la '/tmp/package-xorg-server/usr/lib/xorg/modules/extensions'
+libtool: install: /bin/ginstall -c .libs/libglx.so /tmp/package-xorg-server/usr/lib/xorg/modules/extensions/libglx.so
+libtool: install: /bin/ginstall -c .libs/libglx.lai /tmp/package-xorg-server/usr/lib/xorg/modules/extensions/libglx.la
+libtool: warning: remember to run 'libtool --finish /usr/lib/xorg/modules/extensions'
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /bin/ginstall -c   libfb.la libwfb.la libshadow.la '/tmp/package-xorg-server/usr/lib/xorg/modules'
+libtool: install: /bin/ginstall -c .libs/libfb.so /tmp/package-xorg-server/usr/lib/xorg/modules/libfb.so
+libtool: install: /bin/ginstall -c .libs/libfb.lai /tmp/package-xorg-server/usr/lib/xorg/modules/libfb.la
+libtool: install: /bin/ginstall -c .libs/libwfb.so /tmp/package-xorg-server/usr/lib/xorg/modules/libwfb.so
+libtool: install: /bin/ginstall -c .libs/libwfb.lai /tmp/package-xorg-server/usr/lib/xorg/modules/libwfb.la
+libtool: install: /bin/ginstall -c .libs/libshadow.so /tmp/package-xorg-server/usr/lib/xorg/modules/libshadow.so
+libtool: install: /bin/ginstall -c .libs/libshadow.lai /tmp/package-xorg-server/usr/lib/xorg/modules/libshadow.la
+libtool: warning: remember to run 'libtool --finish /usr/lib/xorg/modules'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/dixmods'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/dixmods'
+Making install in xkb
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/xkb'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/xkb'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/xkb'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/xkb'
+Making install in fbdevhw
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw'
+Making install in man
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw/man'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw/man'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/man/man4'
+ /bin/ginstall -c -m 644 fbdevhw.4 '/tmp/package-xorg-server/usr/man/man4'
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw/man'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw/man'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /bin/ginstall -c   libfbdevhw.la '/tmp/package-xorg-server/usr/lib/xorg/modules'
+libtool: install: /bin/ginstall -c .libs/libfbdevhw.so /tmp/package-xorg-server/usr/lib/xorg/modules/libfbdevhw.so
+libtool: install: /bin/ginstall -c .libs/libfbdevhw.lai /tmp/package-xorg-server/usr/lib/xorg/modules/libfbdevhw.la
+libtool: warning: remember to run 'libtool --finish /usr/lib/xorg/modules'
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 fbdevhw.h '/tmp/package-xorg-server/usr/include/xorg'
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/fbdevhw'
+Making install in shadowfb
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/shadowfb'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/shadowfb'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /bin/ginstall -c   libshadowfb.la '/tmp/package-xorg-server/usr/lib/xorg/modules'
+libtool: install: /bin/ginstall -c .libs/libshadowfb.so /tmp/package-xorg-server/usr/lib/xorg/modules/libshadowfb.so
+libtool: install: /bin/ginstall -c .libs/libshadowfb.lai /tmp/package-xorg-server/usr/lib/xorg/modules/libshadowfb.la
+libtool: warning: remember to run 'libtool --finish /usr/lib/xorg/modules'
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/include/xorg'
+ /bin/ginstall -c -m 644 shadowfb.h '/tmp/package-xorg-server/usr/include/xorg'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/shadowfb'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/shadowfb'
+Making install in exa
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa'
+Making install in man
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa/man'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa/man'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/man/man4'
+ /bin/ginstall -c -m 644 exa.4 '/tmp/package-xorg-server/usr/man/man4'
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa/man'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa/man'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /bin/ginstall -c   libexa.la '/tmp/package-xorg-server/usr/lib/xorg/modules'
+libtool: install: /bin/ginstall -c .libs/libexa.so /tmp/package-xorg-server/usr/lib/xorg/modules/libexa.so
+libtool: install: /bin/ginstall -c .libs/libexa.lai /tmp/package-xorg-server/usr/lib/xorg/modules/libexa.la
+libtool: warning: remember to run 'libtool --finish /usr/lib/xorg/modules'
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/exa'
+Making install in utils
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils'
+Making install in gtf
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/gtf'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/gtf'
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/bin'
+  /bin/sh ../../../../libtool   --mode=install /bin/ginstall -c gtf '/tmp/package-xorg-server/usr/bin'
+libtool: install: /bin/ginstall -c gtf /tmp/package-xorg-server/usr/bin/gtf
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/gtf'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/gtf'
+Making install in cvt
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/cvt'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/cvt'
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/bin'
+  /bin/sh ../../../../libtool   --mode=install /bin/ginstall -c cvt '/tmp/package-xorg-server/usr/bin'
+libtool: install: /bin/ginstall -c cvt /tmp/package-xorg-server/usr/bin/cvt
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/cvt'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/cvt'
+Making install in man
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/man'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/man'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/man/man1'
+ /bin/ginstall -c -m 644 cvt.1 gtf.1 '/tmp/package-xorg-server/usr/man/man1'
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/man'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils/man'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils'
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/utils'
+Making install in doc
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/doc'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/doc'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/doc'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/doc'
+Making install in man
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/man'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/man'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/man/man1'
+ /bin/ginstall -c -m 644 Xorg.1 '/tmp/package-xorg-server/usr/man/man1'
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/man/man5'
+ /bin/ginstall -c -m 644 xorg.conf.5 xorg.conf.d.5 '/tmp/package-xorg-server/usr/man/man5'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/man'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/man'
+Making install in glamor_egl
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/glamor_egl'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/glamor_egl'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /bin/ginstall -c   libglamoregl.la '/tmp/package-xorg-server/usr/lib/xorg/modules'
+libtool: install: /bin/ginstall -c .libs/libglamoregl.so /tmp/package-xorg-server/usr/lib/xorg/modules/libglamoregl.so
+libtool: install: /bin/ginstall -c .libs/libglamoregl.lai /tmp/package-xorg-server/usr/lib/xorg/modules/libglamoregl.la
+libtool: warning: remember to run 'libtool --finish /usr/lib/xorg/modules'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/glamor_egl'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/glamor_egl'
+Making install in drivers
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers'
+Making install in modesetting
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers/modesetting'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers/modesetting'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/man/man4'
+ /bin/ginstall -c -m 644 modesetting.4 '/tmp/package-xorg-server/usr/man/man4'
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/lib/xorg/modules/drivers'
+ /bin/sh ../../../../libtool   --mode=install /bin/ginstall -c   modesetting_drv.la '/tmp/package-xorg-server/usr/lib/xorg/modules/drivers'
+libtool: install: /bin/ginstall -c .libs/modesetting_drv.so /tmp/package-xorg-server/usr/lib/xorg/modules/drivers/modesetting_drv.so
+libtool: install: /bin/ginstall -c .libs/modesetting_drv.lai /tmp/package-xorg-server/usr/lib/xorg/modules/drivers/modesetting_drv.la
+libtool: warning: remember to run 'libtool --finish /usr/lib/xorg/modules/drivers'
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers/modesetting'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers/modesetting'
+make[5]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers'
+make[6]: Entering directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers'
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers'
+make[5]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86/drivers'
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xfree86'
+Making install in vfb
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/hw/vfb'
+Making install in man
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/hw/vfb/man'
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/vfb/man'
+make[4]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/man/man1'
+ /bin/ginstall -c -m 644 Xvfb.1 '/tmp/package-xorg-server/usr/man/man1'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/vfb/man'
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/hw/vfb/man'
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/hw/vfb'
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/vfb'
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/bin'
+  /bin/sh ../../libtool   --mode=install /bin/ginstall -c Xvfb '/tmp/package-xorg-server/usr/bin'
+libtool: install: /bin/ginstall -c Xvfb /tmp/package-xorg-server/usr/bin/Xvfb
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/vfb'
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/hw/vfb'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/hw/vfb'
+Making install in xnest
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/hw/xnest'
+Making install in man
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/hw/xnest/man'
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xnest/man'
+make[4]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/man/man1'
+ /bin/ginstall -c -m 644 Xnest.1 '/tmp/package-xorg-server/usr/man/man1'
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xnest/man'
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xnest/man'
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/hw/xnest'
+make[4]: Entering directory `/tmp/xorg-server-1.20.3/hw/xnest'
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/bin'
+  /bin/sh ../../libtool   --mode=install /bin/ginstall -c Xnest '/tmp/package-xorg-server/usr/bin'
+libtool: install: /bin/ginstall -c Xnest /tmp/package-xorg-server/usr/bin/Xnest
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xnest'
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xnest'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/hw/xnest'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3/hw'
+make[3]: Entering directory `/tmp/xorg-server-1.20.3/hw'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/xorg-server-1.20.3/hw'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3/hw'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/hw'
+Making install in test
+make[1]: Entering directory `/tmp/xorg-server-1.20.3/test'
+true
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3/test'
+make[1]: Entering directory `/tmp/xorg-server-1.20.3'
+make[2]: Entering directory `/tmp/xorg-server-1.20.3'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/share/aclocal'
+ /bin/ginstall -c -m 644 xorg-server.m4 '/tmp/package-xorg-server/usr/share/aclocal'
+ /bin/mkdir -p '/tmp/package-xorg-server/usr/lib/pkgconfig'
+ /bin/ginstall -c -m 644 xorg-server.pc '/tmp/package-xorg-server/usr/lib/pkgconfig'
+make[2]: Leaving directory `/tmp/xorg-server-1.20.3'
+make[1]: Leaving directory `/tmp/xorg-server-1.20.3'
+
+Slackware package maker, version 3.14159.
+
+Searching for symbolic links:
+usr/bin/X -> Xorg
+
+Making symbolic link creation script:
+( cd usr/bin ; rm -rf X )
+( cd usr/bin ; ln -sf Xorg X )
+
+It is recommended that you make these lines your new installation script.
+
+Would you like to make this stuff the install script for this package
+and remove the symbolic links ([y]es, [n]o)? y
+
+
+Removing symbolic links:
+removed './usr/bin/X'
+
+Creating your new ./install/doinst.sh...
+
+This next step is optional - you can set the directories in your package
+to some sane permissions. If any of the directories in your package have
+special permissions, then DO NOT reset them here!
+
+Would you like to reset all directory permissions to 755 (drwxr-xr-x) and
+directory ownerships to root.root ([y]es, [n]o)? n
+
+Creating Slackware package:  /tmp/xorg-server-1.20.3-x86_64-1sml.txz
+
+./
+var/
+var/log/
+var/lib/
+var/lib/xkb/
+var/lib/xkb/README.compiled
+usr/
+usr/share/
+usr/share/X11/
+usr/share/X11/xorg.conf.d/
+usr/share/X11/xorg.conf.d/10-quirks.conf
+usr/share/aclocal/
+usr/share/aclocal/xorg-server.m4
+usr/bin/
+usr/bin/Xvfb
+usr/bin/Xnest
+usr/bin/gtf
+usr/bin/cvt
+usr/bin/Xorg
+usr/include/
+usr/include/xorg/
+usr/include/xorg/migc.h
+usr/include/xorg/mipict.h
+usr/include/xorg/xf86i2c.h
+usr/include/xorg/xf86DDC.h
+usr/include/xorg/globals.h
+usr/include/xorg/displaymode.h
+usr/include/xorg/xf86Module.h
+usr/include/xorg/property.h
+usr/include/xorg/xorgVersion.h
+usr/include/xorg/list.h
+usr/include/xorg/mipointrst.h
+usr/include/xorg/fbpict.h
+usr/include/xorg/resource.h
+usr/include/xorg/syncsdk.h
+usr/include/xorg/panoramiXsrv.h
+usr/include/xorg/shadow.h
+usr/include/xorg/dri.h
+usr/include/xorg/nonsdk_extinit.h
+usr/include/xorg/dixstruct.h
+usr/include/xorg/colormap.h
+usr/include/xorg/exevents.h
+usr/include/xorg/privates.h
+usr/include/xorg/xf86.h
+usr/include/xorg/present.h
+usr/include/xorg/presentext.h
+usr/include/xorg/panoramiX.h
+usr/include/xorg/xf86cmap.h
+usr/include/xorg/fbdevhw.h
+usr/include/xorg/xf86Optionstr.h
+usr/include/xorg/xf86xvpriv.h
+usr/include/xorg/rrtransform.h
+usr/include/xorg/xf86VGAarbiter.h
+usr/include/xorg/dgaproc.h
+usr/include/xorg/cursorstr.h
+usr/include/xorg/xf86xv.h
+usr/include/xorg/IBM.h
+usr/include/xorg/randrstr.h
+usr/include/xorg/xaarop.h
+usr/include/xorg/fboverlay.h
+usr/include/xorg/micoord.h
+usr/include/xorg/Xprintf.h
+usr/include/xorg/i2c_def.h
+usr/include/xorg/xkbrules.h
+usr/include/xorg/dix.h
+usr/include/xorg/damagestr.h
+usr/include/xorg/callback.h
+usr/include/xorg/misyncshm.h
+usr/include/xorg/fbrop.h
+usr/include/xorg/xf86Privstr.h
+usr/include/xorg/geint.h
+usr/include/xorg/xf86Opt.h
+usr/include/xorg/mizerarc.h
+usr/include/xorg/xf86int10.h
+usr/include/xorg/compositeext.h
+usr/include/xorg/client.h
+usr/include/xorg/vbe.h
+usr/include/xorg/xf86Cursor.h
+usr/include/xorg/xf86Priv.h
+usr/include/xorg/xf86_OSproc.h
+usr/include/xorg/optionstr.h
+usr/include/xorg/site.h
+usr/include/xorg/misyncstr.h
+usr/include/xorg/fourcc.h
+usr/include/xorg/xf86sbusBus.h
+usr/include/xorg/fb.h
+usr/include/xorg/mipointer.h
+usr/include/xorg/misync.h
+usr/include/xorg/propertyst.h
+usr/include/xorg/xf86Modes.h
+usr/include/xorg/dristruct.h
+usr/include/xorg/cursor.h
+usr/include/xorg/ptrveloc.h
+usr/include/xorg/xf86Pci.h
+usr/include/xorg/glamor.h
+usr/include/xorg/xf86RamDac.h
+usr/include/xorg/extension.h
+usr/include/xorg/inputstr.h
+usr/include/xorg/xf86xvmc.h
+usr/include/xorg/shadowfb.h
+usr/include/xorg/exa.h
+usr/include/xorg/xvmcext.h
+usr/include/xorg/BT.h
+usr/include/xorg/wfbrename.h
+usr/include/xorg/xkbstr.h
+usr/include/xorg/mistruct.h
+usr/include/xorg/screenint.h
+usr/include/xorg/vgaHW.h
+usr/include/xorg/input.h
+usr/include/xorg/glx_extinit.h
+usr/include/xorg/extnsionst.h
+usr/include/xorg/colormapst.h
+usr/include/xorg/picturestr.h
+usr/include/xorg/xkbfile.h
+usr/include/xorg/validate.h
+usr/include/xorg/xkbsrv.h
+usr/include/xorg/dixfontstr.h
+usr/include/xorg/regionstr.h
+usr/include/xorg/xf86str.h
+usr/include/xorg/gcstruct.h
+usr/include/xorg/compiler.h
+usr/include/xorg/shmint.h
+usr/include/xorg/xf86PciInfo.h
+usr/include/xorg/dixevents.h
+usr/include/xorg/window.h
+usr/include/xorg/misyncfd.h
+usr/include/xorg/xserver_poll.h
+usr/include/xorg/xf86fbman.h
+usr/include/xorg/damage.h
+usr/include/xorg/xf86Optrec.h
+usr/include/xorg/scrnintstr.h
+usr/include/xorg/pixmapstr.h
+usr/include/xorg/region.h
+usr/include/xorg/xace.h
+usr/include/xorg/xf86MatchDrivers.h
+usr/include/xorg/xf86platformBus.h
+usr/include/xorg/dixaccess.h
+usr/include/xorg/xf86Parser.h
+usr/include/xorg/xf86RandR12.h
+usr/include/xorg/dixfont.h
+usr/include/xorg/xf86Crtc.h
+usr/include/xorg/registry.h
+usr/include/xorg/dri2.h
+usr/include/xorg/xf86_OSlib.h
+usr/include/xorg/vndserver.h
+usr/include/xorg/vbeModes.h
+usr/include/xorg/glyphstr.h
+usr/include/xorg/mi.h
+usr/include/xorg/closure.h
+usr/include/xorg/mioverlay.h
+usr/include/xorg/windowstr.h
+usr/include/xorg/XIstubs.h
+usr/include/xorg/edid.h
+usr/include/xorg/servermd.h
+usr/include/xorg/xvdix.h
+usr/include/xorg/os.h
+usr/include/xorg/sarea.h
+usr/include/xorg/misc.h
+usr/include/xorg/closestr.h
+usr/include/xorg/miscstruct.h
+usr/include/xorg/dixgrabs.h
+usr/include/xorg/selection.h
+usr/include/xorg/xserver-properties.h
+usr/include/xorg/picture.h
+usr/include/xorg/xacestr.h
+usr/include/xorg/xorg-server.h
+usr/include/xorg/TI.h
+usr/include/xorg/xf86Xinput.h
+usr/include/xorg/gc.h
+usr/include/xorg/dri3.h
+usr/include/xorg/micmap.h
+usr/include/xorg/rgb.h
+usr/include/xorg/events.h
+usr/include/xorg/miline.h
+usr/include/xorg/hotplug.h
+usr/include/xorg/glxvndabi.h
+usr/include/xorg/geext.h
+usr/include/xorg/pixmap.h
+usr/include/xorg/dbestruct.h
+usr/include/xorg/opaque.h
+usr/include/xorg/extinit.h
+usr/include/xorg/xisb.h
+usr/lib/
+usr/lib/pkgconfig/
+usr/lib/pkgconfig/xorg-server.pc
+usr/lib/xorg/
+usr/lib/xorg/protocol.txt
+usr/lib/xorg/modules/
+usr/lib/xorg/modules/drivers/
+usr/lib/xorg/modules/drivers/modesetting_drv.la
+usr/lib/xorg/modules/drivers/modesetting_drv.so
+usr/lib/xorg/modules/libshadow.la
+usr/lib/xorg/modules/libvbe.so
+usr/lib/xorg/modules/libglamoregl.la
+usr/lib/xorg/modules/libint10.so
+usr/lib/xorg/modules/libfb.so
+usr/lib/xorg/modules/libglamoregl.so
+usr/lib/xorg/modules/libexa.so
+usr/lib/xorg/modules/libfbdevhw.so
+usr/lib/xorg/modules/libexa.la
+usr/lib/xorg/modules/libvgahw.la
+usr/lib/xorg/modules/libshadow.so
+usr/lib/xorg/modules/libshadowfb.so
+usr/lib/xorg/modules/libvgahw.so
+usr/lib/xorg/modules/libint10.la
+usr/lib/xorg/modules/libfb.la
+usr/lib/xorg/modules/libwfb.la
+usr/lib/xorg/modules/libvbe.la
+usr/lib/xorg/modules/libwfb.so
+usr/lib/xorg/modules/libshadowfb.la
+usr/lib/xorg/modules/extensions/
+usr/lib/xorg/modules/extensions/libglx.la
+usr/lib/xorg/modules/extensions/libglx.so
+usr/lib/xorg/modules/libfbdevhw.la
+usr/man/
+usr/man/man4/
+usr/man/man4/modesetting.4
+usr/man/man4/exa.4
+usr/man/man4/fbdevhw.4
+usr/man/man5/
+usr/man/man5/xorg.conf.5
+usr/man/man5/xorg.conf.d.5
+usr/man/man1/
+usr/man/man1/Xserver.1
+usr/man/man1/Xvfb.1
+usr/man/man1/cvt.1
+usr/man/man1/Xorg.1
+usr/man/man1/Xnest.1
+usr/man/man1/gtf.1
+install/
+install/doinst.sh
+
+Slackware package /tmp/xorg-server-1.20.3-x86_64-1sml.txz created.
+
