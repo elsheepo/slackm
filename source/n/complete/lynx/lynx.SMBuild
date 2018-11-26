@@ -1,0 +1,64 @@
+#!/bin/sh
+
+# DO WHATEVER YOU WANT TO PUBLIC LICENSE
+# 0. You just DO WHATEVER YOU WANT TO.
+#    As simple as that.
+
+CWD=$(pwd)
+if [ "$TMP" = "" ]; then
+  TMP=/tmp
+fi
+
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) ARCH=i586 ;;
+    arm*) ARCH=arm ;;
+       *) ARCH=$( uname -m ) ;;
+  esac
+fi
+
+BUILD=1sml
+JOBS="-j2"
+APP=lynx
+VERSION=2.8.8rel.2
+PKG=$TMP/package-$APP
+
+if [ "$ARCH" = "i586" ]; then
+  SLKCFLAGS="-O2 -march=i586 -mtune=i686"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "i686" ]; then
+  SLKCFLAGS="-O2 -march=i686 -mtune=i686"
+  LIBDIRSUFFIX=""            
+elif [ "$ARCH" = "x86_64" ]; then
+  SLKCFLAGS="-O2 -fPIC"
+  LIBDIRSUFFIX=""      
+else                     
+  SLKCFLAGS="-O2"     
+  LIBDIRSUFFIX=""    
+fi   
+
+rm -rf $PKG
+rm -rf $TMP/$APP
+rm -rf $TMP/lynx2-8-8
+mkdir -p $TMP $PKG
+
+cd $TMP || exit
+tar -xvf $CWD/$APP$VERSION.tar.?z
+cd lynx2-8-8
+chown -R root:root .
+
+./configure \
+--prefix="/usr" \
+--mandir=/usr/man \
+--with-ssl 
+
+make $JOBS
+make install DESTDIR=$PKG || exit
+
+cd $PKG                               
+echo "Stripping binaries and shared objects, if any..."
+ find . | xargs file | grep "executable" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+ find . | xargs file | grep "shared object" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
+
+cd $PKG
+/sbin/makepkg -l y -c n $TMP/$APP-$VERSION-$ARCH-$BUILD.txz 

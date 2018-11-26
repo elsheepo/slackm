@@ -6,14 +6,14 @@
 # customary to leave one space after the ':'.
 
         |-----handy-ruler------------------------------------------------------|
-iproute2: iproute2 ()
-iproute2:
-iproute2:
-iproute2:
-iproute2:
-iproute2:
-iproute2:
-iproute2:
-iproute2:
-iproute2:
-iproute2:
+rdesktop: rdesktop ()
+rdesktop: rdesktop is an open source UNIX client for connecting to Windows 
+rdesktop: Remote Desktop services, capable of natively speaking Remote Desktop 
+rdesktop: Protocol (RDP) in order to present the user's Windows desktop. 
+rdesktop: rdesktop is known to work with Windows server versions ranging from 
+rdesktop: NT 4 terminal server to Windows Server 2012 R2.
+rdesktop:
+rdesktop:
+rdesktop:
+rdesktop:
+rdesktop:
