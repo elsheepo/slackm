@@ -1,0 +1,10 @@
+--- a/src/mtd_probe/mtd_probe.h	2018-12-03 23:35:36.585071988 +0530
++++ b/src/mtd_probe/mtd_probe.h	2018-12-03 23:35:28.881110507 +0530
+@@ -17,6 +17,7 @@
+  * Boston, MA  02110-1301  USA
+  */
+ 
++#include <stdint.h> 
+ #include <mtd/mtd-user.h>
+ 
+ /* Full oob structure as written on the flash */
